@@ -10,7 +10,14 @@
       "twitterDescription": "EA Sports College Football 27 wiki with player ratings, team ratings, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder, and PC setup guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "buy": "Buy",
+    "guide": "Guide",
+    "dynasty": "Dynasty",
+    "ratings": "Ratings"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -151,7 +158,12 @@
       "eyebrow": "Editions & Bonuses",
       "title": "EA Sports College Football 27 Editions and Pre-Order Bonuses",
       "intro": "Compare Standard Edition, Deluxe Edition, MVP Bundle, and MVP+ Membership before launch. This comparison focuses on what players search for most: early access, Ultimate Team items, Dynasty Coach Points, Road to Glory Skill Points, and College Football Points.",
-      "tableHeaders": ["Edition", "Price", "Access", "Key Rewards"],
+      "tableHeaders": [
+        "Edition",
+        "Price",
+        "Access",
+        "Key Rewards"
+      ],
       "rows": [
         {
           "edition": "Standard Edition",
@@ -184,29 +196,120 @@
       "eyebrow": "Team Ratings",
       "title": "EA Sports College Football 27 Team Ratings and Best Teams",
       "intro": "Use the ratings table to compare elite teams for Play Now, Dynasty, and online matchups in EA Sports College Football 27. Oregon leads the official overall ratings at 91 OVR, while Tiger Stadium ranks No. 1 on the Hardest Places to Play list.",
-      "ratingHeaders": ["Team", "Off", "Def", "OVR"],
-      "topTeams": [
-        { "team": "Oregon", "off": 91, "def": 91, "ovr": 91 },
-        { "team": "Ohio State", "off": 92, "def": 88, "ovr": 90 },
-        { "team": "Indiana", "off": 90, "def": 90, "ovr": 90 },
-        { "team": "Notre Dame", "off": 88, "def": 90, "ovr": 89 },
-        { "team": "Texas", "off": 90, "def": 88, "ovr": 89 },
-        { "team": "LSU", "off": 89, "def": 87, "ovr": 88 },
-        { "team": "Georgia", "off": 85, "def": 89, "ovr": 87 },
-        { "team": "Alabama", "off": 82, "def": 89, "ovr": 86 },
-        { "team": "Penn State", "off": 86, "def": 81, "ovr": 83 },
-        { "team": "Clemson", "off": 80, "def": 86, "ovr": 83 }
+      "ratingHeaders": [
+        "Team",
+        "Off",
+        "Def",
+        "OVR"
       ],
-      "stadiumHeaders": ["Rank", "Stadium", "Team"],
+      "topTeams": [
+        {
+          "team": "Oregon",
+          "off": 91,
+          "def": 91,
+          "ovr": 91
+        },
+        {
+          "team": "Ohio State",
+          "off": 92,
+          "def": 88,
+          "ovr": 90
+        },
+        {
+          "team": "Indiana",
+          "off": 90,
+          "def": 90,
+          "ovr": 90
+        },
+        {
+          "team": "Notre Dame",
+          "off": 88,
+          "def": 90,
+          "ovr": 89
+        },
+        {
+          "team": "Texas",
+          "off": 90,
+          "def": 88,
+          "ovr": 89
+        },
+        {
+          "team": "LSU",
+          "off": 89,
+          "def": 87,
+          "ovr": 88
+        },
+        {
+          "team": "Georgia",
+          "off": 85,
+          "def": 89,
+          "ovr": 87
+        },
+        {
+          "team": "Alabama",
+          "off": 82,
+          "def": 89,
+          "ovr": 86
+        },
+        {
+          "team": "Penn State",
+          "off": 86,
+          "def": 81,
+          "ovr": 83
+        },
+        {
+          "team": "Clemson",
+          "off": 80,
+          "def": 86,
+          "ovr": 83
+        }
+      ],
+      "stadiumHeaders": [
+        "Rank",
+        "Stadium",
+        "Team"
+      ],
       "hardestStadiums": [
-        { "rank": 1, "stadium": "Tiger Stadium", "team": "LSU" },
-        { "rank": 2, "stadium": "Ohio Stadium", "team": "Ohio State" },
-        { "rank": 3, "stadium": "Beaver Stadium", "team": "Penn State" },
-        { "rank": 4, "stadium": "Sanford Stadium", "team": "Georgia" },
-        { "rank": 5, "stadium": "Bryant-Denny Stadium", "team": "Alabama" },
-        { "rank": 6, "stadium": "Autzen Stadium", "team": "Oregon" },
-        { "rank": 7, "stadium": "Neyland Stadium", "team": "Tennessee" },
-        { "rank": 8, "stadium": "Kyle Field", "team": "Texas A&M" }
+        {
+          "rank": 1,
+          "stadium": "Tiger Stadium",
+          "team": "LSU"
+        },
+        {
+          "rank": 2,
+          "stadium": "Ohio Stadium",
+          "team": "Ohio State"
+        },
+        {
+          "rank": 3,
+          "stadium": "Beaver Stadium",
+          "team": "Penn State"
+        },
+        {
+          "rank": 4,
+          "stadium": "Sanford Stadium",
+          "team": "Georgia"
+        },
+        {
+          "rank": 5,
+          "stadium": "Bryant-Denny Stadium",
+          "team": "Alabama"
+        },
+        {
+          "rank": 6,
+          "stadium": "Autzen Stadium",
+          "team": "Oregon"
+        },
+        {
+          "rank": 7,
+          "stadium": "Neyland Stadium",
+          "team": "Tennessee"
+        },
+        {
+          "rank": 8,
+          "stadium": "Kyle Field",
+          "team": "Texas A&M"
+        }
       ],
       "stadiumNote": "Home-field atmosphere matters in Dynasty schedules and rivalry games, so check the ranking when stadium advantage is a priority in EA Sports College Football 27."
     },
@@ -816,125 +919,125 @@
     "disclaimer": "Unofficial fan-made resource website. College Football 27 and all related marks are trademarks of Electronic Arts Inc."
   },
   "pages": {
-    "guides": {
-      "title": "College Football 27 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "College Football 27 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete College Football 27 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+    "release": {
+      "title": "EA Sports College Football 27 Release",
+      "description": "EA Sports College Football 27 release dates, Early Access windows (July 2, July 6, July 9, 2026), platforms, and launch rewards.",
+      "metaTitle": "EA Sports College Football 27 Release Date, Early Access & Launch",
+      "metaDescription": "EA Sports College Football 27 launches July 9, 2026 with 7-Day Early Access from July 2 and 3-Day Early Access from July 6 on PS5, Xbox Series X|S, and PC.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "Everything about the EA Sports College Football 27 launch: the global release date, Early Access windows for Deluxe and MVP editions, regional unlock times, and which platforms go live first.",
+      "why": "Why it matters",
+      "whySteps": {
+        "step1Title": "Plan Your Early Access",
+        "step1Description": "7-Day Early Access opens July 2, 2026 for Deluxe and MVP editions; 3-Day Early Access opens July 6 for select editions.",
+        "step2Title": "Pick Your Platform",
+        "step2Description": "Launches day one on PS5, Xbox Series X|S, and PC via EA app, Steam, and Epic.",
+        "step3Title": "Claim Launch Rewards",
+        "step3Description": "Pre-order and Early Access editions include bonus packs, players, and Ultimate Team rewards."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "platforms": {
+      "title": "EA Sports College Football 27 Platforms",
+      "description": "EA Sports College Football 27 platforms guide: PS5, Xbox Series X|S, PC (EA app, Steam, Epic), crossplay, and PC system requirements.",
+      "metaTitle": "EA Sports College Football 27 Platforms, Crossplay & PC Requirements",
+      "metaDescription": "EA Sports College Football 27 platforms: PS5, Xbox Series X|S, PC via EA app, Steam, and Epic, crossplay support, and PC system requirements.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are the Platforms?",
+      "whatIsDescription": "A breakdown of every platform EA Sports College Football 27 runs on: PS5, Xbox Series X|S, and PC, plus crossplay between consoles and PC, Steam and Epic storefronts, and PC system requirements.",
+      "why": "Why check platforms",
+      "whySteps": {
+        "step1Title": "Find Your Storefront",
+        "step1Description": "PC players can buy on EA app, Steam, or Epic; consoles run on PS5 and Xbox Series X|S.",
+        "step2Title": "Understand Crossplay",
+        "step2Description": "Cross-platform play connects PS5, Xbox Series X|S, and PC across supported modes.",
+        "step3Title": "Match PC Specs",
+        "step3Description": "Check PC requirements for frame rate, resolution, and HDR settings before launch."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Articles"
+    },
+    "buy": {
+      "title": "EA Sports College Football 27 Buy",
+      "description": "EA Sports College Football 27 editions, prices, MVP bundles, pre-order bonuses, and where to buy on EA app, Amazon, and GameStop.",
+      "metaTitle": "EA Sports College Football 27 Editions, Price, MVP Bundle & Pre-Order",
+      "metaDescription": "Compare EA Sports College Football 27 Standard, Deluxe, and MVP editions: prices, pre-order bonuses, MVP membership, and where to buy.",
+      "categoryLabel": "BUY EDITIONS",
+      "whatIs": "What to Buy",
+      "whatIsDescription": "A comparison of EA Sports College Football 27 editions: Standard, Deluxe, and MVP Bundle, covering price, included rewards, Early Access length, and MVP membership benefits.",
+      "why": "Why compare editions",
+      "whySteps": {
+        "step1Title": "Choose Your Edition",
+        "step1Description": "Standard, Deluxe, and MVP Bundle each offer different reward packs and Early Access windows.",
+        "step2Title": "Stack Pre-Order Bonuses",
+        "step2Description": "Pre-order any edition to receive bonus player packs and Ultimate Team rewards.",
+        "step3Title": "Find the Best Price",
+        "step3Description": "Buy on EA app, Steam, Epic, Amazon, or GameStop and compare editions before checkout."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Buying Articles"
+    },
+    "guide": {
+      "title": "EA Sports College Football 27 Guide",
+      "description": "EA Sports College Football 27 beginner guide, tips, new features, gameplay changes, and everything to know before launch.",
+      "metaTitle": "EA Sports College Football 27 Guide - Beginner Tips & New Features",
+      "metaDescription": "EA Sports College Football 27 guides: beginner tips, new gameplay features, mode changes, and what to know before you play Dynasty, Road to Glory, and Ultimate Team.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "Beginner-friendly guides covering EA Sports College Football 27 gameplay basics, new features, mode changes, and practical tips for Dynasty, Road to Glory, and Ultimate Team.",
+      "why": "Why read guides",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Description": "Understand passing, defense, and the new gameplay features added in College Football 27.",
+        "step2Title": "Avoid Beginner Mistakes",
+        "step2Description": "Pick the right mode, difficulty, and settings before your first game.",
+        "step3Title": "Stay Ahead of Changes",
+        "step3Description": "Track new features, balance changes, and known issues after launch."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "College Football 27 Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "College Football 27 Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master College Football 27 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "dynasty": {
+      "title": "EA Sports College Football 27 Dynasty",
+      "description": "EA Sports College Football 27 Dynasty mode: Dynasty Blueprint, recruiting, NIL, staff, facilities, AD expectations, and the Coach Carousel.",
+      "metaTitle": "EA Sports College Football 27 Dynasty Blueprint, Recruiting & NIL",
+      "metaDescription": "Master EA Sports College Football 27 Dynasty mode: Dynasty Blueprint, recruiting priorities, NIL deals, staff, facilities, and the Coach Carousel.",
+      "categoryLabel": "DYNASTY MODE",
+      "whatIs": "What is Dynasty?",
+      "whatIsDescription": "EA Sports College Football 27 Dynasty mode lets you run a college program: set AD expectations, follow the Dynasty Blueprint, recruit players, manage NIL, upgrade staff and facilities, and ride the Coach Carousel.",
+      "why": "Why play Dynasty",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Follow the Blueprint",
+        "step1Description": "Use the Dynasty Blueprint to set program goals and AD expectations each season.",
+        "step2Title": "Win Recruiting",
+        "step2Description": "Target the right players, manage visits, and close recruiting battles against rivals.",
+        "step3Title": "Build Staff & Facilities",
+        "step3Description": "Upgrade coaches, facilities, and NIL deals to grow your program over multiple seasons."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Dynasty Articles"
     },
-    "items": {
-      "title": "College Football 27 Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "College Football 27 Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for College Football 27 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "ratings": {
+      "title": "EA Sports College Football 27 Ratings",
+      "description": "EA Sports College Football 27 player ratings, team ratings, top players, best schools, and conference ratings across 9,013 players.",
+      "metaTitle": "EA Sports College Football 27 Player Ratings, Team Ratings & Top Lists",
+      "metaDescription": "EA Sports College Football 27 ratings: top teams, best players, position ratings, and conference standings with Oregon leading at 91 OVR.",
+      "categoryLabel": "RATINGS",
+      "whatIs": "What are Ratings?",
+      "whatIsDescription": "EA Sports College Football 27 ratings cover more than 9,013 players and every team: top schools led by Oregon at 91 OVR, best players by position, and conference ratings across the season.",
+      "why": "Why check ratings",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Top Teams",
+        "step1Description": "Compare overall team ratings with Oregon leading the pack at 91 OVR.",
+        "step2Title": "Scout Best Players",
+        "step2Description": "Filter top players by position, school, and conference to build your roster.",
+        "step3Title": "Track Conference Standings",
+        "step3Description": "Follow conference ratings and standings to spot rising programs all season."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "College Football 27 Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "College Football 27 Biomes - World Regions & Exploration",
-      "metaDescription": "Explore College Football 27 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "College Football 27 Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "College Football 27 Building - Qualia & Base Construction",
-      "metaDescription": "Master College Football 27 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "College Football 27 Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "College Football 27 Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for College Football 27 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Ratings Articles"
     }
   }
 }

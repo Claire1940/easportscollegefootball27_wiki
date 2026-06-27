@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, UserPlus, Building, GraduationCap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Análisis profundo de la dinastía de EA Sports College Football 27: Guía del Blueprint",
+  description: "Domina el modo Dinastía de EA Sports College Football 27 con nuestro análisis profundo sobre reclutamiento, estrategias de NIL, el Blueprint de la Dinastía y mejoras de instalaciones.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dynasty+Deep+Dive",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de ea sports college football 27",
+  keywords: "fútbol americano universitario, dinastía, reclutamiento, NIL, guía"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Análisis profundo de la dinastía de EA Sports College Football 27**: Se centra en el nuevo sistema **Dynasty Blueprint** (Estrategia de la Dinastía) para la gestión del programa.
+- **Identidad del programa**: Cada puesto presenta **Expectativas del Director Atlético (AD)** únicas que dictan tu seguridad laboral a largo plazo.
+- **Reclutamiento y NIL**: Las ofertas de becas ahora incluyen **bonos de NIL** a partir de la Semana 0 para influir en prospectos de alto valor.
+- **Poder de las instalaciones**: Invertir en instalaciones aumenta tu **calificación de Instalaciones Atléticas**, lo que impulsa la progresión y el reclutamiento de jugadores.
+- **Gestión del personal**: Puedes gestionar hasta **cinco espacios de personal de apoyo** según el nivel de prestigio de tu programa.
+</Callout>
+
+<Section icon={Target} title="Dynasty Blueprint e Identidad del Programa">
+
+En el **análisis profundo de la dinastía de fútbol americano universitario de EA Sports**, el núcleo de tu viaje comienza con el **Dynasty Blueprint**. Este sistema reemplaza la progresión estática con un presupuesto anual dinámico. Cada año, tu programa recibe **Puntos de Dinastía** según el rendimiento, el prestigio de la escuela y la participación de los aficionados. Estos puntos son el alma de tu programa y requieren una asignación cuidadosa entre el cuerpo técnico, las instalaciones y los fondos de NIL (Nombre, Imagen y Semejanza).
+
+Antes de gastar un solo punto, debes alinear tu estrategia con las **Expectativas del Director Atlético (AD)**. Estos son objetivos específicos de la escuela que definen cómo se te evalúa. Algunas escuelas priorizan ganar un campeonato de conferencia de inmediato, mientras que otras se enfocan en construir una red de reclutamiento en territorios específicos o mantener un alto estándar académico para la plantilla.
+
+<Callout type="tip" title="Selección de Estrategia">
+Al comenzar tu Dinastía, consulta el medidor de **Paciencia** de tu Director Atlético. Las escuelas con poca paciencia te despedirán rápidamente si no alcanzas los totales de victorias iniciales, mientras que los programas de desarrollo ofrecen más tiempo para construir a través del reclutamiento.
+</Callout>
+
+| Tipo de Programa | Enfoque Principal | Paciencia del AD | Multiplicador de Puntos de Dinastía |
+| :--- | :--- | :--- | :--- |
+| **Potencia Nacional** | Playoffs/Campeonato | Baja | Alto (1.5x) |
+| **Contendiente en Ascenso** | Top 25/Victorias en Bowls | Media | Estándar (1.0x) |
+| **Proyecto de Reconstrucción** | Base de la Plantilla | Alta | Bajo (0.8x) |
+| **Especialista en Reclutamiento** | Profundidad de Red | Media | Estándar (1.0x) |
+
+La interfaz de **Estrategia del Blueprint** te permite establecer una asignación sugerida para tus recursos. Aunque puedes anularla manualmente en cualquier momento, definir una dirección clara ayuda a la IA a asistirte en los modos "Automáticos". Por ejemplo, un **Blueprint de Desarrollo** se inclinará fuertemente hacia las instalaciones para aumentar las ganancias de experiencia (XP) de los jugadores, mientras que un **Blueprint Mercenario** podría destinar el 80% de los fondos a NIL para atraer transferencias de primer nivel.
+
+</Section>
+
+<Section icon={Building} title="Instalaciones e Infraestructura del Personal">
+
+Las instalaciones en **EA Sports College Football 27** ya no son solo una calificación estática en una pantalla de reclutamiento. Son una inversión a largo plazo que requiere mantenimiento anual. Mejorar tus instalaciones aumenta tu **calificación de Instalaciones Atléticas**, lo que proporciona bonificaciones masivas para la progresión de los jugadores y reduce los efectos de "Desgaste" (Wear and Tear) durante la temporada.
+
+<Callout type="info" title="Niveles de Instalaciones">
+Los niveles de las instalaciones van desde **Instalación Básica (F)** hasta **Potencia Nacional (A+)**. Los niveles más altos desbloquean más **Ranuras de Equipamiento**, lo que te permite equipar artículos especializados que otorgan mejoras específicas a tu equipo.
+</Callout>
+
+| Nivel de Instalación | Calificación | Ranuras de Equipamiento | Beneficio Principal |
+| :--- | :--- | :--- | :--- |
+| **Básica** | F a D- | 1 | Costo mínimo de mantenimiento |
+| **Estándar** | D a C+ | 2 | Progresión equilibrada |
+| **Avanzada** | B- a B+ | 3 | Menor probabilidad de lesiones en entrenamientos |
+| **Élite** | A- a A | 4 | Impulso significativo de XP para todos los jugadores |
+| **Potencia** | A+ | 5 | Progresión máxima y atracción de NIL |
+
+La gestión del personal también ha experimentado una reforma de gran alcance. Eres responsable de contratar no solo a los coordinadores, sino a todo un equipo de apoyo. Estos roles están vinculados al **Prestigio de tu Equipo**. A medida que tu programa crece, desbloqueas hasta cinco espacios para personal de apoyo. Estos miembros del personal brindan bonificaciones "detrás de escena", como una mayor velocidad de exploración, mejor recuperación de lesiones o una mayor influencia en el Portal de Transferencias.
+
+<Checklist
+  id="staff-check"
+  title="Acciones del Personal en Pretemporada:"
+  items={[
+    "Evaluar los contratos y el rendimiento de los coordinadores",
+    "Ocupar los espacios vacíos del personal de apoyo según el prestigio",
+    "Invertir Puntos de Dinastía en el árbol de habilidades de entrenamiento",
+    "Alinear las especialidades del personal con tu Blueprint de Estrategia"
+  ]}
+/>
+
+</Section>
+
+<Section icon={UserPlus} title="Reclutamiento Moderno y Estrategia de NIL">
+
+El reclutamiento es la parte más intensiva de cualquier **análisis profundo de la dinastía de fútbol americano universitario de EA Sports**. El proceso comienza en la **Semana 0**, donde se extienden oficialmente las ofertas de becas. A diferencia de años anteriores, estas ofertas ahora incluyen un **componente de NIL**. Cada prospecto tiene un valor de "NIL Esperado". Para obtener una bonificación masiva de influencia, puedes ofrecer hasta el **doble** de la cantidad esperada del prospecto, pero hacerlo agotará tu limitado presupuesto de NIL.
+
+<Steps>
+  <Step num="1" title="Exploración Inicial">
+    Dedica tus primeras horas a identificar prospectos que se adapten a tu esquema. Busca jugadores en tus **Redes Principales** (Primary Pipelines) para obtener un impulso natural de influencia.
+  </Step>
+  <Step num="2" title="La Oferta de Beca">
+    Extiende ofertas en la Semana 0. Decide si ofrecerás una beca estándar o un **paquete mejorado con NIL** para acelerar el medidor de interés.
+  </Step>
+  <Step num="3" title="Influencia Semanal">
+    Asigna tus horas semanales a acciones como "Presentación" (Pitch), "Visita" (Visit) o "Redes Sociales" (Social Media). La eficiencia de estas acciones está determinada por tu presupuesto de **NIL de Reclutamiento**.
+  </Step>
+  <Step num="4" title="Cerrar el Trato">
+    Una vez que un jugador llega a su etapa de "Top 3" o "Top 5", utiliza la **Venta Agresiva** (Hard Sell) para alinear las fortalezas de tu programa con sus motivaciones específicas (por ejemplo, Tiempo de Juego, Fábrica de Profesionales).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Riesgo de NIL">
+Gastar de más en un solo recluta de 5 estrellas puede dejarte sin fondos para retener a tus titulares actuales durante la fase de **Retención de Plantilla** al final del año. El equilibrio es clave.
+</Callout>
+
+| Acción de Reclutamiento | Costo por Hora | Nivel de Influencia | Impacto de NIL |
+| :--- | :--- | :--- | :--- |
+| **Enviar Visita a Casa** | 50 | Masivo | Alto |
+| **Venta Agresiva** | 40 | Alto | Medio |
+| **Venta Suave** | 20 | Medio | Bajo |
+| **Redes Sociales** | 5 | Bajo | Ninguno |
+
+</Section>
+
+<Section icon={Shield} title="Retención de Plantilla y el Portal de Transferencias">
+
+Construir un equipo es una cosa; mantenerlo unido es otra. Al final de cada temporada, ingresas al **Resumen de Fin de Temporada**. Aquí es donde debes gestionar el **NIL de la Plantilla**. Los jugadores de tu plantilla actual pueden considerar ingresar al Portal de Transferencias o declararse elegibles para el Draft de la NFL según su **Valor de Draft** y su **Puntaje de Legado**.
+
+<CardGrid cols={2}>
+  <Card title="Estrategia de Retención">
+    Utiliza tus fondos restantes del Blueprint para aumentar el NIL de los jugadores estrella. Esto reduce el riesgo de que se transfieran a programas rivales por ofertas económicas más grandes.
+  </Card>
+  <Card title="Caza en el Portal">
+    El Portal de Transferencias se mueve rápido. Enfoca tus ofertas de NIL en "Titulares Inmediatos" que llenen los vacíos urgentes dejados por los graduados o las salidas al draft.
+  </Card>
+  <Card title="Persuasión para el Draft">
+    Para los jugadores con una proyección de primera o segunda ronda, puedes intentar persuadirlos para que se queden un año más. Esto requiere una alta calificación de **Liderazgo** de tu entrenador.
+  </Card>
+  <Card title="Gestión de Becas">
+    Debes mantenerte por debajo del límite de 85 becas. Utiliza la fase de resumen para animar a los jugadores de bajo rendimiento a buscar nuevos rumbos, liberando espacio para nuevos reclutas.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Retención">
+Los jugadores con rasgos de alta **Lealtad** tienen menos probabilidades de transferirse, incluso si reciben mejores ofertas de NIL en otros lugares. Prioriza estos rasgos durante el reclutamiento de secundaria para garantizar la estabilidad a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Team Builder y Personalización del Estadio">
+
+El **análisis profundo de la dinastía de fútbol americano universitario de EA Sports** no estaría completo sin hablar de **Team Builder**. Este año, la integración es más profunda que nunca. Puedes importar hasta **16 programas personalizados** en una sola Dinastía. El nuevo **Stadium Builder** (Creador de Estadios) permite un control sin precedentes sobre tu ventaja de localía.
+
+<Checklist
+  id="stadium-features"
+  title="Opciones de Estadio Personalizado:"
+  items={[
+    "Seleccionar entre 4 arquitecturas de estadio base",
+    "Personalizar pantallas gigantes, muros perimetrales y postes de anotación",
+    "Establecer activadores de 'Mosaico de la Multitud' (Crowd Stripe-Out) para partidos de rivalidad",
+    "Elegir entre más de 150 apodos de comentarios y 66 himnos de banda",
+    "Configurar el clima según la ubicación y las distancias de reclutamiento"
+  ]}
+/>
+
+| Categoría de Personalización | Opciones Disponibles | Impacto en la Dinastía |
+| :--- | :--- | :--- |
+| **Ambiente Sonoro** | Más de 100 SFX / 54 Cánticos | Aumenta la ventaja de localía |
+| **Lógica del Público** | 5 activadores personalizados | Aumenta la 'Templanza' (Composure) del jugador en partidos importantes |
+| **Visuales del Estadio** | Pantallas gigantes/Muros perimetrales | Aumenta la calificación de 'Instalaciones Atléticas' |
+| **Ubicación** | 50 estados / Internacional | Determina la bonificación de reclutamiento por 'Proximidad al Hogar' |
+
+<Callout type="tip" title="Ventaja de la Atmósfera">
+Configurar un activador de \"Mosaico\" (Stripe-Out) para partidos nocturnos contra oponentes del Top 25 proporciona un impulso temporal a las calificaciones de **Presión al Mariscal** (Pass Rush) y **Zafarse del Bloqueo** (Block Shedding) de tu defensa debido al entorno hostil.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes de la Dinastía de EA Sports College Football 27">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos equipos se incluyen en la Dinastía de EA Sports College Football 27?",
+    answer: "Se incluyen 138 programas oficiales de la FBS, incluidos los recién llegados como North Dakota State y Sacramento State, además de soporte para hasta 16 equipos de Team Builder."
+  },
+  {
+    question: "¿Qué es el Dynasty Blueprint?",
+    answer: "El Dynasty Blueprint es un sistema de presupuesto anual en el que asignas Puntos de Dinastía al cuerpo técnico, las instalaciones y los fondos de NIL para dar forma a la identidad de tu programa."
+  },
+  {
+    question: "¿Puedo usar el NIL para conseguir a cualquier jugador que quiera?",
+    answer: "No. Aunque el NIL aumenta tu influencia, los jugadores aún se preocupan por el tiempo de juego, el prestigio de la escuela y la confianza en el entrenador. Solo puedes ofrecer hasta el doble del valor de NIL esperado de un prospecto."
+  },
+  {
+    question: "¿Cómo funcionan los espacios para el personal de apoyo?",
+    answer: "Los espacios de personal de apoyo se desbloquean a medida que aumenta el Prestigio de tu Equipo. Puedes tener hasta cinco miembros del personal que brindan bonificaciones pasivas para la exploración, el entrenamiento y la salud de los jugadores."
+  }
+]} />
+
+</Section>

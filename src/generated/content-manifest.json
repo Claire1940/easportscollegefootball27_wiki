@@ -1,1 +1,698 @@
-{}
+{
+  "de": {
+    "buy": [
+      {
+        "slug": "ea-sports-college-football-27-amazon",
+        "file": "ea-sports-college-football-27-amazon"
+      },
+      {
+        "slug": "ea-sports-college-football-27-deluxe-edition",
+        "file": "ea-sports-college-football-27-deluxe-edition"
+      },
+      {
+        "slug": "ea-sports-college-football-27-gamestop",
+        "file": "ea-sports-college-football-27-gamestop"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-bundle",
+        "file": "ea-sports-college-football-27-mvp-bundle"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-membership",
+        "file": "ea-sports-college-football-27-mvp-membership"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-plus",
+        "file": "ea-sports-college-football-27-mvp-plus"
+      },
+      {
+        "slug": "ea-sports-college-football-27-preorder",
+        "file": "ea-sports-college-football-27-preorder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-price",
+        "file": "ea-sports-college-football-27-price"
+      },
+      {
+        "slug": "ea-sports-college-football-27-store",
+        "file": "ea-sports-college-football-27-store"
+      },
+      {
+        "slug": "ea-sports-college-football-27-subscription",
+        "file": "ea-sports-college-football-27-subscription"
+      }
+    ],
+    "dynasty": [
+      {
+        "slug": "ea-sports-college-football-27-best-teams-dynasty",
+        "file": "ea-sports-college-football-27-best-teams-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-coach-mode",
+        "file": "ea-sports-college-football-27-coach-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-deep-dive",
+        "file": "ea-sports-college-football-27-dynasty-deep-dive"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-mode",
+        "file": "ea-sports-college-football-27-dynasty-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty",
+        "file": "ea-sports-college-football-27-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-recruiting",
+        "file": "ea-sports-college-football-27-recruiting"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-builder",
+        "file": "ea-sports-college-football-27-team-builder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-teambuilder",
+        "file": "ea-sports-college-football-27-teambuilder"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ea-sports-college-football-27-beginner-guide",
+        "file": "ea-sports-college-football-27-beginner-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-changes",
+        "file": "ea-sports-college-football-27-changes"
+      },
+      {
+        "slug": "ea-sports-college-football-27-features",
+        "file": "ea-sports-college-football-27-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-guide",
+        "file": "ea-sports-college-football-27-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-issues",
+        "file": "ea-sports-college-football-27-issues"
+      },
+      {
+        "slug": "ea-sports-college-football-27-new-features",
+        "file": "ea-sports-college-football-27-new-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-things-to-know-before-you-buy",
+        "file": "ea-sports-college-football-27-things-to-know-before-you-buy"
+      },
+      {
+        "slug": "ea-sports-college-football-27-tips",
+        "file": "ea-sports-college-football-27-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "ea-sports-college-football-27-mobile",
+        "file": "ea-sports-college-football-27-mobile"
+      },
+      {
+        "slug": "ea-sports-college-football-27-nintendo-switch",
+        "file": "ea-sports-college-football-27-nintendo-switch"
+      },
+      {
+        "slug": "ea-sports-college-football-27-pc",
+        "file": "ea-sports-college-football-27-pc"
+      },
+      {
+        "slug": "ea-sports-college-football-27-ps5",
+        "file": "ea-sports-college-football-27-ps5"
+      },
+      {
+        "slug": "ea-sports-college-football-27-steam",
+        "file": "ea-sports-college-football-27-steam"
+      },
+      {
+        "slug": "ea-sports-college-football-27-switch-2",
+        "file": "ea-sports-college-football-27-switch-2"
+      },
+      {
+        "slug": "ea-sports-college-football-27-xbox",
+        "file": "ea-sports-college-football-27-xbox"
+      }
+    ],
+    "ratings": [
+      {
+        "slug": "ea-sports-college-football-27-player-ratings",
+        "file": "ea-sports-college-football-27-player-ratings"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-ratings",
+        "file": "ea-sports-college-football-27-team-ratings"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ea-sports-college-football-27-early-access",
+        "file": "ea-sports-college-football-27-early-access"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-date",
+        "file": "ea-sports-college-football-27-release-date"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-time",
+        "file": "ea-sports-college-football-27-release-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-reveal-time",
+        "file": "ea-sports-college-football-27-reveal-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-trailer-release-date",
+        "file": "ea-sports-college-football-27-trailer-release-date"
+      }
+    ]
+  },
+  "en": {
+    "buy": [
+      {
+        "slug": "ea-sports-college-football-27-amazon",
+        "file": "ea-sports-college-football-27-amazon"
+      },
+      {
+        "slug": "ea-sports-college-football-27-deluxe-edition",
+        "file": "ea-sports-college-football-27-deluxe-edition"
+      },
+      {
+        "slug": "ea-sports-college-football-27-gamestop",
+        "file": "ea-sports-college-football-27-gamestop"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-bundle",
+        "file": "ea-sports-college-football-27-mvp-bundle"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-membership",
+        "file": "ea-sports-college-football-27-mvp-membership"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-plus",
+        "file": "ea-sports-college-football-27-mvp-plus"
+      },
+      {
+        "slug": "ea-sports-college-football-27-preorder",
+        "file": "ea-sports-college-football-27-preorder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-price",
+        "file": "ea-sports-college-football-27-price"
+      },
+      {
+        "slug": "ea-sports-college-football-27-store",
+        "file": "ea-sports-college-football-27-store"
+      },
+      {
+        "slug": "ea-sports-college-football-27-subscription",
+        "file": "ea-sports-college-football-27-subscription"
+      }
+    ],
+    "dynasty": [
+      {
+        "slug": "ea-sports-college-football-27-best-teams-dynasty",
+        "file": "ea-sports-college-football-27-best-teams-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-coach-mode",
+        "file": "ea-sports-college-football-27-coach-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-deep-dive",
+        "file": "ea-sports-college-football-27-dynasty-deep-dive"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-mode",
+        "file": "ea-sports-college-football-27-dynasty-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty",
+        "file": "ea-sports-college-football-27-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-recruiting",
+        "file": "ea-sports-college-football-27-recruiting"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-builder",
+        "file": "ea-sports-college-football-27-team-builder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-teambuilder",
+        "file": "ea-sports-college-football-27-teambuilder"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ea-sports-college-football-27-beginner-guide",
+        "file": "ea-sports-college-football-27-beginner-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-changes",
+        "file": "ea-sports-college-football-27-changes"
+      },
+      {
+        "slug": "ea-sports-college-football-27-features",
+        "file": "ea-sports-college-football-27-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-guide",
+        "file": "ea-sports-college-football-27-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-issues",
+        "file": "ea-sports-college-football-27-issues"
+      },
+      {
+        "slug": "ea-sports-college-football-27-new-features",
+        "file": "ea-sports-college-football-27-new-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-things-to-know-before-you-buy",
+        "file": "ea-sports-college-football-27-things-to-know-before-you-buy"
+      },
+      {
+        "slug": "ea-sports-college-football-27-tips",
+        "file": "ea-sports-college-football-27-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "ea-sports-college-football-27-mobile",
+        "file": "ea-sports-college-football-27-mobile"
+      },
+      {
+        "slug": "ea-sports-college-football-27-nintendo-switch",
+        "file": "ea-sports-college-football-27-nintendo-switch"
+      },
+      {
+        "slug": "ea-sports-college-football-27-pc",
+        "file": "ea-sports-college-football-27-pc"
+      },
+      {
+        "slug": "ea-sports-college-football-27-ps5",
+        "file": "ea-sports-college-football-27-ps5"
+      },
+      {
+        "slug": "ea-sports-college-football-27-steam",
+        "file": "ea-sports-college-football-27-steam"
+      },
+      {
+        "slug": "ea-sports-college-football-27-switch-2",
+        "file": "ea-sports-college-football-27-switch-2"
+      },
+      {
+        "slug": "ea-sports-college-football-27-xbox",
+        "file": "ea-sports-college-football-27-xbox"
+      }
+    ],
+    "ratings": [
+      {
+        "slug": "ea-sports-college-football-27-player-ratings",
+        "file": "ea-sports-college-football-27-player-ratings"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-ratings",
+        "file": "ea-sports-college-football-27-team-ratings"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ea-sports-college-football-27-early-access",
+        "file": "ea-sports-college-football-27-early-access"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-date",
+        "file": "ea-sports-college-football-27-release-date"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-time",
+        "file": "ea-sports-college-football-27-release-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-reveal-time",
+        "file": "ea-sports-college-football-27-reveal-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-trailer-release-date",
+        "file": "ea-sports-college-football-27-trailer-release-date"
+      }
+    ]
+  },
+  "es": {
+    "buy": [
+      {
+        "slug": "ea-sports-college-football-27-amazon",
+        "file": "ea-sports-college-football-27-amazon"
+      },
+      {
+        "slug": "ea-sports-college-football-27-deluxe-edition",
+        "file": "ea-sports-college-football-27-deluxe-edition"
+      },
+      {
+        "slug": "ea-sports-college-football-27-gamestop",
+        "file": "ea-sports-college-football-27-gamestop"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-bundle",
+        "file": "ea-sports-college-football-27-mvp-bundle"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-membership",
+        "file": "ea-sports-college-football-27-mvp-membership"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-plus",
+        "file": "ea-sports-college-football-27-mvp-plus"
+      },
+      {
+        "slug": "ea-sports-college-football-27-preorder",
+        "file": "ea-sports-college-football-27-preorder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-price",
+        "file": "ea-sports-college-football-27-price"
+      },
+      {
+        "slug": "ea-sports-college-football-27-store",
+        "file": "ea-sports-college-football-27-store"
+      },
+      {
+        "slug": "ea-sports-college-football-27-subscription",
+        "file": "ea-sports-college-football-27-subscription"
+      }
+    ],
+    "dynasty": [
+      {
+        "slug": "ea-sports-college-football-27-best-teams-dynasty",
+        "file": "ea-sports-college-football-27-best-teams-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-coach-mode",
+        "file": "ea-sports-college-football-27-coach-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-deep-dive",
+        "file": "ea-sports-college-football-27-dynasty-deep-dive"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-mode",
+        "file": "ea-sports-college-football-27-dynasty-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty",
+        "file": "ea-sports-college-football-27-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-recruiting",
+        "file": "ea-sports-college-football-27-recruiting"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-builder",
+        "file": "ea-sports-college-football-27-team-builder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-teambuilder",
+        "file": "ea-sports-college-football-27-teambuilder"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ea-sports-college-football-27-beginner-guide",
+        "file": "ea-sports-college-football-27-beginner-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-changes",
+        "file": "ea-sports-college-football-27-changes"
+      },
+      {
+        "slug": "ea-sports-college-football-27-features",
+        "file": "ea-sports-college-football-27-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-guide",
+        "file": "ea-sports-college-football-27-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-issues",
+        "file": "ea-sports-college-football-27-issues"
+      },
+      {
+        "slug": "ea-sports-college-football-27-new-features",
+        "file": "ea-sports-college-football-27-new-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-things-to-know-before-you-buy",
+        "file": "ea-sports-college-football-27-things-to-know-before-you-buy"
+      },
+      {
+        "slug": "ea-sports-college-football-27-tips",
+        "file": "ea-sports-college-football-27-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "ea-sports-college-football-27-mobile",
+        "file": "ea-sports-college-football-27-mobile"
+      },
+      {
+        "slug": "ea-sports-college-football-27-nintendo-switch",
+        "file": "ea-sports-college-football-27-nintendo-switch"
+      },
+      {
+        "slug": "ea-sports-college-football-27-pc",
+        "file": "ea-sports-college-football-27-pc"
+      },
+      {
+        "slug": "ea-sports-college-football-27-ps5",
+        "file": "ea-sports-college-football-27-ps5"
+      },
+      {
+        "slug": "ea-sports-college-football-27-steam",
+        "file": "ea-sports-college-football-27-steam"
+      },
+      {
+        "slug": "ea-sports-college-football-27-switch-2",
+        "file": "ea-sports-college-football-27-switch-2"
+      },
+      {
+        "slug": "ea-sports-college-football-27-xbox",
+        "file": "ea-sports-college-football-27-xbox"
+      }
+    ],
+    "ratings": [
+      {
+        "slug": "ea-sports-college-football-27-player-ratings",
+        "file": "ea-sports-college-football-27-player-ratings"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-ratings",
+        "file": "ea-sports-college-football-27-team-ratings"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ea-sports-college-football-27-early-access",
+        "file": "ea-sports-college-football-27-early-access"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-date",
+        "file": "ea-sports-college-football-27-release-date"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-time",
+        "file": "ea-sports-college-football-27-release-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-reveal-time",
+        "file": "ea-sports-college-football-27-reveal-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-trailer-release-date",
+        "file": "ea-sports-college-football-27-trailer-release-date"
+      }
+    ]
+  },
+  "pt": {
+    "buy": [
+      {
+        "slug": "ea-sports-college-football-27-amazon",
+        "file": "ea-sports-college-football-27-amazon"
+      },
+      {
+        "slug": "ea-sports-college-football-27-deluxe-edition",
+        "file": "ea-sports-college-football-27-deluxe-edition"
+      },
+      {
+        "slug": "ea-sports-college-football-27-gamestop",
+        "file": "ea-sports-college-football-27-gamestop"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-bundle",
+        "file": "ea-sports-college-football-27-mvp-bundle"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-membership",
+        "file": "ea-sports-college-football-27-mvp-membership"
+      },
+      {
+        "slug": "ea-sports-college-football-27-mvp-plus",
+        "file": "ea-sports-college-football-27-mvp-plus"
+      },
+      {
+        "slug": "ea-sports-college-football-27-preorder",
+        "file": "ea-sports-college-football-27-preorder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-price",
+        "file": "ea-sports-college-football-27-price"
+      },
+      {
+        "slug": "ea-sports-college-football-27-store",
+        "file": "ea-sports-college-football-27-store"
+      },
+      {
+        "slug": "ea-sports-college-football-27-subscription",
+        "file": "ea-sports-college-football-27-subscription"
+      }
+    ],
+    "dynasty": [
+      {
+        "slug": "ea-sports-college-football-27-best-teams-dynasty",
+        "file": "ea-sports-college-football-27-best-teams-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-coach-mode",
+        "file": "ea-sports-college-football-27-coach-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-deep-dive",
+        "file": "ea-sports-college-football-27-dynasty-deep-dive"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty-mode",
+        "file": "ea-sports-college-football-27-dynasty-mode"
+      },
+      {
+        "slug": "ea-sports-college-football-27-dynasty",
+        "file": "ea-sports-college-football-27-dynasty"
+      },
+      {
+        "slug": "ea-sports-college-football-27-recruiting",
+        "file": "ea-sports-college-football-27-recruiting"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-builder",
+        "file": "ea-sports-college-football-27-team-builder"
+      },
+      {
+        "slug": "ea-sports-college-football-27-teambuilder",
+        "file": "ea-sports-college-football-27-teambuilder"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ea-sports-college-football-27-beginner-guide",
+        "file": "ea-sports-college-football-27-beginner-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-changes",
+        "file": "ea-sports-college-football-27-changes"
+      },
+      {
+        "slug": "ea-sports-college-football-27-features",
+        "file": "ea-sports-college-football-27-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-guide",
+        "file": "ea-sports-college-football-27-guide"
+      },
+      {
+        "slug": "ea-sports-college-football-27-issues",
+        "file": "ea-sports-college-football-27-issues"
+      },
+      {
+        "slug": "ea-sports-college-football-27-new-features",
+        "file": "ea-sports-college-football-27-new-features"
+      },
+      {
+        "slug": "ea-sports-college-football-27-things-to-know-before-you-buy",
+        "file": "ea-sports-college-football-27-things-to-know-before-you-buy"
+      },
+      {
+        "slug": "ea-sports-college-football-27-tips",
+        "file": "ea-sports-college-football-27-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "ea-sports-college-football-27-mobile",
+        "file": "ea-sports-college-football-27-mobile"
+      },
+      {
+        "slug": "ea-sports-college-football-27-nintendo-switch",
+        "file": "ea-sports-college-football-27-nintendo-switch"
+      },
+      {
+        "slug": "ea-sports-college-football-27-pc",
+        "file": "ea-sports-college-football-27-pc"
+      },
+      {
+        "slug": "ea-sports-college-football-27-ps5",
+        "file": "ea-sports-college-football-27-ps5"
+      },
+      {
+        "slug": "ea-sports-college-football-27-steam",
+        "file": "ea-sports-college-football-27-steam"
+      },
+      {
+        "slug": "ea-sports-college-football-27-switch-2",
+        "file": "ea-sports-college-football-27-switch-2"
+      },
+      {
+        "slug": "ea-sports-college-football-27-xbox",
+        "file": "ea-sports-college-football-27-xbox"
+      }
+    ],
+    "ratings": [
+      {
+        "slug": "ea-sports-college-football-27-player-ratings",
+        "file": "ea-sports-college-football-27-player-ratings"
+      },
+      {
+        "slug": "ea-sports-college-football-27-team-ratings",
+        "file": "ea-sports-college-football-27-team-ratings"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ea-sports-college-football-27-early-access",
+        "file": "ea-sports-college-football-27-early-access"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-date",
+        "file": "ea-sports-college-football-27-release-date"
+      },
+      {
+        "slug": "ea-sports-college-football-27-release-time",
+        "file": "ea-sports-college-football-27-release-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-reveal-time",
+        "file": "ea-sports-college-football-27-reveal-time"
+      },
+      {
+        "slug": "ea-sports-college-football-27-trailer-release-date",
+        "file": "ea-sports-college-football-27-trailer-release-date"
+      }
+    ]
+  }
+}

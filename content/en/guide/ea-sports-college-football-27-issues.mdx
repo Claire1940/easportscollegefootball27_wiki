@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ea sports college football 27 issues: Fixes & PC Settings",
+  description: "Get the latest fixes for EA Sports College Football 27 issues. Solve Dynasty recruiting bugs, PC performance drops, and gameplay AI glitches.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Launch+Issues+and+Fixes",
+  date: "2026-06-27",
+  author: "ea sports college football 27 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Focus**: Address and resolve common **ea sports college football 27 issues** before starting your Dynasty or RTG career.
+- **Recruiting Fix**: Counteract passive CPU recruiting patterns and pipeline locks by adjusting custom roster rules manually.
+- **Gameplay Adjustments**: Prevent immediate defensive block shedding by delaying sprint button inputs until you clear the line of scrimmage.
+- **PC Optimization**: Disable ray-traced lighting and adjust cutscene frame rates to eliminate transition lag.
+</Callout>
+
+<Section icon={Trophy} title="Dynasty Mode & Recruiting Bugs">
+
+Dynasty Mode remains the core of the college football experience, but early testing and community feedback have identified several critical **ea sports college football 27 issues** that can break immersion if left unaddressed. Understanding these bugs and applying community-verified workarounds is essential for anyone planning a long-term program rebuild.
+
+One of the most glaring issues is how the CPU manages scholarship offers. In many instances, the CPU recruiting logic becomes passive, leaving highly rated five-star prospects completely unsigned until late in the season. Furthermore, CPU programs rarely recruit players outside of their established pipelines, allowing smaller or lower-prestige programs to easily scoop up elite four-star and five-star talent without realistic competition. 
+
+Another frustrating bug involves the Transfer Portal and offseason management. During the offseason, some players may transfer out of your program and enter the portal without ever appearing on the "Players Leaving" menu, catching users completely off guard. Additionally, coach contract tracking is occasionally bugged, failing to count all active seasons with a school or incorrectly listing your start year.
+
+| Issue | Core Cause | Recommended Workaround |
+| --- | --- | --- |
+| Dynasty Recruiting | CPU teams prioritize pipelines and leave high-tier prospects unsigned | Limit manual recruiting to your own pipeline to maintain fair class rankings |
+| NIL Soft-Commit | Bug allows players to retain NIL funds after removing commitments | Avoid exploiting this glitch to keep Dynasty progression realistic and immersive |
+| Disappearing Transfers | Players enter portal without appearing on the leaving menu | Check the transfer portal menu weekly during offseason to track roster changes |
+| Contract Tracking | Coach contracts do not count all active seasons correctly | Monitor coaching history screen rather than relying on contract year display |
+
+<Callout type="warning" title="NIL Soft-Commit Bug">
+A notable loophole in the NIL system allows players to remove NIL offers from soft-committed recruits, reclaiming those funds without penalty while the recruit remains committed. While tempting, exploiting this glitch ruins Dynasty progression balance and removes the challenge of managing your yearly program budget.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="On-Field Gameplay & AI Glitches">
+
+On-field gameplay has taken massive strides forward with realistic player momentum, heavier collisions, and smarter downfield blocking. However, several AI and mechanical quirks continue to frustrate players. To play clean football, you must adjust your play-calling habits and master pre-play adjustments.
+
+The most prominent gameplay bug involves offensive line blocking logic, particularly against 3-3-5 alignments. Linemen frequently ignore linebackers or blitzing safeties, choosing to block air or double-team defensive tackles instead. This leaves a clear path for the pass rush and can ruin otherwise solid play designs.
+
+Additionally, the "Turbo Button Instashed" mechanic remains a major point of contention. If you press the sprint button immediately after taking the snap, the CPU defensive line receives an unnatural speed and block-shedding boost, allowing them to run down fast quarterbacks behind the line of scrimmage. 
+
+| Mechanic | Glitch or Behavior | Optimal Adjustment |
+| --- | --- | --- |
+| O-Line Blocking | Line ignores linebackers and targets safeties in 3-3-5 fronts | Use ID the Mike adjustments before the snap to force proper targeting |
+| Turbo Instashed | Pressing sprint behind the line triggers instant block shedding | Delay pressing the sprint button until you clear the line of scrimmage |
+| Robo DB Coverage | CPU defenders anticipate audibles and run routes perfectly | Disguise play calls with formation shifts and use fewer late audibles |
+| Field Goal Aiming | Hash mark kicks at short range suffer from sensitive aiming | Use practice mode to adjust to the kick meter sensitivity changes |
+
+<Callout type="tip" title="Pre-Snap Blocking Fix">
+To counter the O-line blocking glitch against 3-3-5 defenses, hold Left Trigger to open the protection menu and manually designate the primary blitzer using the "ID the Mike" feature. This forces your center and guards to recognize the correct defender before the snap.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="PC Performance & Optimization Settings">
+
+For the first time in franchise history, the series arrives on PC via Steam, Epic, and the EA App. While this opens up incredible visual possibilities, early PC performance optimization is crucial to avoiding stuttering and input lag.
+
+Early PC reports indicate that the game is highly demanding, particularly during cutscene transitions and stadium entrance sequences. Players have noted significant frame drops when transitioning from gameplay to crowd cuts, caused by the game's dynamic lighting and high-fidelity player models. HDR calibration can also wash out colors on certain monitors if not adjusted correctly.
+
+To ensure a smooth 60+ FPS experience, you should separate your gameplay and cutscene graphics settings, allowing the game to prioritize raw performance during active play while preserving visual fidelity during presentation moments.
+
+<CardGrid cols={3}>
+  <Card title="High Performance Profile">
+    - **Ray-Tracing**: Disabled
+    - **Cutscene Quality**: Medium
+    - **Frame Rate**: Uncapped
+    - **Best for**: Competitive online play and older GPUs.
+  </Card>
+  <Card title="Balanced Profile">
+    - **Ray-Tracing**: Enabled (Low)
+    - **Cutscene Quality**: High
+    - **Frame Rate**: Locked to 60 FPS
+    - **Best for**: Smooth gameplay with decent visuals.
+  </Card>
+  <Card title="Visual Quality Profile">
+    - **Ray-Tracing**: Enabled (High)
+    - **Cutscene Quality**: Ultra
+    - **Frame Rate**: Locked to 30 FPS
+    - **Best for**: Cinematic offline Dynasty play.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Cross-Play Limitations">
+While cross-play is fully supported for online Dynasty, Head-to-Head, and Co-Op modes, note that the College Football Ultimate Team Auction House is completely platform-locked. You cannot trade or buy items across different platforms.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step PC Troubleshooting & Setup">
+
+If you encounter launch crashes, controller connection issues, or EA App syncing errors, follow this step-by-step troubleshooting guide to get your game running smoothly.
+
+<Steps>
+  <Step num="1" title="Verify Game Files & EA App Link">
+    Open Steam or the Epic Games Store, navigate to your library, right-click the game, and select "Verify Integrity of Game Files." Ensure your EA App is fully updated and linked to your primary platform account to prevent license validation errors at launch.
+  </Step>
+  <Step num="2" title="Optimize Graphics Drivers & DirectX">
+    Ensure your graphics card drivers are updated to the latest version. If you experience crashes upon entering a stadium, force the game to run in DirectX 12 mode by adding `-dx12` to the game's launch options in Steam or Epic.
+  </Step>
+  <Step num="3" title="Adjust In-Game Performance Settings">
+    Navigate to the in-game settings menu and disable Ray-Traced Lighting. Set "Separate Cutscene Settings" to active, and lock cutscene frame rates to 30 or 60 FPS to eliminate transition stuttering during crowd cuts.
+  </Step>
+  <Step num="4" title="Troubleshoot Controller & Cross-Play Settings">
+    If your controller is not recognized, enable Steam Input in your controller settings. If matchmaking takes too long, verify that cross-play is enabled in your in-game system settings, as opting out limits your matchmaking pool to your native platform.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Troubleshooting Success">
+Following these steps solves over 90% of launch-day crashes and optimization issues, allowing you to jump straight into the action without technical interruptions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Launch Day Checklist">
+
+Prepare your system and game settings before kickoff with this launch day checklist to ensure you avoid common performance drops and gameplay bugs.
+
+| Setting | Performance Impact | Recommended Option |
+| --- | --- | --- |
+| Ray-Traced Lighting | High | Disabled for competitive play, Enabled for high-end GPUs |
+| HDR Calibration | Medium | Custom calibration via system HDR tool before launching game |
+| Frame Rate Limit | Low | Set to Match Monitor Refresh Rate to prevent screen tearing |
+| Separate Cutscenes | Medium | Set Cutscene Quality to Medium to avoid transition lag |
+
+<Checklist
+  id="launch-day-prep"
+  title="Kickoff Readiness Tasks:"
+  items={[
+    "Update graphics card drivers to the latest June 2026 release.",
+    "Verify EA App account linking and cloud save synchronization.",
+    "Configure separate graphics settings for gameplay and cutscenes.",
+    "Run a test match in Practice Mode to calibrate the new kick meter.",
+    "Adjust custom sliders to balance CPU recruiting and blocking AI."
+  ]}
+/>
+
+<Callout type="tip" title="Custom Slider Adjustments">
+If you find the CPU block shedding or play-reading too aggressive, navigate to the gameplay sliders menu and slightly lower the CPU Pass Rush and CPU Pass Reaction settings. This creates a much more balanced and realistic experience for offline Dynasty players.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I fix common ea sports college football 27 issues on PC?",
+    answer: "Most PC optimization issues can be resolved by disabling Ray-Traced Lighting, setting separate graphics profiles for gameplay and cutscenes, and verifying game files through Steam or the EA App."
+  },
+  {
+    question: "Why are five-star recruits not getting scholarship offers in Dynasty?",
+    answer: "This is a known CPU recruiting logic bug where teams prioritize their pipeline regions too strictly. You can mitigate this by manually monitoring unsigned prospects and adjusting your recruiting board accordingly."
+  },
+  {
+    question: "How do I stop the CPU defense from instantly reading my audibles?",
+    answer: "To counter the CPU play-reading behavior, use formation shifts to disguise your play designs at the play-call screen rather than relying on late-game audibles at the line of scrimmage."
+  },
+  {
+    question: "Can I use the transfer portal normally if players disappear from the menu?",
+    answer: "Yes, but you must manually check the transfer portal menu weekly during the offseason transition, as some players may leave your program without appearing on the standard 'Players Leaving' notification screen."
+  }
+]} />
+
+<Callout type="info" title="Report Bugs Directly">
+If you encounter persistent glitches that are not covered in this guide, report them directly on the official EA Forums or the r/NCAAFBseries community subreddit to help developers track and patch them in upcoming title updates.
+</Callout>
+
+</Section>

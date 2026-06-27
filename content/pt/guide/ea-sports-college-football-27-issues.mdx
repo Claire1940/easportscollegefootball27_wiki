@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Problemas do EA SPORTS College Football 27: Correções e Configurações para PC",
+  description: "Obtenha as correções mais recentes para os problemas do EA SPORTS College Football 27. Resolva bugs de recrutamento do Dynasty, quedas de desempenho no PC e falhas de IA na jogabilidade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Launch+Issues+and+Fixes",
+  date: "2026-06-27",
+  author: "Equipe do Wiki de ea sports college football 27"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: Aborde e resolva os **problemas comuns do ea sports college football 27** antes de iniciar sua carreira no Dynasty ou RTG.
+- **Correção de Recrutamento**: Contorne os padrões passivos de recrutamento da CPU e os bloqueios de pipelines ajustando as regras de elenco personalizadas manualmente.
+- **Ajustes de Jogabilidade**: Evite que a defesa desfaça os bloqueios instantaneamente atrasando o uso do botão de corrida (sprint) até passar da linha de scrimmage.
+- **Otimização para PC**: Desative a iluminação por Ray-Tracing e ajuste a taxa de quadros das cenas (cutscenes) para eliminar os engasgos de transição.
+</Callout>
+
+<Section icon={Trophy} title="Modo Dynasty e Bugs de Recrutamento">
+
+O Modo Dynasty continua sendo o coração da experiência do futebol americano universitário, mas os testes iniciais e o feedback da comunidade identificaram vários **problemas críticos do ea sports college football 27** que podem quebrar a imersão se não forem resolvidos. Compreender esses bugs e aplicar soluções alternativas verificadas pela comunidade é essencial para qualquer pessoa que planeje uma reconstrução de programa de longo prazo.
+
+Um de nossos problemas mais evidentes é como a CPU gerencia as ofertas de bolsas de estudo. Em muitos casos, a lógica de recrutamento da CPU torna-se passiva, deixando promessas altamente avaliadas de cinco estrelas totalmente sem contrato até o final da temporada. Além disso, os programas controlados pela CPU raramente recrutam jogadores fora de suas pipelines estabelecidas, permitindo que programas menores ou de menor prestígio consigam facilmente talentos de elite de quatro e cinco estrelas sem concorrência realista. 
+
+Outro bug frustrante envolve o Portal de Transferências (Transfer Portal) e o gerenciamento da intertemporada (offseason). Durante a intertemporada, alguns jogadores podem se transferir do seu programa e entrar no portal sem nunca aparecer no menu "Jogadores de Saída" (Players Leaving), pegando os usuários totalmente de surpresa. Além disso, o rastreamento de contratos de treinadores ocasionalmente apresenta bugs, deixando de contar todas as temporadas ativas em uma escola ou listando incorretamente o ano de início.
+
+| Problema | Causa Principal | Solução Recomendada |
+| --- | --- | --- |
+| Recrutamento do Dynasty | Os times da CPU priorizam as pipelines e deixam promessas de alto nível sem contrato | Limite o recrutamento manual à sua própria pipeline para manter classificações de classe justas |
+| Compromisso Verbal NIL (NIL Soft-Commit) | Bug permite que os jogadores retenham fundos NIL após remover compromissos | Evite explorar esse glitch para manter a progressão do Dynasty realista e imersiva |
+| Transferências Desaparecidas | Os jogadores entram no portal sem aparecer no menu de saída | Verifique o menu do portal de transferências semanalmente durante a intertemporada para acompanhar as mudanças no elenco |
+| Rastreamento de Contrato | Os contratos dos treinadores não contam todas as temporadas ativas corretamente | Monitore a tela de histórico do treinador em vez de confiar na exibição do ano do contrato |
+
+<Callout type="warning" title="Bug de Compromisso Verbal NIL">
+Uma brecha notável no sistema NIL permite que os jogadores removam ofertas NIL de recrutas verbalmente comprometidos (soft-committed), recuperando esses fundos sem penalidades enquanto o recruta permanece comprometido. Embora seja tentador, explorar esse glitch arruína o equilíbrio da progressão do Dynasty e remove o desafio de gerenciar o orçamento anual do seu programa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Jogabilidade em Campo e Falhas de IA">
+
+A jogabilidade em campo deu grandes passos à frente com o momento realista dos jogadores, colisões mais pesadas e bloqueios mais inteligentes no campo de ataque. No entanto, várias peculiaridades mecânicas e de IA continuam a frustrar os jogadores. Para jogar um futebol americano limpo, você deve ajustar seus hábitos de escolha de jogadas e dominar os ajustes antes do início da jogada (pre-play).
+
+O bug de jogabilidade mais proeminente envolve a lógica de bloqueio da linha ofensiva, particularmente contra formações 3-3-5. Os jogadores de linha frequentemente ignoram os linebackers ou safeties em blitz, optando por bloquear o vento ou fazer marcação dupla nos defensive tackles. Isso deixa um caminho livre para o pass rush e pode arruinar táticas de jogadas que de outra forma seriam sólidas.
+
+Além disso, a mecânica de "Desfazer Bloqueio Instantâneo pelo Botão Turbo" (Turbo Button Instashed) continua sendo um grande ponto de discórdia. Se você pressionar o botão de corrida (sprint) imediatamente após receber o snap, a linha defensiva da CPU recebe um aumento artificial de velocidade e capacidade de desfazer bloqueios, permitindo que alcancem quarterbacks rápidos atrás da linha de scrimmage. 
+
+| Mecânica | Glitch ou Comportamento | Ajuste Ideal |
+| --- | --- | --- |
+| Bloqueio da Linha Ofensiva | A linha ignora linebackers e foca nos safeties em formações 3-3-5 | Use os ajustes de "Identificar o Mike" (ID the Mike) antes do snap para forçar a marcação correta |
+| Desfazer Bloqueio por Turbo | Pressionar corrida atrás da linha ativa o desfazimento instantâneo de bloqueio | Atrase o pressionamento do botão de corrida até passar da linha de scrimmage |
+| Cobertura de DB Robótica | Os defensores da CPU antecipam jogadas modificadas (audibles) e correm as rotas perfeitamente | Disfarce as chamadas de jogadas com mudanças de formação e use menos audibles de última hora |
+| Mira de Field Goal | Chutes próximos às marcas laterais (hash marks) em curta distância sofrem com mira sensível | Use o modo de treino para se ajustar às mudanças de sensibilidade do medidor de chute |
+
+<Callout type="tip" title="Correção de Bloqueio Pré-Snap">
+Para combater o glitch de bloqueio da linha ofensiva contra defesas 3-3-5, segure o Gatilho Esquerdo (Left Trigger) para abrir o menu de proteção e designe manualmente o blitzer principal usando o recurso "Identificar o Mike" (ID the Mike). Isso força seu center e guards a reconhecerem o defensor correto antes do snap.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Desempenho de PC e Configurações de Otimização">
+
+Pela primeira vez na história da franquia, a série chega ao PC via Steam, Epic e EA App. Embora isso abra possibilidades visuais incríveis, a otimização inicial do desempenho no PC é crucial para evitar travamentos (stuttering) e atraso de comando (input lag).
+
+Os relatórios iniciais de PC indicam que o jogo é altamente exigente, particularmente durante transições de cenas (cutscenes) e sequências de entrada no estádio. Os jogadores notaram quedas significativas de quadros ao fazer a transição da jogabilidade para cortes da torcida, causadas pela iluminação dinâmica do jogo e pelos modelos de jogadores de alta fidelidade. A calibração de HDR também pode deixar as cores lavadas em certos monitores se não for ajustada corretamente.
+
+Para garantir uma experiência suave de mais de 60 FPS, você deve separar as configurações gráficas de jogabilidade e de cenas (cutscenes), permitindo que o jogo priorize o desempenho bruto durante a partida ativa, mantendo a fidelidade visual durante os momentos de apresentação.
+
+<CardGrid cols={3}>
+  <Card title="Perfil de Alto Desempenho">
+    - **Ray-Tracing**: Desativado
+    - **Qualidade das Cenas**: Média
+    - **Taxa de Quadros**: Sem limite
+    - **Ideal para**: Jogo online competitivo e GPUs mais antigas.
+  </Card>
+  <Card title="Perfil Equilibrado">
+    - **Ray-Tracing**: Ativado (Baixo)
+    - **Qualidade das Cenas**: Alta
+    - **Taxa de Quadros**: Bloqueada em 60 FPS
+    - **Ideal para**: Jogabilidade fluida com visuais decentes.
+  </Card>
+  <Card title="Perfil de Qualidade Visual">
+    - **Ray-Tracing**: Ativado (Alto)
+    - **Qualidade das Cenas**: Ultra
+    - **Taxa de Quadros**: Bloqueada em 30 FPS
+    - **Ideal para**: Jogo cinematográfico offline no Modo Dynasty.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Limitações do Cross-Play">
+Embora o cross-play seja totalmente suportado para os modos Dynasty online, Head-to-Head e Co-Op, observe que a Casa de Leilões (Auction House) do College Football Ultimate Team é completamente bloqueada por plataforma. Você não pode negociar ou comprar itens entre plataformas diferentes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Passo a Passo de Configuração e Resolução de Problemas no PC">
+
+Se você encontrar travamentos na inicialização, problemas de conexão com o controle ou erros de sincronização do EA App, siga este guia passo a passo de resolução de problemas para fazer seu jogo rodar sem problemas.
+
+<Steps>
+  <Step num="1" title="Verifique os Arquivos do Jogo e o Vínculo com o EA App">
+    Abra o Steam ou a Epic Games Store, navegue até sua biblioteca, clique com o botão direito no jogo e selecione "Verificar Integridade dos Arquivos do Jogo". Certifique-se de que seu EA App esteja totalmente atualizado e vinculado à sua conta de plataforma principal para evitar erros de validação de licença no lançamento.
+  </Step>
+  <Step num="2" title="Otimize os Drivers de Gráficos e o DirectX">
+    Certifique-se de que os drivers da sua placa de vídeo estejam atualizados para a versão mais recente. Se você tiver travamentos ao entrar em um estádio, force o jogo a rodar no modo DirectX 12 adicionando `-dx12` às opções de inicialização do jogo no Steam ou Epic.
+  </Step>
+  <Step num="3" title="Ajuste as Configurações de Desempenho no Jogo">
+    Navegue até o menu de configurações do jogo e desative a Iluminação por Ray-Tracing. Defina "Configurações de Cenas Separadas" (Separate Cutscene Settings) como ativo e bloqueie a taxa de quadros das cenas em 30 ou 60 FPS para eliminar os engasgos de transição durante os cortes da torcida.
+  </Step>
+  <Step num="4" title="Resolva Problemas de Controle e Configurações de Cross-Play">
+    Se o seu controle não for reconhecido, ative o Steam Input nas configurações do seu controle. Se o matchmaking demorar muito, verifique se o cross-play está ativado nas configurações do sistema do jogo, pois desativá-lo limita sua busca de partidas à sua plataforma nativa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso na Resolução de Problemas">
+Seguir estas etapas resolve mais de 90% dos travamentos no dia de lançamento e problemas de otimização, permitindo que você entre direto na ação sem interrupções técnicas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificação para o Dia de Lançamento">
+
+Prepare seu sistema e as configurações do jogo antes do pontapé inicial com esta lista de verificação para garantir que você evite quedas comuns de desempenho e bugs de jogabilidade.
+
+| Configuração | Impacto no Desempenho | Opção Recomendada |
+| --- | --- | --- |
+| Iluminação por Ray-Tracing | Alto | Desativado para jogo competitivo, Ativado para GPUs de ponta |
+| Calibração de HDR | Médio | Calibração personalizada por meio da ferramenta HDR do sistema antes de iniciar o jogo |
+| Limite de Taxa de Quadros | Baixo | Defina para Corresponder à Taxa de Atualização do Monitor para evitar o efeito de quebra de tela (screen tearing) |
+| Cenas Separadas | Médio | Defina a Qualidade das Cenas como Média para evitar lentidão na transição |
+
+<Checklist
+  id="launch-day-prep"
+  title="Tarefas de Preparação para o Pontapé Inicial (Kickoff):"
+  items={[
+    "Atualize os drivers da placa de vídeo para a versão mais recente de junho de 2026.",
+    "Verifique o vínculo da conta do EA App e a sincronização de salvamento em nuvem.",
+    "Configure opções gráficas separadas para a jogabilidade e para as cenas (cutscenes).",
+    "Execute uma partida de teste no Modo de Treino para calibrar o novo medidor de chute.",
+    "Ajuste os controles deslizantes (sliders) personalizados para equilibrar o recrutamento da CPU e a IA de bloqueio."
+  ]}
+/>
+
+<Callout type="tip" title="Ajustes de Sliders Personalizados">
+Se você achar que a quebra de bloqueio ou a leitura de jogadas da CPU estão muito agressivas, navegue até o menu de sliders de jogabilidade e diminua ligeiramente as configurações de CPU Pass Rush e CPU Pass Reaction. Isso cria uma experiência muito mais equilibrada e realista para jogadores do Dynasty offline.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como posso corrigir os problemas comuns do ea sports college football 27 no PC?",
+    answer: "A maioria dos problemas de otimização de PC pode ser resolvida desativando a Iluminação por Ray-Tracing, configurando perfis gráficos separados para a jogabilidade e cenas, e verificando os arquivos do jogo via Steam ou EA App."
+  },
+  {
+    question: "Por que recrutas de cinco estrelas não estão recebendo ofertas de bolsas de estudo no Dynasty?",
+    answer: "Este é um bug conhecido na lógica de recrutamento da CPU, onde as equipes priorizam suas regiões de recrutamento (pipelines) de forma muito estrita. Você pode mitigar isso monitorando manualmente as promessas sem contrato e ajustando seu quadro de recrutamento de acordo."
+  },
+  {
+    question: "Como faço para impedir que a defesa da CPU leia instantaneamente minhas mudanças de jogada (audibles)?",
+    answer: "Para combater o comportamento de leitura de jogadas da CPU, use mudanças de formação para disfarçar o design das suas jogadas na tela de escolha, em vez de depender de audibles de última hora na linha de scrimmage."
+  },
+  {
+    question: "Posso usar o portal de transferências normalmente se os jogadores desaparecerem do menu?",
+    answer: "Sim, mas você deve verificar manualmente o menu do portal de transferências toda semana durante a transição da intertemporada, pois alguns jogadores podem deixar seu programa sem aparecer na tela padrão de notificação de 'Jogadores de Saída' (Players Leaving)."
+  }
+]} />
+
+<Callout type="info" title="Relate Bugs Diretamente">
+Se você encontrar falhas persistentes que não são abordadas neste guia, relate-as diretamente nos Fóruns Oficiais da EA ou no subreddit da comunidade r/NCAAFBseries para ajudar os desenvolvedores a rastreá-las e corrigi-las em atualizações futuras do jogo.
+</Callout>
+
+</Section>

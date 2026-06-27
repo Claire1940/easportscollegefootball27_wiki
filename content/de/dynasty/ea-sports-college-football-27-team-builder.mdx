@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "EA SPORTS College Football 27 Team Builder: Einrichtungsleitfaden & Anpassungstipps",
+  description: "Meistern Sie den EA SPORTS College Football 27 Team Builder mit unserem Leitfaden zu Stadionbau, benutzerdefinierten Logos, Soundkulissen und der Dynasty-Integration.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Team+Builder+Guide",
+  date: "2026-06-27",
+  author: "EA SPORTS College Football 27 Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Kernfunktion**: Erstellen Sie benutzerdefinierte Programme mit einzigartigen Logos, Trikots und Stadien für den Einsatz in **Dynasty** und **Road to Glory**.
+- **Stadionanpassung**: Modifizieren Sie Videowände (Jumbotrons), Begrenzungsmauern und Torpfosten auf Basis von vier verschiedenen Stadionvorlagen.
+- **Atmosphären-Trigger**: Richten Sie bis zu fünf Zuschauer-Themen-Trigger ein, einschließlich **Stripe-Outs** für Rivalitätsspiele oder Nachtbegegnungen.
+- **Soundkulissen-Tiefe**: Greifen Sie auf über **150 Kommentar-Spitznamen** und 66 Band-Hymnen zu, um Ihre eigene Schule zum Leben zu erwecken.
+- **Integrationslimit**: Sie können bis zu **16 benutzerdefinierte Teams** in einen einzelnen Road to Glory-Karrierepfad importieren.
+</Callout>
+
+<Section icon={Map} title="Überblick über den EA SPORTS College Football 27 Team Builder">
+
+Die **EA SPORTS College Football 27 Team Builder**-Suite stellt das umfassendste Anpassungs-Toolset in der Geschichte der Reihe dar. Die Version von 2026 geht weit über einfache Trikotwechsel hinaus und führt eine tiefgehende Stadionbau-Engine sowie ein dynamisches Soundkulissen-System ein. Dadurch fühlt sich Ihr erstelltes Programm genauso authentisch an wie traditionsreiche Schwergewichte wie **Oregon** oder **Ohio State**. Egal, ob Sie ein aufgelöstes Programm wiederbeleben oder einen völlig neuen Außenseiter erschaffen, das System lässt sich direkt in den **Dynasty Blueprint** und die **NIL**-Mechaniken integrieren.
+
+<CardGrid cols={3}>
+  <Card title="Visuelle Identität">
+    - **Benutzerdefinierte Logos**: Laden Sie hochauflösende Haupt- und Nebenlogos hoch.
+    - **Trikot-Tiefe**: Entwerfen Sie Heim-, Auswärts- und Alternativtrikots mit individuellen Nähten.
+    - **Markenfarben**: Präzise Hex-Code-Abstimmung für die Schulfarben.
+  </Card>
+  <Card title="Heimvorteil">
+    - **Stadion-Builder**: Vier verschiedene Grundarchitekturen zum Modifizieren.
+    - **Zuschauer-Logik**: Legen Sie fest, wie sich Fans kleiden und auf Spielsituationen reagieren.
+    - **Videowand-Steuerung**: Benutzerdefinierte Grafiken und Layouts für die Anzeigetafel.
+  </Card>
+  <Card title="Atmosphärisches Audio">
+    - **Aufgenommene Fangesänge**: 54 einzigartige schulspezifische Gesänge.
+    - **Stadion-Sprecher**: 11 lizenzierte Tracks und über 150 Spitznamen.
+    - **Band-Hymnen**: 66 traditionelle Variationen von Kampfliedern (Fight Songs).
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Empfehlung der Redaktion">
+Konzentrieren Sie sich zu Beginn Ihres Entwurfs zuerst auf die Auswahl Ihrer **Primärfarbe**. Das Spiel verwendet diese Farbe standardmäßig, um die Sitzplatzfarben Ihres Stadions und die sekundäre Ausrüstung zu generieren, was Ihnen später stundenlange manuelle Anpassungen erspart.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Der Stadion-Builder: Gestalten Sie Ihr Heimstadion">
+
+Das Herzstück des **EA SPORTS College Football 27 Team Builders** ist der neue Stadion-Builder. Im Gegensatz zu früheren Versionen, die Sie auf bestehende Spielstätten beschränkten, können Sie nun zwischen **bestehenden** oder **benutzerdefinierten** Stadien wählen. Benutzerdefinierte Stadien nutzen eine von vier Basisvorlagen, die das grundlegende Layout der Tribünen und Sichtlinien vorgeben. Von dort aus können Sie spezifische strukturelle Elemente modifizieren, um einen einzigartigen Heimvorteil im Sinne des „Toughest Place to Play“ zu schaffen.
+
+| Komponente | Tiefe der Anpassung | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Hintergründe** | Städtische, ländliche, bergige oder küstennahe Kulissen | Visuelle Immersion und Beleuchtung |
+| **Videowand** | Größe, Platzierung und benutzerdefinierte Anzeigelogik | Stimmung der Zuschauer bei Third Downs |
+| **Begrenzungsmauern** | Gepolstert, Backstein oder Beton mit individuellem Branding | Spielersicherheits-Visuals und Teamlogos |
+| **Torpfosten** | Traditionell, H-Form oder benutzerdefinierte Farbschemata | Visuelle Orientierungspunkte für Kicker |
+| **Sitzplätze** | Abgestufte Ebenen und farbcodierte Bereiche | Beeinflusst die Bewertung des Heimvorteils |
+
+Für Spieler auf dem **PC über Steam oder den Epic Games Store** nutzt der Stadion-Builder die Vorteile von **Raytraced-Beleuchtung** und **HDR**-Unterstützung voll aus. Dies sorgt dafür, dass Nachtspiele unter Flutlicht realistische Schatten und Reflexionen auf den individuell gestalteten Begrenzungsmauern bieten.
+
+<Callout type="warning" title="Markenrichtlinie">
+Obwohl der Builder immense Kreativität ermöglicht, sollten Sie urheberrechtlich geschützte Logos von Profiligen oder nicht lizenzierten Universitäten vermeiden, wenn Sie Ihr Team in der öffentlichen Galerie teilen möchten, da diese gelöscht werden können.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Atmosphäre und Zuschaueranpassung">
+
+Die Atmosphäre macht College Football erst aus, und der **EA SPORTS College Football 27 Team Builder** ermöglicht es Ihnen, das Verhalten Ihrer Fans zu steuern. Das System nutzt die „Stripe-Out-Logik“, um bestimmte visuelle Themen basierend auf der Bedeutung des Spiels auszulösen. Sie können bis zu **fünf einzigartige Zuschauer-Themen-Trigger** erstellen, um sicherzustellen, dass Ihr Stadion bei einem lockeren Sieg unter der Woche anders aussieht als bei einem Top-25-Showdown.
+
+| Trigger-Typ | Bedingungsanforderung | Visuelles Ergebnis |
+| :--- | :--- | :--- |
+| **Nachtspiel** | Kickoff nach 18:00 Uhr | Leuchtstab-Effekte und dunkle Kleidung |
+| **Top-25-Duell** | Beide Teams in den AP-Charts platziert | Vollständige Farbabstimmung im gesamten Stadion |
+| **Rivalitätsspiel** | Gegen das festgelegte Rivalen-Team | Aggressive Gesänge und einzigartige Banner |
+| **Konferenz-Auftakt** | Erstes Spiel der Conference-Saison | Standard-Schulfarben-„Blackout“ oder „Whiteout“ |
+| **Saisonfinale** | Letztes Heimspiel des Jahres | Historische Tribut-Grafiken auf der Videowand |
+
+<Checklist
+  id="stadium-milestones"
+  title="Atmosphären-Checkliste:"
+  items={[
+    "Wählen Sie eine von vier Stadion-Basisvorlagen aus",
+    "Konfigurieren Sie mindestens drei Zuschauer-Themen-Trigger",
+    "Weisen Sie eine benutzerdefinierte Soundkulisse für Third-Down-Situationen zu",
+    "Legen Sie die standortbasierte Rekrutierungsdistanz für Dynasty-Auswirkungen fest",
+    "Überprüfen Sie die Logo-Sichtbarkeit auf Videowänden und Begrenzungsmauern"
+  ]}
+/>
+
+<Callout type="success" title="Atmosphären-Tipp">
+Für die höchste Bewertung des **Heimvorteils** sollten Sie Einstellungen für die Zuschauerdichte priorisieren. Ein ausverkauftes, kleineres Stadion erzeugt oft mehr „Lärm-Erschütterung“ (Noise Shake) für den gegnerischen Quarterback als eine halbleere, riesige Arena.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Team-Identität und Soundkulissen-Tiefe">
+
+Identität im **EA SPORTS College Football 27 Team Builder** dreht sich nicht nur darum, was man sieht, sondern auch darum, was man hört. Das Audio-Team hat über **150 Kommentar-Spitznamen** aufgenommen, sodass die Live-Kommentatoren den Namen Ihres Teams während der Übertragung tatsächlich aussprechen können. Ergänzt wird dies durch eine riesige Bibliothek an Soundeffekten und Bandmusik.
+
+| Audio-Kategorie | Anzahl | Verwendung |
+| :--- | :--- | :--- |
+| **Kommentar-Spitznamen** | 150+ | Verwendung durch Kommentatoren während der Live-Übertragung |
+| **Soundeffekte (SFX)** | 100+ | Sirenen bei Third Downs, Pfeifen und Trommeln |
+| **Band-Hymnen** | 66 | Gespielt nach Touchdowns und großen Raumgewinnen |
+| **Fangesänge** | 54 | Rhythmische Zuschauerunterstützung während der Verteidigung |
+| **Lizenzierte PA-Tracks** | 11 | Musik über die Stadionlautsprecher |
+| **Generische Fight Songs** | 7 | Hochwertige Orchesterstücke für die Menüs |
+
+Die Soundkulissen-Tools ermöglichen es Ihnen, Spielereignissen spezifische Audio-Cues zuzuweisen. Beispielsweise können Sie einen bestimmten Trommelrhythmus einstellen, der jedes Mal ertönt, wenn Ihre Verteidigung ein Three-and-Out erzwingt, oder eine bestimmte Band-Hymne nach einem erfolgreichen Field Goal auslösen.
+
+<Callout type="info" title="Audio-Synchronisierung">
+Wenn Sie auf der **PlayStation 5 oder Xbox Series X|S** spielen, nutzen diese Audio-Cues räumliches 3D-Audio. Dadurch klingen die Gesänge so, als kämen sie aus bestimmten Bereichen der Zuschauermenge, basierend auf dem Sitzplatz-Layout Ihres Stadions.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Schritt-für-Schritt-Integration: Dynasty und RTG">
+
+Sobald Ihr Team erstellt ist, besteht der letzte Schritt darin, es in die Hauptmodi des Spiels zu integrieren. Der **EA SPORTS College Football 27 Team Builder** ist so konzipiert, dass er nahtlos mit **Dynasty** und **Road to Glory (RTG)** funktioniert. Es gibt jedoch bestimmte Einschränkungen und Arbeitsabläufe, die Sie befolgen müssen, um sicherzustellen, dass Ihre benutzerdefinierte Schule korrekt funktioniert.
+
+<Steps>
+  <Step num="1" title="Fertigstellen und Hochladen">
+    Schließen Sie Ihren Entwurf im Team Builder-Hub ab und laden Sie ihn auf die EA-Server hoch. Stellen Sie sicher, dass alle Logo-Assets genehmigt sind und die „Rekrutierungsdistanz“ (Recruiting Distance) auf Ihr gewünschtes Heimatbundesland eingestellt ist.
+  </Step>
+  <Step num="2" title="Dynasty-Import">
+    Starten Sie eine neue Dynasty und wählen Sie die Option „Team Builder importieren“. Sie können jedes der 138 bestehenden FBS-Programme ersetzen. Ihr Team übernimmt das Conference-Prestige der Schule, die es ersetzt, es sei denn, Sie passen die Conference-Ausrichtungen manuell an.
+  </Step>
+  <Step num="3" title="Road to Glory-Ersetzung">
+    In RTG können Sie insgesamt bis zu **16 Teams** importieren, um Highschool- oder College-Gegner zu ersetzen. Auf diese Weise können Sie einen völlig individuellen Karriereweg vom Highschool-Video bis zur National Championship erstellen.
+  </Step>
+  <Step num="4" title="NIL und Rekrutierung überprüfen">
+    Sobald Sie in Dynasty sind, überprüfen Sie Ihren **Dynasty Blueprint**. Benutzerdefinierte Teams starten mit einem Basis-NIL-Budget und einer Einrichtungsklasse (normalerweise F bis D), die Sie mithilfe von durch Leistungen verdienten Dynasty-Punkten verbessern müssen.
+  </Step>
+</Steps>
+
+| Modus | Team-Limit | Beibehaltene Anpassungen |
+| :--- | :--- | :--- |
+| **Dynasty** | 1 (als Ihre Schule) | Vollständiges Stadion, Trikots und Sound |
+| **Road to Glory** | 16 (als Gegner) | Trikots und Logos |
+| **Play Now** | Unbegrenzt | Alle visuellen und akustischen Einstellungen |
+| **Online H2H** | Nicht unterstützt | N/A |
+
+<Callout type="success" title="Dynasty-Profi-Tipp">
+Wenn Sie ein Team in Dynasty ersetzen, wählen Sie eine Schule mit einer ähnlichen „Rekrutierungspipeline“ (Recruiting Pipeline). Dies stellt sicher, dass Ihr benutzerdefiniertes Programm beim Versuch, lokale 5-Sterne-Talente zu verpflichten, nicht mit einem massiven Nachteil startet.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie viele Teams kann ich im EA SPORTS College Football 27 Team Builder erstellen?",
+    answer: "Sie können eine unbegrenzte Anzahl von Teams im webbasierten Hub erstellen und speichern. Sie sind jedoch darauf beschränkt, ein Team pro Dynasty-Speicherstand und 16 Teams pro Road to Glory-Karriere zu importieren."
+  },
+  {
+    question: "Kann ich eigene Kampflieder (Fight Songs) von meiner lokalen Festplatte verwenden?",
+    answer: "Nein, aufgrund von Lizenzierungs- und Sicherheitsrichtlinien müssen Sie die 66 Band-Hymnen und 7 generischen Kampflieder verwenden, die in der Soundkulissen-Bibliothek des Spiels enthalten sind."
+  },
+  {
+    question: "Funktioniert der Team Builder auf der PC-Version?",
+    answer: "Ja, der EA SPORTS College Football 27 Team Builder wird auf dem PC über die EA-App, Steam und Epic vollständig unterstützt, einschließlich fortschrittlicher Grafikfunktionen wie Raytracing für benutzerdefinierte Stadien."
+  },
+  {
+    question: "Kann ich mein Team nach dem Start einer Dynasty noch bearbeiten?",
+    answer: "Größere strukturelle Änderungen wie das Stadion-Layout oder der Schulname können nach dem Start einer Dynasty nicht mehr geändert werden. Sie können jedoch das Trikotdesign aktualisieren, indem Sie das Team erneut hochladen und die Assets der Speicherdatei aktualisieren."
+  }
+]} />
+
+</Section>

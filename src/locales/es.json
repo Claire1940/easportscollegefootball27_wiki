@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "buy": "Comprar",
+    "guide": "Guía",
+    "dynasty": "Dinastía",
+    "ratings": "Calificaciones"
+  }
+}
