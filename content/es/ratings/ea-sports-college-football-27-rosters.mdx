@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Plantillas de EA Sports College Football 27: Calificaciones de Jugadores y Mejores Selecciones",
+  description: "Analiza las plantillas oficiales de EA Sports College Football 27, los jugadores mejor calificados, los mariscales de campo de élite y las potencias defensivas para tu modo Dinastía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Roster+Ratings+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de EA Sports College Football 27"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Plantillas de EA Sports College Football 27**: Jeremiah Smith lidera el juego como el único jugador con 99 de valoración general (OVR), dominando la posición de receptor abierto.
+- **Líderes Ofensivos**: Dante Moore (95 OVR) and Julian Sayin (94 OVR) encabezan una clase de mariscales de campo altamente competitiva.
+- **Anclas Defensivas**: Leonard Moore (97 OVR) y Colin Simmons (95 OVR) ofrecen una capacidad de contención de élite.
+- **Estrategia de Dinastía**: La velocidad (SPD) y la conciencia (AWR) siguen siendo los atributos de jugador más críticos para simular y jugar partidos.
+</Callout>
+
+<Section icon={Map} title="Resumen de las Plantillas de EA Sports College Football 27">
+
+El lanzamiento oficial de las **plantillas de EA Sports College Football 27** trae una emocionante variedad de talento al campo de juego virtual. La base de datos de jugadores de este año cuenta con miles de atletas con licencia oficial, cada uno de ellos meticulosamente calificado en múltiples atributos físicos y mentales. Comprender estas calificaciones es crucial para cualquier jugador que busque dominar en Road to Glory o construir un programa dominante en el modo Dinastía.
+
+En la cima absoluta de la plantilla se encuentra el receptor abierto Jeremiah Smith, con una calificación general perfecta de 99. Está acompañado por linieros ofensivos de élite como Carter Smith y defensores impenetrables como Leonard Moore. El análisis de la distribución de estos jugadores de primer nivel revela un entorno de juego sumamente equilibrado donde los atributos individuales de los jugadores pueden cambiar por completo el resultado de un partido.
+
+| Jugador | Posición | OVR | Velocidad (SPD) | Fuerza (STR) | Conciencia (AWR) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Jeremiah Smith | WR | **99** | 95 | 79 | 95 |
+| Carter Smith | LT | **97** | 69 | 91 | 99 |
+| Leonard Moore | CB | **97** | 92 | 65 | 92 |
+| Ahmad Hardy | HB | **96** | 91 | 80 | 90 |
+| Cayden Green | LT | **96** | 72 | 94 | 95 |
+| Kewan Lacy | HB | **96** | 93 | 75 | 92 |
+| Malachi Toney | WR | **96** | 93 | 59 | 85 |
+| Colin Simmons | REDG | **95** | 90 | 85 | 90 |
+| Dante Moore | QB | **95** | 86 | 71 | 95 |
+| Kade Pieper | C | **95** | 74 | 90 | 98 |
+
+Para obtener un desglose completo de cada jugador en el juego, puedes consultar el [Portal Oficial de Calificaciones de EA Sports College Football](https://www.ea.com/games/ea-sports-college-football/ratings) [1].
+
+<Callout type="tip" title="Consejo de Plantilla">
+Prioriza siempre reclutar o traspasar jugadores con altas calificaciones de Conciencia (AWR). En situaciones de juego ajustadas, los jugadores con alta conciencia cometen menos errores mentales y ejecutan sus asignaciones de manera más confiable.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mariscales de Campo de Élite y Comparación de Sistemas Ofensivos">
+
+La posición de mariscal de campo (quarterback) en las **plantillas de EA Sports College Football 27** es excepcionalmente profunda, ofreciendo a los jugadores múltiples estilos de juego para construir sus ofensivas. Dante Moore lidera el grupo de mariscales de campo con un estelar 95 de OVR, seguido de cerca por Julian Sayin con 94 de OVR y Trinidad Chambliss con 93 de OVR.
+
+Al elegir a tu mariscal de campo titular, debes mirar más allá de la calificación general bruta. Las opciones de doble amenaza como Arch Manning (91 OVR, 89 SPD) te permiten ejecutar jugadas de opción complejas, mientras que el general de bolsillo Jayden Maiava (92 OVR, 97 AWR) destaca por romper las coberturas de zona con pases de precisión.
+
+| Mariscal de Campo | OVR | Velocidad (SPD) | Agilidad (AGI) | Cambio de Dirección (COD) | Conciencia (AWR) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Dante Moore | **95** | 86 | 88 | 86 | 95 |
+| Julian Sayin | **94** | 82 | 85 | 84 | 92 |
+| Trinidad Chambliss | **93** | 90 | 92 | 91 | 96 |
+| Jayden Maiava | **92** | 83 | 86 | 86 | 97 |
+| CJ Carr | **92** | 82 | 84 | 83 | 95 |
+| Arch Manning | **91** | 89 | 89 | 87 | 89 |
+
+Para maximizar a estos mariscales de campo, debes alinear sus atributos personales con el libro de jugadas (playbook) ofensivo de tu equipo. Aquí hay un desglose de los tres sistemas ofensivos más efectivos del juego:
+
+<CardGrid cols={3}>
+  <Card title="Opción Extendida (Spread Option)">
+    - **QB Principal**: Arch Manning
+    - Se centra en diseños de carrera del mariscal de campo y RPO rápidos
+    - Estilo de juego de alta movilidad que cansa a las líneas defensivas rivales
+  </Card>
+  <Card title="Estilo Pro / Costa Oeste (Pro-Style / West Coast)">
+    - **QB Principal**: Jayden Maiava
+    - Enfatiza lecturas rápidas, objetivos de ala cerrada (tight-end) y lanzamientos seguros
+    - Sistema altamente confiable que minimiza las entregas de balón
+  </Card>
+  <Card title="Ataque Aéreo / Vertical (Air Raid / Vertical)">
+    - **QB Principal**: Dante Moore
+    - Estira la secundaria rival con rutas verticales profundas y postes
+    - Maximizes a receptores de élite como Jeremiah Smith y Malachi Toney
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Libro de Jugadas">
+Ejecutar un sistema de Opción Extendida (Spread Option) con un mariscal de campo que tiene calificaciones bajas de Cambio de Dirección (COD) o de Lesión (INJ) puede resultar en fumbles frecuentes y lesiones costosas. Adapta tu esquema a las fortalezas de tu plantilla.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Potencias Defensivas y Jugadores Clave">
+
+Un equipo con calibre de campeonato requiere una defensa capaz de lograr paradas en escenarios de alta presión. Las plantillas defensivas en esta edición presentan un talento excepcional en los tres niveles, desde la línea defensiva hasta la secundaria.
+
+Leonard Moore (97 OVR) es el mejor esquinero (cornerback) del juego, utilizando su velocidad de 92 y agilidad de 96 para anular a los principales objetivos rivales. En la línea, los cazamariscales de los extremos como Colin Simmons (95 OVR) y Matayo Uiagalelei (94 OVR) proporcionan la presión necesaria para obligar a los mariscales de campo rivales a tomar decisiones apresuradas.
+
+| Jugador | Posición | OVR | Velocidad (SPD) | Fuerza (STR) | Conciencia (AWR) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Leonard Moore | CB | **97** | 92 | 65 | 92 |
+| Colin Simmons | REDG | **95** | 90 | 85 | 90 |
+| KJ Bolden | FS | **95** | 93 | 63 | 94 |
+| Bray Hubbard | SS | **94** | 89 | 78 | 99 |
+| David Stone | DT | **94** | 78 | 94 | 87 |
+| Matayo Uiagalelei | REDG | **94** | 84 | 90 | 96 |
+| Koi Perich | SS | **93** | 92 | 68 | 94 |
+
+Al construir tu defensa, presta mucha atención a las posiciones de safety. Jugadores como Bray Hubbard, que cuenta con una calificación de conciencia casi perfecta de 99, actúa como un entrenador en el campo, ajustando automáticamente su posicionamiento para contrarrestar jugadas de pase profundo.
+
+<Callout type="success" title="Consejo Defensivo">
+Coloca a Colin Simmons y Matayo Uiagalelei en extremos opuestos de tu línea defensiva. Tener dos cazamariscales (edge rushers) con más de 90 de velocidad obliga a la ofensiva a mantener bloqueadores adicionales para proteger al mariscal de campo, limitando sus opciones de pase.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Importar y Administrar Plantillas en el Modo Dinastía">
+
+Para aprovechar al máximo tu experiencia en el modo Dinastía, debes saber cómo importar, actualizar y administrar correctamente tus plantillas activas. Seguir una configuración limpia y estructurada garantiza que tengas acceso a las últimas calificaciones de jugadores y movimientos del portal de transferencias.
+
+<Steps>
+  <Step num="1" title="Accede al Centro de Creación">
+    Desde el menú principal del juego, dirígete a la pestaña 'Centro de Creación' (Creation Center) y selecciona 'Compartir Plantilla' (Roster Share) para ver todas las bases de datos oficiales y de la comunidad disponibles.
+  </Step>
+  <Step num="2" title="Descarga la Última Actualización Oficial">
+    Selecciona la opción de plantilla oficial en vivo para descargar las calificaciones de jugadores más actualizadas, los cambios en el portal de transferencias y los ajustes de la tabla de profundidad del mundo real.
+  </Step>
+  <Step num="3" title="Establece el Archivo de Plantilla Activo">
+    Ve a la configuración de administración de archivos locales, selecciona la plantilla recién descargada y establécela como tu archivo predeterminado activo.
+  </Step>
+  <Step num="4" title="Inicializa el Modo Dinastía">
+    Inicia una nueva campaña de Dinastía y selecciona 'Usar Plantilla Activa' (Use Active Roster) cuando se te solicite. Esto asegura que tu franquicia comience con las calificaciones exactas descritas en esta guía.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Integración con Madden">
+Exportar tus plantillas personalizadas de Dinastía al final de la temporada de último año (senior) te permite importarlas directamente en Madden NFL 27 como clases de draft personalizadas, continuando las carreras de tus jugadores en el ámbito profesional.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Administración de Plantillas en el Modo Dinastía">
+
+Administrar tu plantilla a lo largo de una Dinastía de varios años requiere una planificación cuidadosa y previsión. Utiliza esta lista de verificación antes de comenzar tu temporada para asegurarte de que tu programa esté optimizado tanto para el éxito a corto plazo como para el desarrollo a largo plazo.
+
+<Checklist
+  id="dynasty-roster-checklist"
+  title="Lista de Verificación de Plantilla de Pretemporada:"
+  items={[
+    "Optimiza las posiciones de los jugadores moviendo safeties suplentes atléticos a la posición de apoyador (linebacker) para aumentar la velocidad de la defensa",
+    "Identifica y aplica el estado de año de camiseta roja (redshirt) a los novatos con calificaciones inferiores a 75 OVR para preservar su elegibilidad",
+    "Reordena automáticamente tus tablas de profundidad para asegurarte de que los mejores creadores de juego estén en el campo para los equipos especiales",
+    "Verifica las calificaciones de lesiones de los jugadores y establece una rotación de suplentes confiable para posiciones de alto impacto"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia de Camiseta Roja (Redshirting)">
+Aplicar la camiseta roja (redshirt) a jugadores con altos rasgos de desarrollo pero calificaciones generales actuales bajas es la mejor manera de construir un programa sostenible de 5 estrellas. Ganarán valiosos puntos de atributos durante su año de redshirt sin desperdiciar una temporada de elegibilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Quién es el jugador mejor calificado en las plantillas de EA Sports College Football 27?",
+    answer: "El receptor abierto Jeremiah Smith es el jugador con la calificación más alta en el juego, contando con una calificación general perfecta de 99 con métricas de velocidad y agilidad de élite."
+  },
+  {
+    question: "¿Puedo usar plantillas creadas por la comunidad en los modos de Dinastía sin conexión?",
+    answer: "Sí, puedes descargar plantillas creadas por la comunidad desde el menú Compartir Plantilla (Roster Share) y usarlas tanto en el modo Dinastía con conexión como sin conexión."
+  },
+  {
+    question: "¿Con qué frecuencia se actualizan las calificaciones oficiales de los jugadores?",
+    answer: "EA Sports lanza actualizaciones dinámicas de las plantillas a lo largo de la temporada de fútbol americano universitario para reflejar el rendimiento de los jugadores en el mundo real, las lesiones y los cambios en las tablas de profundidad."
+  },
+  {
+    question: "¿Se incluyen los reclutas novatos del mundo real en las plantillas predeterminadas?",
+    answer: "Sí, las plantillas predeterminadas cuentan con novatos entrantes y jugadores del portal de transferencias totalmente licenciados, con sus apariencias y atributos auténticos."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+La profundidad de la base de datos de plantillas ofrece una rejugabilidad infinita. Tómate el tiempo para estudiar los atributos de los jugadores y construir un libro de jugadas que complemente perfectamente las fortalezas únicas de tu equipo.
+</Callout>
+
+</Section>
