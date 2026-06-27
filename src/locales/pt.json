@@ -1,10 +1,1043 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de College Football 27 - Ratings, Dynasty & RTG",
+      "description": "Wiki de EA Sports College Football 27 com ratings de jogadores, ratings de times, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder, datas de lançamento, plataformas e guias de configuração para PC.",
+      "keywords": "College Football 27, EA Sports College Football 27, EA Sports, ratings, Dynasty, Road to Glory, Mascot Mashup, Ultimate Team, PC",
+      "ogTitle": "Wiki de College Football 27 - Ratings, Dynasty & RTG",
+      "ogDescription": "Wiki de EA Sports College Football 27 com ratings de jogadores, ratings de times, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder, datas de lançamento, plataformas e guias de configuração para PC.",
+      "twitterTitle": "Wiki de College Football 27 - Ratings, Dynasty & RTG",
+      "twitterDescription": "Wiki de EA Sports College Football 27 com ratings de jogadores, ratings de times, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup e guias de configuração para PC."
+    }
+  },
   "nav": {
     "release": "Lançamento",
     "platforms": "Plataformas",
     "buy": "Comprar",
     "guide": "Guia",
-    "dynasty": "Dinastia",
-    "ratings": "Avaliações"
+    "dynasty": "Dynasty",
+    "ratings": "Ratings"
+  },
+  "common": {
+    "home": "Home",
+    "more": "Mais",
+    "playNow": "Jogar na Steam",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para a Home",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Simulador Moderno de College Football",
+    "title": "Wiki de College Football 27",
+    "description": "Construa seu programa com o Dynasty Blueprint, busque o estrelato no Road to Glory, compare 9.013 ratings de jogadores, desbloqueie mascotes no Mascot Mashup e prepare-se para o lançamento mundial no PS5, Xbox Series X|S e PC.",
+    "keywords": "College Football 27, EA Sports, PS5, Xbox Series X|S, PC, ratings, Dynasty, Road to Glory, Mascot Mashup, Ultimate Team",
+    "getFreeCodesCTA": "Ver Ratings",
+    "playOnSteamCTA": "Reserve no EA App",
+    "stats": {
+      "stat1": {
+        "value": "9 de julho de 2026",
+        "label": "Lançamento Mundial"
+      },
+      "stat2": {
+        "value": "9.013",
+        "label": "Ratings de Jogadores"
+      },
+      "stat3": {
+        "value": "91 OVR",
+        "label": "Melhor Rating de Time"
+      },
+      "stat4": {
+        "value": "PS5, Xbox, PC",
+        "label": "Plataformas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de EA Sports College Football 27",
+    "description": "Controles de cobertura mais inteligentes, playbooks defensivos expandidos, recepções baseadas em tempo, o Tackle Stick e cross-play do Road to the College Football Playoff no PS5, Xbox Series X|S e PC."
+  },
+  "tools": {
+    "title": "College Football 27",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para o EA Sports College Football 27 — datas de lançamento, edições, classificações de times, Dynasty, Road to Glory, Ultimate Team, controles de jogabilidade e modos online.",
+    "cards": [
+      {
+        "icon": "Clock",
+        "title": "Data de Lançamento de College Football 27",
+        "description": "Datas de lançamento, janelas de acesso antecipado e plataformas"
+      },
+      {
+        "icon": "Star",
+        "title": "Edições de College Football 27",
+        "description": "Recompensas das edições Standard, Deluxe, MVP Bundle e MVP+"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Classificações de Times de College Football 27",
+        "description": "Melhores classificações de times e os locais mais difíceis de jogar"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Guia de Dynasty de College Football 27",
+        "description": "Planejamento, recrutamento, NIL, instalações e Team Builder"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "College Football 27 Road to Glory",
+        "description": "Builds, posições, Draft Stock e Pontuação de Legado"
+      },
+      {
+        "icon": "Package",
+        "title": "College Football 27 Ultimate Team",
+        "description": "Recompensas, Pontos de Habilidade, caminhos de melhoria e programas de lançamento"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Controles de Jogabilidade de College Football 27",
+        "description": "Ferramentas de cobertura, playbooks e ajustes pré-jogada"
+      },
+      {
+        "icon": "Shield",
+        "title": "Modos Online de College Football 27",
+        "description": "Road to CFP, cross-play e recompensas online"
+      }
+    ]
+  },
+  "modules": {
+    "cfb27ReleaseDateEarlyAccess": {
+      "eyebrow": "Lançamento e Plataformas",
+      "title": "Data de Lançamento, Acesso Antecipado e Plataformas de EA Sports College Football 27",
+      "intro": "Use esta central de lançamento rápido para verificar quando EA Sports College Football 27 é desbloqueado, quais edições incluem acesso antecipado e onde o jogo está disponível. O jogo será lançado para PlayStation 5, Xbox Series X|S e PC através do EA App, Steam e Epic.",
+      "items": [
+        {
+          "icon": "Calendar",
+          "label": "Lançamento Mundial",
+          "value": "9 de julho de 2026",
+          "detail": "A data de lançamento mundial completa de EA Sports College Football 27 para PlayStation 5, Xbox Series X|S e PC."
+        },
+        {
+          "icon": "CalendarClock",
+          "label": "Acesso Antecipado de 3 Dias",
+          "value": "6 de julho de 2026",
+          "detail": "Incluído na Deluxe Edition e no MVP Bundle, além de Desafios Solo de Acesso Antecipado no College Football Ultimate Team."
+        },
+        {
+          "icon": "Rocket",
+          "label": "Acesso Antecipado de 7 Dias",
+          "value": "2 de julho de 2026",
+          "detail": "Disponível para membros MVP+, oferecendo a janela de acesso mais antecipada antes dos jogadores das edições Deluxe e MVP Bundle."
+        },
+        {
+          "icon": "Gamepad2",
+          "label": "Plataformas de Console",
+          "value": "PS5 e Xbox Series X|S",
+          "detail": "EA Sports College Football 27 foi desenvolvido para as plataformas de console da geração atual."
+        },
+        {
+          "icon": "Monitor",
+          "label": "Plataformas de PC",
+          "value": "EA App, Steam e Epic",
+          "detail": "O primeiro lançamento para PC da série EA Sports College Football, disponível em três lojas virtuais."
+        },
+        {
+          "icon": "SlidersHorizontal",
+          "label": "Acesso à Jogabilidade no PC",
+          "value": "Experiência completa no lançamento",
+          "detail": "Predefinições visuais, controles de taxa de quadros, HDR, suporte a ultrawide, iluminação com ray tracing e configurações separadas para jogabilidade e cutscenes."
+        }
+      ]
+    },
+    "cfb27EditionsPreOrder": {
+      "eyebrow": "Edições e Bônus",
+      "title": "Edições e Bônus de Pré-venda do EA Sports College Football 27",
+      "intro": "Compare a Standard Edition, Deluxe Edition, MVP Bundle e a assinatura MVP+ antes do lançamento. Esta comparação foca no que os jogadores mais procuram: acesso antecipado, itens do Ultimate Team, Pontos de Treinador do Dynasty, Pontos de Habilidade do Road to Glory e College Football Points.",
+      "tableHeaders": [
+        "Edição",
+        "Preço",
+        "Acesso",
+        "Principais Recompensas"
+      ],
+      "rows": [
+        {
+          "edition": "Edição Standard",
+          "price": "$69,99",
+          "access": "Lançamento mundial em 9 de julho",
+          "highlights": "Item de Atleta de Capa BND de 81 OVR (1 de 3), 100 Pontos de Treinador do Dynasty, 250 Pontos de Habilidade do Road to Glory"
+        },
+        {
+          "edition": "Edição Deluxe",
+          "price": "$99,99",
+          "access": "Acesso Antecipado de 3 dias a partir de 6 de julho",
+          "highlights": "4600 College Football Points, Jogador Cornerstones BND de 83 OVR (1 de 4), Desafios Solo Exclusivos de Acesso Antecipado"
+        },
+        {
+          "edition": "MVP Bundle",
+          "price": "$149,99",
+          "access": "Acesso Antecipado de 3 dias (CFB 27 + Madden 27)",
+          "highlights": "Conteúdo Deluxe para ambos os jogos, 1 Item de Jogador do Ultimate Team melhorável, Item de Jogador da Temporada 1"
+        },
+        {
+          "edition": "Assinatura MVP+",
+          "price": "Pacote de assinatura",
+          "access": "Acesso Antecipado de 7 dias",
+          "highlights": "Todos os Mascotes desbloqueados no Mascot Mashup, Pacote do Ultimate Team mensal, árvore de habilidades Rainmaker do Dynasty, acesso ao beta"
+        }
+      ],
+      "bestForNote": "Escolha a Standard para o jogo base, a Deluxe para as melhores recompensas exclusivas do College Football, o MVP Bundle para ambos os jogos de futebol americano, e o MVP+ para a janela de acesso mais antecipada e pacotes recorrentes."
+    },
+    "cfb27TeamRatings": {
+      "eyebrow": "Classificações de Times",
+      "title": "Classificações de Times e Melhores Times do EA Sports College Football 27",
+      "intro": "Use a tabela de classificações para comparar times de elite para o Jogue Agora, Dynasty e confrontos online no EA Sports College Football 27. Oregon lidera as classificações gerais oficiais com 91 OVR, enquanto o Tiger Stadium ocupa o 1º lugar na lista de Estádios Mais Difíceis de se Jogar.",
+      "ratingHeaders": [
+        "Time",
+        "Ataque",
+        "Defesa",
+        "OVR"
+      ],
+      "topTeams": [
+        {
+          "team": "Oregon",
+          "off": 91,
+          "def": 91,
+          "ovr": 91
+        },
+        {
+          "team": "Ohio State",
+          "off": 92,
+          "def": 88,
+          "ovr": 90
+        },
+        {
+          "team": "Indiana",
+          "off": 90,
+          "def": 90,
+          "ovr": 90
+        },
+        {
+          "team": "Notre Dame",
+          "off": 88,
+          "def": 90,
+          "ovr": 89
+        },
+        {
+          "team": "Texas",
+          "off": 90,
+          "def": 88,
+          "ovr": 89
+        },
+        {
+          "team": "LSU",
+          "off": 89,
+          "def": 87,
+          "ovr": 88
+        },
+        {
+          "team": "Georgia",
+          "off": 85,
+          "def": 89,
+          "ovr": 87
+        },
+        {
+          "team": "Alabama",
+          "off": 82,
+          "def": 89,
+          "ovr": 86
+        },
+        {
+          "team": "Penn State",
+          "off": 86,
+          "def": 81,
+          "ovr": 83
+        },
+        {
+          "team": "Clemson",
+          "off": 80,
+          "def": 86,
+          "ovr": 83
+        }
+      ],
+      "stadiumHeaders": [
+        "Posição",
+        "Estádio",
+        "Time"
+      ],
+      "hardestStadiums": [
+        {
+          "rank": 1,
+          "stadium": "Tiger Stadium",
+          "team": "LSU"
+        },
+        {
+          "rank": 2,
+          "stadium": "Ohio Stadium",
+          "team": "Ohio State"
+        },
+        {
+          "rank": 3,
+          "stadium": "Beaver Stadium",
+          "team": "Penn State"
+        },
+        {
+          "rank": 4,
+          "stadium": "Sanford Stadium",
+          "team": "Georgia"
+        },
+        {
+          "rank": 5,
+          "stadium": "Bryant-Denny Stadium",
+          "team": "Alabama"
+        },
+        {
+          "rank": 6,
+          "stadium": "Autzen Stadium",
+          "team": "Oregon"
+        },
+        {
+          "rank": 7,
+          "stadium": "Neyland Stadium",
+          "team": "Tennessee"
+        },
+        {
+          "rank": 8,
+          "stadium": "Kyle Field",
+          "team": "Texas A&M"
+        }
+      ],
+      "stadiumNote": "A atmosfera de jogar em casa importa nos calendários do Dynasty e em jogos de rivalidade, então verifique a classificação quando a vantagem do estádio for uma prioridade no EA Sports College Football 27."
+    },
+    "cfb27DynastyTeamBuilder": {
+      "eyebrow": "Guia de Dynasty",
+      "title": "Guia de Dynasty e Team Builder do EA Sports College Football 27",
+      "intro": "O modo Dynasty no EA Sports College Football 27 é construído em torno da identidade do programa, Dynasty Points anuais, escolhas de comissão técnica, instalações, NIL e estratégia de recrutamento. O Team Builder adiciona um controle mais profundo sobre estádios, torcidas, som, história da escola e integração com o Dynasty.",
+      "steps": [
+        {
+          "title": "Escolha um programa por suas expectativas",
+          "focus": "Expectativas do Diretor Atlético",
+          "description": "Cada cargo no Dynasty tem expectativas específicas da escola, moldadas pelas prioridades do programa, base de fãs, paciência e identidade.",
+          "keyPoints": [
+            "As Expectativas do Diretor Atlético definem como seu desempenho é avaliado ao longo do tempo.",
+            "North Dakota State e Sacramento State juntam-se ao modo Dynasty, elevando o total para 138 programas."
+          ]
+        },
+        {
+          "title": "Defina seu Blueprint de Dynasty",
+          "focus": "Dynasty Points",
+          "description": "Todos os anos, seu programa ganha Dynasty Points como orçamento anual, gastos com comissão técnica, instalações e NIL.",
+          "keyPoints": [
+            "A Blueprint Strategy sugere uma alocação para comissão técnica, instalações, NIL de Recrutamento e NIL de Elenco.",
+            "A Blueprint Strategy fornece uma direção, mas não gasta automaticamente seus Dynasty Points."
+          ]
+        },
+        {
+          "title": "Monte sua comissão técnica antes do início da temporada",
+          "focus": "Comissão Técnica",
+          "description": "Invista Dynasty Points em coordenadores e equipe de apoio. Os coordenadores afetam a direção em campo e no recrutamento, enquanto a equipe de apoio gerencia o programa nos bastidores.",
+          "keyPoints": [
+            "A equipe de apoio só pode ser contratada ou demitida durante a pré-temporada.",
+            "Os programas podem ter até cinco slots de equipe de apoio vinculados ao Prestígio do Time."
+          ]
+        },
+        {
+          "title": "Faça o scout primeiro, depois gaste no NIL de recrutamento",
+          "focus": "Recrutamento e NIL",
+          "description": "A pré-temporada foca no scout, enquanto as ofertas de bolsas de estudo começam na Semana 0 e agora incluem NIL.",
+          "keyPoints": [
+            "As ofertas podem chegar a até duas vezes o NIL esperado de um prospecto para obter o maior bônus de influência semanal.",
+            "Transferências dão maior ênfase ao NIL porque sua janela de recrutamento é mais curta."
+          ]
+        },
+        {
+          "title": "Planeje o NIL do elenco antes que os jogadores saiam",
+          "focus": "Retenção de Elenco",
+          "description": "Use o NIL de Elenco para reter jogadores que já estão no seu programa. Durante o Resumo de Fim de Temporada, ajuste o NIL para gerenciar o risco de transferência ou draft.",
+          "keyPoints": [
+            "Aumentar o NIL de um jogador pode reduzir o risco de ele sair.",
+            "As decisões de NIL de Elenco afetam transferências, retenção, instalações e o restante do seu orçamento do Blueprint."
+          ]
+        },
+        {
+          "title": "Invista em instalações para o desenvolvimento a longo prazo",
+          "focus": "Instalações",
+          "description": "As instalações afetam a nota de Instalações Atléticas, o que impulsiona a progressão dos jogadores e fortalece seu perfil de recrutamento.",
+          "keyPoints": [
+            "Os níveis das instalações variam de Instalação Básica (F) a Potência Nacional (A- a A+).",
+            "Os slots de equipamentos aumentam de 1 na Instalação Básica para 5 na Potência Nacional."
+          ]
+        },
+        {
+          "title": "Use configurações automáticas para reduzir o trabalho de gerenciamento",
+          "focus": "Blueprint Strategy e Configurações Automáticas",
+          "description": "As Configurações Automáticas permitem agilizar partes do gerenciamento do Blueprint, mantendo a orientação geral do programa.",
+          "keyPoints": [
+            "O Gerenciamento Completo do Blueprint permite que a CPU cuide de todos os gastos e alocações.",
+            "O Recrutamento Automático pode seguir a Blueprint Strategy selecionada ao determinar as ofertas de NIL."
+          ]
+        },
+        {
+          "title": "Construa uma identidade personalizada com o Team Builder",
+          "focus": "Team Builder e Stadium Builder",
+          "description": "O Team Builder expande os programas personalizados com o Stadium Builder, customização de torcida, ferramentas de som, história da escola e suporte para reimportação no Dynasty.",
+          "keyPoints": [
+            "O Stadium Builder permite escolher estádios Existentes ou Personalizados construídos a partir de quatro bases.",
+            "As ferramentas de Soundscape incluem mais de 150 apelidos de comentários, mais de 100 efeitos sonoros, 66 hinos de banda e 11 faixas de som ambiente licenciadas."
+          ]
+        }
+      ]
+    },
+    "cfb27RoadToGlory": {
+      "eyebrow": "Road to Glory",
+      "title": "EA Sports College Football 27 Road to Glory Builds and Positions",
+      "intro": "O Road to Glory em EA Sports College Football 27 dá mais peso ao planejamento de build, escolhas de treino semanal e desempenho em campo. Novas posições, limites definidos pelo físico, Potencial Máximo, Habilidades Mentais, quebradores de limites (Cap Breakers), acordos de NIL, a busca pelo Heisman, cotação para o Draft e a Pontuação de Legado moldam o quão longe seu jogador pode ir.",
+      "builds": [
+        {
+          "icon": "Target",
+          "title": "Choose Your Creation Path",
+          "badge": "Build Start",
+          "summary": "Comece com um jogador totalmente personalizado ou use um Modelo de Lenda inspirado em ícones do futebol americano universitário.",
+          "keyDetails": [
+            "Builds personalizadas permitem definir altura, peso, tipo físico, limites de atributos baseados no físico e a alocação de Potencial Máximo.",
+            "Modelos de Lenda fornecem altura, peso, tipo físico, arquétipo, descrição do estilo de jogo, limites físicos e alocação de Potencial Máximo predefinidos.",
+            "Modelos inspirados em Reggie Bush, Vince Young e Tim Tebow estão disponíveis como exemplos nomeados.",
+            "Os Modelos de Lenda ainda permitem que partes do Potencial Máximo sejam ajustadas antes do início da carreira."
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "New Playable Positions",
+          "badge": "Positions",
+          "summary": "Tight End, Edge Rusher e Free Safety são novas posições jogáveis do Road to Glory em College Football 27.",
+          "keyDetails": [
+            "O Tight End pode se especializar em rotas verticais, criar desvantagens na marcação de recepção ou em bloqueios físicos de corrida.",
+            "O Edge Rusher foca em atacar os tackles, pressionar o quarterback e atrapalhar o ataque.",
+            "O Free Safety controla a parte recuada da defesa, protege contra jogadas explosivas e força turnovers.",
+            "Essas posições se juntam à seleção de posições que retornam ao Road to Glory."
+          ]
+        },
+        {
+          "icon": "Ruler",
+          "title": "Físico e Potencial Máximo",
+          "badge": "Build Ceiling",
+          "summary": "Seu tipo físico define o que é fisicamente possível, enquanto o Potencial Máximo define o teto de atributos que seu jogador pode alcançar de forma realista.",
+          "keyDetails": [
+            "A posição determina as faixas de altura disponíveis, a altura afeta as faixas de peso e o peso afeta as opções de tipo físico.",
+            "O físico altera os limites de atributos, criando compensações entre velocidade, aceleração, agilidade, força, potência e fisicalidade.",
+            "Jogadores personalizados começam com cada atributo em um valor básico de 25 antes da alocação dos pontos de Potencial Máximo.",
+            "Os custos de melhoria aumentam com base no atributo, na importância da posição e no valor atual do atributo.",
+            "O arquétipo não é selecionado manualmente e é atualizado dinamicamente conforme a alocação de atributos muda."
+          ]
+        },
+        {
+          "icon": "Brain",
+          "title": "Habilidades Mentais e Agenda Semanal",
+          "badge": "Off-Field Impact",
+          "summary": "Cada jogador escolhe três Habilidades Mentais iniciais vinculadas a Acadêmico, Liderança e Marca.",
+          "keyDetails": [
+            "Cada Habilidade Mental inicial está vinculada a um medidor da Agenda Semanal: Acadêmico, Liderança ou Marca.",
+            "As habilidades podem ser desativadas se o medidor correspondente cair demais.",
+            "As Habilidades Mentais começam no Bronze e progridem para Prata, Ouro e Platina.",
+            "Field General é um exemplo de quarterback vinculado ao Acadêmico que ajuda a identificar blitzers e esquemas de cobertura antes do snap."
+          ]
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "Tape do Ensino Médio e Recrutamento",
+          "badge": "Scholarships",
+          "summary": "O desempenho no ensino médio aumenta a Tape Score, o que atrai o interesse das universidades e oportunidades de bolsa de estudos.",
+          "keyDetails": [
+            "O ensino médio inclui cinco jogos com quatro momentos jogáveis em cada jogo.",
+            "Os momentos incluem objetivos vinculados à posição, ao arquétipo e à situação de jogo.",
+            "A Tape Score afeta como as universidades avaliam o jogador e se os limites para a bolsa de estudos são atingidos.",
+            "A integração com o Team Builder permite que até 16 equipes do ensino médio e universitárias no total sejam substituídas por equipes personalizadas.",
+            "Os bônus de bolsa de estudos são pagos anualmente e podem mudar com base no desempenho e em decisões fora de campo."
+          ]
+        },
+        {
+          "icon": "Dumbbell",
+          "title": "Treino, Preparo Físico e Pontos de Habilidade",
+          "badge": "Progression",
+          "summary": "O desempenho nos treinos e nos dias de jogo gera XP e Pontos de Habilidade, enquanto o preparo físico afeta a opinião do treinador e a prontidão do jogador.",
+          "keyDetails": [
+            "O treinamento não é mais o caminho direto de XP semanal; o treino se torna a principal fonte de progressão fora dos dias de jogo.",
+            "College Football 27 includes over 50 new Road to Glory practice drills.",
+            "As medalhas de treino afetam o XP, a Confiança do Treinador e a Felicidade do Treinador na semana.",
+            "O preparo físico pode melhorar a Felicidade do Treinador, a velocidade de progressão e impulsos temporários de atributos baseados na posição.",
+            "O baixo preparo físico pode causar ganho de peso, quedas nos atributos, progressão mais lenta e menor felicidade do treinador."
+          ]
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Projeção de Draft e Acompanhamento de Carreira",
+          "badge": "Draft Stock",
+          "summary": "A Projeção de Draft acompanha como o próximo nível vê o seu futuro e muda conforme a sua carreira se desenvolve.",
+          "keyDetails": [
+            "A avaliação por estrelas ao sair do ensino médio ajuda a definir a Projeção de Draft inicial.",
+            "Um recruta de 5 estrelas entra na universidade com expectativas de primeira rodada.",
+            "A projeção pode subir ou cair com base no desempenho, desenvolvimento, gestão corporal e decisões de estudante-atleta.",
+            "O modo acompanha um gráfico semanal da Projeção de Draft ao longo da carreira universitária.",
+            "Momentos Memoráveis, como assinar com uma universidade, primeira partida como titular na carreira, vitórias em clássicos e prêmios importantes aparecem no gráfico de carreira."
+          ]
+        },
+        {
+          "icon": "Trophy",
+          "title": "Pontuação de Legado, Cap Breakers e o Portal",
+          "badge": "Endgame Build",
+          "summary": "A Pontuação de Legado prova que seu jogador merece um Overall Máximo mais alto, enquanto os Cap Breakers elevam os atributos além do limite original.",
+          "keyDetails": [
+            "A Pontuação de Legado é construída por meio de desempenhos, prêmios, campeonatos, rivalidades, recordes e grandes decisões na carreira.",
+            "Limites mais altos de Classificação Geral, incluindo 90 e 95 de overall, exigem Pontuação de Legado suficiente.",
+            "Recrutas com classificações mais baixas precisam provar mais para desbloquear limites mais altos de Overall Máximo, enquanto jogadores de 5 estrelas começam com expectativas mais altas.",
+            "Ganhe até 25 Cap Breakers no total por meio do Heisman Trophy, honras All-American, Campeonato Nacional, recordes e marcos da carreira.",
+            "Até Caps Breakers podem ser aplicados a um único atributo.",
+            "No final de cada temporada, o treinador avalia o desempenho, desenvolvimento, função, liderança, decisões fora de campo e a adaptação ao Transfer Portal."
+          ]
+        }
+      ]
+    },
+    "cfb27UltimateTeam": {
+      "eyebrow": "Ultimate Team",
+      "title": "Guia de Iniciante e Recompensas do EA Sports College Football 27 Ultimate Team",
+      "intro": "O College Football Ultimate Team no EA Sports College Football 27 adiciona um novo sistema de melhoria de itens, Objetivos em Itens, EVOS, programas de lançamento e caminhos oficiais de recompensa de pré-venda. O melhor plano inicial é resgatar os itens qualificados, escolher uma base de Cornerstones, concluir objetivos e gastar Pontos de Habilidade onde eles criem uma função real na escalação.",
+      "rewards": [
+        {
+          "icon": "Coins",
+          "title": "Recompensas de Pré-venda da Edição Standard",
+          "badge": "Standard",
+          "rewardDetails": [
+            "Item do Ultimate Team de Atleta de Capa BND com 81 de OVR (escolha de 1 de 3)",
+            "100 Pontos de Treinador do Dynasty",
+            "250 Pontos de Habilidade do Road to Glory"
+          ],
+          "starterUse": "Use o item de Atleta de Capa como uma âncora inicial para o elenco e evite gastar recursos às cegas antes de ver seus primeiros caminhos de melhoria."
+        },
+        {
+          "icon": "Crown",
+          "title": "Recompensas do Ultimate Team da Edição Deluxe",
+          "badge": "Deluxe",
+          "rewardDetails": [
+            "4.600 College Football Points, disponíveis após o lançamento",
+            "Acesso Antecipado de 3 dias a partir de 6 de julho de 2026",
+            "Desafios Solo Exclusivos de Acesso Antecipado",
+            "Item de Jogador de Atleta de Capa BND com 81 de OVR (escolha de 1 de 3)",
+            "100 Pontos de Treinador do Dynasty",
+            "250 Pontos de Habilidade do Road to Glory",
+            "Jogador Cornerstones BND com 83 de OVR (escolha de 1 de 4) para pré-vendas qualificadas feitas até 16 de junho de 2026"
+          ],
+          "starterUse": "Comece com os Desafios Solo, resgate os itens de jogador BND e use os College Football Points apenas depois de verificar o valor dos programas iniciais."
+        },
+        {
+          "icon": "Gift",
+          "title": "Recompensas do College Football do Pacote MVP",
+          "badge": "Pacote MVP",
+          "rewardDetails": [
+            "Conteúdo da Deluxe Edition do EA Sports College Football 27",
+            "4.600 College Football Points",
+            "1 Item de Jogador Melhorável do Ultimate Team",
+            "Jogador Cornerstones BND com 83 de OVR (escolha de 1 de 4)",
+            "Acesso Antecipado de 3 dias",
+            "Desafios Solo Exclusivos de Acesso Antecipado",
+            "Item de Jogador de Atleta de Capa BND com 81 de OVR (escolha de 1 de 3)",
+            "100 Pontos de Treinador do Dynasty e 250 Pontos de Habilidade do Road to Glory"
+          ],
+          "starterUse": "Monte seu time em torno do item melhorável e das recompensas BND iniciais primeiro, depois use os objetivos para evoluir os jogadores em vez de substituí-los imediatamente."
+        },
+        {
+          "icon": "Award",
+          "title": "Recompensas da Assinatura MVP+",
+          "badge": "MVP+",
+          "rewardDetails": [
+            "Acesso Antecipado de 7 dias tanto no College Football 27 quanto no Madden NFL 27",
+            "Acesso ao Beta em ambos os jogos",
+            "Pacote mensal do Ultimate Team, 24 no total, entregues no início de cada mês em cada jogo",
+            "Todos os Mascotes desbloqueados no Mascot Mashup",
+            "150 Pontos de Treinador do Dynasty",
+            "500 Pontos de Habilidade do Road to Glory"
+          ],
+          "starterUse": "Mais indicado para jogadores que querem a janela de acesso mais antecipada e a entrega recorrente de pacotes do Ultimate Team."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Novo Sistema de Melhorias",
+          "badge": "Progressão",
+          "rewardDetails": [
+            "Os Pontos de Habilidade estão vinculados a itens de jogadores individuais, em vez de uma reserva compartilhada.",
+            "Os Pontos de Habilidade podem melhorar Caminhos de Melhoria Dinâmicos, Caminhos de Melhoria de Atributos, Espaços de Habilidade e Espaços de Entrosamento.",
+            "Os Pontos de Habilidade podem ser obtidos por meio de Objetivos em Itens, troca de tokens ou itens, e compra com outras moedas.",
+            "Os itens podem ter um limite máximo de Pontos de Habilidade, então verifique o limite antes de investir.",
+            "Alguns itens melhoráveis podem usar moedas ou treinos para melhorias de Entrosamento e Habilidade em vez de Pontos de Habilidade."
+          ],
+          "starterUse": "Verifique o limite e o caminho de cada item antes de investir, pois duas cartas com OVR semelhantes podem se desenvolver em funções muito diferentes."
+        },
+        {
+          "icon": "SlidersHorizontal",
+          "title": "Caminhos Dinâmicos e Caminhos de Atributos",
+          "badge": "Escolha de Estilo",
+          "rewardDetails": [
+            "Os Caminhos de Melhoria Dinâmicos são baseados em arquétipos de posição e têm seu próprio caminho de OVR.",
+            "Um caminho de Halfback do tipo East/West Playmaker pode focar em aceleração, mudança de direção, visão do carregador de bola e juke.",
+            "Um caminho de Halfback do tipo Contact Seeker pode focar em trucking, quebra de tackle, stiff-arm e força.",
+            "Um caminho de Wide Receiver do tipo Speedster pode ter um limite de Velocidade diferente de um caminho do tipo Route Artist."
+          ],
+          "starterUse": "Use Caminhos Dinâmicos para o crescimento geral do arquétipo e Caminhos de Atributos quando precisar de um limite de atributo específico."
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "Objetivos em Itens",
+          "badge": "Recompensas de Jogabilidade",
+          "rewardDetails": [
+            "Itens de jogador selecionados podem obter progressão diretamente por meio de objetivos de jogabilidade.",
+            "Os objetivos podem ser visualizados na tela de escalação.",
+            "Até 16 objetivos de itens podem ser favoritados: 8 para o ataque e 8 para a defesa.",
+            "Os objetivos favoritados podem ser acompanhados em tempo real durante as partidas do Ultimate Team.",
+            "Os objetivos também podem ser visualizados antes da jogada (preplay)."
+          ],
+          "starterUse": "Favoreça objetivos para jogadores que já estão na sua escalação para que as partidas normais também avancem a progressão do item."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Programas de Lançamento e Fluxo de Recompensas",
+          "badge": "Lançamento",
+          "rewardDetails": [
+            "O Core Legends traz mais de 100 estrelas universitárias lendárias como itens de jogador desde o primeiro dia do Acesso Antecipado.",
+            "O Countdown dá aos jogadores um armário de contagem regressiva gratuito a cada dia que fizerem login de 2 a 9 de julho.",
+            "O evento Countdown Draft contribui para o passe de campo do Countdown para recompensas exclusivas de acesso antecipado.",
+            "O Cornerstones permite que os jogadores escolham 1 de 6 itens de jogador melhoráveis gratuitos para estruturar seu time.",
+            "Os programas de conteúdo de sexta-feira estão planejados para ter passes de campo dedicados com objetivos e recompensas exclusivos.",
+            "As recompensas de Twitch do Campus Token permitem que os jogadores resgatem tokens por recompensas como Pacotes Twitch."
+          ],
+          "starterUse": "Resgate os itens de lançamento gratuitos, escolha uma direção clara de Cornerstones e foque nos objetivos do passe de campo antes de gastar muito."
+        }
+      ]
+    },
+    "cfb27GameplayControls": {
+      "eyebrow": "Jogabilidade",
+      "title": "Controles de Jogabilidade e Playbooks do EA Sports College Football 27",
+      "intro": "O EA Sports College Football 27 foca em dar aos jogadores mais controle antes e depois do snap. Ferramentas de cobertura, identidades defensivas, batalhas entre WR/DB, timing de recepção, o Tackle Stick, disfarce de formação, Coach Mode e pacotes personalizados pré-jogada tornam o jogo mais estratégico, reduzindo o número de etapas de menu necessárias antes do snap.",
+      "items": [
+        {
+          "title": "Controles de Cobertura Mais Inteligentes",
+          "summary": "A cobertura agora oferece respostas mais diretas para alinhamento, zonas, jogadas de scramble e recebedores de elite.",
+          "details": [
+            "O Controle de Alinhamento Defensivo inclui CB Depth, CB Width, Safety Depth, Safety Width e Safety Midpoint.",
+            "As Smart Zones permitem que os defensores de zona joguem de forma Agressiva, Balanceada ou Conservadora com base na profundidade e no espaçamento da rota.",
+            "As regras de Plaster podem controlar quando os defensores de zona marcam individualmente os recebedores após a jogada se estender.",
+            "A Roll Coverage pode direcionar a ajuda para o jogador mais rápido, o lado do campo, a lateral, o jogador com maior OVR, a força do passe ou um WR ou TE específico.",
+            "A Double Team pode cercar um recebedor selecionado."
+          ]
+        },
+        {
+          "title": "Playbooks Defensivos e Identidade do Time",
+          "summary": "O College Football 27 expande os playbooks defensivos de 9 para 31 e adiciona 22 novos playbooks.",
+          "details": [
+            "Os seis Estilos Defensivos são Man, Man Pressure, Shell, Zone, Zone Pressure e Multiple.",
+            "Todos os 138 times estão mapeados para um estilo defensivo.",
+            "O jogo adiciona 16 novas formações defensivas, incluindo variações de 3-3-5 3 High Over, 4-2-5 3 High, 3-4 Grizzly, Nickel Double Mug, e novas frentes Tite e Under.",
+            "A formação Dollar agora usa 4 safeties e 2 cornerbacks.",
+            "O alinhamento do CB1 foi padronizado para se ajustar melhor ao alinhamento do WR1.",
+            "Os audibles defensivos agora fazem a transição de forma mais natural entre frentes e agrupamentos de jogadores."
+          ]
+        },
+        {
+          "title": "Batalhas entre WR/DB e Disputa de Espaço",
+          "summary": "As interações de Press agora dependem mais da intenção da rota, posicionamento (leverage) e habilidade de cobertura.",
+          "details": [
+            "Recebedores correndo rotas com corte para fora tentam vencer pelo lado externo; rotas com corte para dentro, como slants, digs e posts, tentam vencer pelo lado interno.",
+            "O posicionamento defensivo (leverage) importa mais porque o alinhamento interno ou externo pode desafiar a saída (release) pretendida da rota.",
+            "As interações de Jostle permitem que os defensive backs desafiem os recebedores durante as rotas.",
+            "Se o defensor vencer a disputa (jostle), a velocidade e o timing do recebedor podem ser afetados.",
+            "Os atributos (ratings) ainda importam, especialmente a qualidade do recebedor, cobertura individual (man coverage) e habilidade no confronto direto."
+          ]
+        },
+        {
+          "title": "Jardas Curtas, Medidor de QB Sneak e Chip Blocks",
+          "summary": "O futebol americano de jardas curtas agora depende mais de timing, atributos, posicionamento e força nas trincheiras.",
+          "details": [
+            "O Medidor de QB Sneak avalia a força de empurrão ofensivo contra a força de desvencilhamento (shed) defensivo próxima antes do snap.",
+            "Center, guards, força e peso do quarterback, desvencilhamento de bloqueio (block shedding) do defensor, posicionamento, dificuldade, pressão da torcida e contagem de jogadores no box podem afetar a janela de timing.",
+            "Uma entrada perfeita no medidor melhora a chance de um empurrão, mas não supera um confronto físico amplamente perdido.",
+            "O Chip Block permite que um tight end ou halfback dê um leve bloqueio (chip) em um defensor antes de sair para uma rota.",
+            "Qualquer rota pode receber a atribuição de um chip se o defensor estiver no caminho do bloqueador."
+          ]
+        },
+        {
+          "title": "Recepção Baseada em Timing",
+          "summary": "A recepção agora pode adicionar uma camada de timing além dos resultados baseados em atributos.",
+          "details": [
+            "Depois de lançar a bola, pressione e segure o tipo de recepção: agressiva, de posse ou RAC.",
+            "Solte o botão o mais próximo possível da janela verde antes que a bola chegue às mãos do recebedor.",
+            "As zonas de resultado são Ligeiramente Adiantado, Perfeito e Atrasado.",
+            "A cobertura, a dificuldade da recepção, o tipo de recepção, os atributos do recebedor, a dificuldade e o estilo de jogo podem afetar a janela verde.",
+            "A janela amarela Ligeiramente Adiantado usa o resultado tradicional de recepção baseado em atributos."
+          ]
+        },
+        {
+          "title": "Tackle Stick",
+          "summary": "Cada direção do analógico direito agora mapeia para um tipo de tackle defensivo.",
+          "details": [
+            "Analógico direito para Cima ativa o Hit Stick.",
+            "Analógico direito para Baixo ativa o Cut Stick.",
+            "Analógico direito para a Esquerda ativa o Lunge Tackle.",
+            "Analógico direito para a Direita ativa o Wrap Tackle.",
+            "Arm tackles, stiff arms, contato drive-through, tackles durante recepções no ar e tackles envolvendo as pernas recebem melhorias visuais ou de comportamento."
+          ]
+        },
+        {
+          "title": "Mudanças de Formação",
+          "summary": "As Mudanças de Formação retornam por meio de uma implementação de chamada de jogada mais moderna.",
+          "details": [
+            "Na tela de chamada de jogada, os usuários podem alternar as Mudanças de Formação no nível da jogada.",
+            "Você pode alternar entre as formações elegíveis que compartilham o mesmo agrupamento de jogadores.",
+            "O agrupamento base permanece intacto enquanto a apresentação da formação muda.",
+            "As Mudanças de Formação funcionam com substituições de formação e pacotes de substituição quando o agrupamento de jogadores ainda corresponde.",
+            "O sistema ajuda a disfarçar a intenção, sequenciar formações e pressionar o reconhecimento defensivo."
+          ]
+        },
+        {
+          "title": "Controle Total Pré-Jogada e Ajustes Personalizados",
+          "summary": "Os controles pré-jogada foram reorganizados em hubs mais rápidos e pacotes de ajustes salvos.",
+          "details": [
+            "Para Cima e Para Baixo no D-pad alternam a câmera.",
+            "Para a Esquerda no D-pad abre o HUD do Coach Vision.",
+            "Para a Direita no D-pad abre as Substituições Dinâmicas (Dynamic Subs).",
+            "Os controles de proteção ofensiva estão unificados no Gatilho Esquerdo (Left Trigger).",
+            "Os Ajustes Personalizados podem ser criados a partir de frentes, posicionamento (leverage), comportamento de cobertura, proteção, aparências de pressão, conceitos de rota, hot routes e atribuições por jogador.",
+            "Os jogadores podem criar até 20 Ajustes Personalizados no ataque e 20 na defesa, e depois levar 10 ajustes ativos para o jogo.",
+            "No jogo, o L1/LB serve como o botão de Ajuste Personalizado no ataque e na defesa.",
+            "Os macroajustes predefinidos incluem QB Scramble, Play Short Routes, No Deep Passes, Go Vertical, Slants, Mesh e Smart Routes."
+          ]
+        },
+        {
+          "title": "Coach Mode",
+          "summary": "O Coach Mode muda o foco da habilidade no analógico pós-snap para o planejamento pré-snap e decisões na linha lateral.",
+          "details": [
+            "Quando Coach Mode está ativado, a jogabilidade pós-snap é controlada pela CPU.",
+            "As configurações incluem Auto Quarterback, Auto Snap, Coach Suggestions, Pre-Play Cutoff e Pre-Play Audio.",
+            "Faltando 15 segundos no relógio de jogada (play clock), a janela de comunicação se fecha e novos audibles ou ajustes de hot route são bloqueados.",
+            "Segurar RT/R2 mais o ícone do recebedor permite que você indique ao quarterback a leitura principal.",
+            "Nas RPOs, você pode orientar o quarterback a entregar a bola ou lançar."
+          ]
+        }
+      ]
+    },
+    "cfb27OnlineModes": {
+      "eyebrow": "Modos Online",
+      "title": "Modos Online, Road to CFP e Crossplay do EA Sports College Football 27",
+      "intro": "O Caminho para o College Football Playoff é o caminho competitivo online de confronto direto no EA Sports College Football 27. O modo mantém a disputa dos 12 melhores do Playoff, adiciona mais objetivos e recompensas, suporta todos os 138 times e funciona em conjunto com recursos de cross-play no PlayStation 5, Xbox Series X|S e PC.",
+      "cards": [
+        {
+          "icon": "Trophy",
+          "title": "Ciclo Principal do Caminho para o CFP",
+          "category": "H2H Competitivo",
+          "description": "Escolha um time, jogue confrontos diretos online, suba em direção ao top 12, entre nos Playoffs e busque o Campeonato Nacional.",
+          "keyDetails": [
+            "Cada jogo da temporada regular afeta a busca pelos Playoffs.",
+            "Alcançar o top 12 garante uma vaga nos Playoffs.",
+            "Os jogadores devem vencer dois jogos de Playoff antes de chegar ao jogo do Título Nacional.",
+            "Vencer o Campeonato Nacional concede um item da Sala de Troféus."
+          ]
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "Objetivos e Recompensas",
+          "category": "Progressão",
+          "description": "O Caminho para o College Football Playoff adiciona objetivos que recompensam mais do que apenas o resultado de vitória ou derrota.",
+          "keyDetails": [
+            "Os objetivos desbloqueiam recompensas enquanto os jogadores continuam em busca dos Playoffs.",
+            "As recompensas incluem playbooks e conjuntos de uniformes.",
+            "As recompensas também incluem itens do College Football Ultimate Team, como pacotes e Coins.",
+            "A EA descreve milhares de objetivos ao longo da jornada online atualizada."
+          ]
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Página de Estatísticas e Forma Recente",
+          "category": "Rastreamento",
+          "description": "A nova página de estatísticas rastreia o desempenho histórico e as últimas cinco temporadas do jogador.",
+          "keyDetails": [
+            "Os números históricos mostram o registro completo do Road to CFP.",
+            "As últimas cinco temporadas fornecem um detalhamento da forma recente.",
+            "A página ajuda os jogadores a identificar tendências após mudarem de time, divisão ou estilo de jogo."
+          ]
+        },
+        {
+          "icon": "Layers",
+          "title": "Tabelas de Profundidade Específicas do Modo",
+          "category": "Preparação",
+          "description": "Os jogadores podem editar e salvar as tabelas de profundidade do Road to CFP antes de entrar em uma partida.",
+          "keyDetails": [
+            "Tabelas de profundidade salvas reduzem a configuração repetida antes de jogos online.",
+            "O recurso suporta o uso preferencial de running backs, escolhas de slot e pacotes de pessoal defensivo.",
+            "Também ajuda ao usar programas diferentes para objetivos específicos do time."
+          ]
+        },
+        {
+          "icon": "CalendarClock",
+          "title": "Redefinir Calendário",
+          "category": "Fluxo da Temporada",
+          "description": "O Redefinir Calendário permite que os jogadores avancem quando o resultado da temporada já estiver claro.",
+          "keyDetails": [
+            "A opção é projetada para momentos em que a promoção, sobrevivência ou rebaixamento já foi decidida.",
+            "Os jogadores podem evitar jogos extras que não afetam mais o resultado da temporada.",
+            "O recurso ajuda a voltar a competições significativas mais rapidamente."
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Divisões, Times e Pontos de Ranking por Nível",
+          "category": "Estrutura Ranqueada",
+          "description": "O Road to CFP usa progressão sazonal, sete divisões, todos os 138 times e cinco níveis de times.",
+          "keyDetails": [
+            "As sete divisões variam de Recruta a Heisman.",
+            "Todos os 138 times estão disponíveis no Caminho para o College Football Playoff.",
+            "Os times são agrupados do Nível 1 ao Nível 5.",
+            "Times de níveis mais baixos podem ganhar mais pontos de ranking ao vencer oponentes de níveis mais altos.",
+            "O sistema recompensa tanto a execução de potências quanto as vitórias de azarões."
+          ]
+        },
+        {
+          "icon": "Home",
+          "title": "Vantagem de Jogar em Casa e Vitórias Fora de Casa",
+          "category": "Pontos de Ranking",
+          "description": "Vitórias fora de casa têm valor de ranking extra porque estádios hostis importam na estrutura online.",
+          "keyDetails": [
+            "Vencer fora de casa rende mais pontos de ranking.",
+            "O nível do time e o valor da vitória fora de casa se combinam para criar maiores variações de pontos.",
+            "Vencer um time mais forte fora de casa pode se tornar uma grande afirmação no ranking."
+          ]
+        },
+        {
+          "icon": "MapPin",
+          "title": "Locais dos Playoffs",
+          "category": "Pós-temporada",
+          "description": "A fase de Playoffs agora passa por grandes destinos de pós-temporada antes do jogo do título.",
+          "keyDetails": [
+            "Os jogos dos Playoffs levam os jogadores pelo Rose Bowl e Orange Bowl.",
+            "O destino do Campeonato Nacional é Las Vegas.",
+            "O caminho da pós-temporada foi construído para parecer maior e mais conectado ao espetáculo do College Football."
+          ]
+        },
+        {
+          "icon": "Monitor",
+          "title": "Plataformas com Suporte a Cross-Play",
+          "category": "Cross-Play",
+          "description": "O cross-play suporta PlayStation 5, Xbox Series X|S e PC através do EA App, Steam e Epic.",
+          "keyDetails": [
+            "O cross-play é ativado por padrão ao iniciar o jogo pela primeira vez no PS5 ou Xbox Series X|S.",
+            "As configurações de cross-play do Xbox Series X|S são controladas através das configurações do sistema.",
+            "As configurações de cross-play do PS5 e PC são encontradas na aba Cross-Play do jogo.",
+            "O cross-play requer uma cópia do jogo, atualizações do jogo, uma conta da EA, conexão com a internet e a conta da plataforma correspondente."
+          ]
+        },
+        {
+          "icon": "Network",
+          "title": "Modos e Limites de Cross-Play",
+          "category": "Modos de Cross-Play",
+          "description": "O cross-play funciona em vários modos online principais, com alguns limites em relação ao compartilhamento da economia.",
+          "keyDetails": [
+            "Os modos de cross-play suportados incluem Dynasty, Caminho para o College Football Playoff, College Football Ultimate Team e os modos Play a Friend.",
+            "O Dynasty online suporta até 32 pessoas entre plataformas.",
+            "Os jogadores que optarem por participar verão classificações globais nos modos que suportam cross-play.",
+            "Os jogadores que optarem por não participar verão apenas as classificações de sua própria plataforma.",
+            "A Casa de Leilões do College Football Ultimate Team não é compartilhada entre plataformas."
+          ]
+        },
+        {
+          "icon": "Gamepad2",
+          "title": "Recursos Online do Xbox",
+          "category": "Recursos da Plataforma",
+          "description": "A loja do Xbox lista recursos de multijogador online e cross-plataforma para o Xbox Series X|S.",
+          "keyDetails": [
+            "O co-op local do Xbox suporta de 2 a 4 jogadores.",
+            "O co-op online suporta de 2 a 3 jogadores.",
+            "O multijogador online suporta de 2 a 6 jogadores.",
+            "Multijogador cross-plataforma do Xbox e co-op cross-plataforma do Xbox são recursos listados.",
+            "A loja também lista 4K Ultra HD, HDR10, Ray Tracing, 60 fps+ e salvamentos em nuvem do Xbox."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o EA Sports College Football 27",
+    "questions": [
+      {
+        "question": "Quando o EA Sports College Football 27 será lançado?",
+        "answer": "O EA Sports College Football 27 será lançado mundialmente em 9 de julho de 2026, com Acesso Antecipado de 3 dias em 6 de julho para jogadores da Deluxe Edition e do MVP Bundle, e Acesso Antecipado de 7 dias em 2 de julho para membros MVP+."
+      },
+      {
+        "question": "Em quais plataformas o EA Sports College Football 27 está disponível?",
+        "answer": "O EA Sports College Football 27 está disponível para PlayStation 5, Xbox Series X|S e PC através do EA App, Steam e Epic. É o primeiro lançamento para PC da série EA Sports College Football."
+      },
+      {
+        "question": "Quais são as edições do EA Sports College Football 27?",
+        "answer": "O EA Sports College Football 27 oferece a Standard Edition, Deluxe Edition, MVP Bundle e MVP+ Membership, cada uma com diferentes janelas de acesso antecipado e recompensas do Ultimate Team."
+      },
+      {
+        "question": "O EA Sports College Football 27 suporta cross-play?",
+        "answer": "Sim. O EA Sports College Football 27 suporta cross-play entre PS5, Xbox Series X|S e PC em modos como Road to the College Football Playoff, Dynasty, Ultimate Team e Play a Friend."
+      },
+      {
+        "question": "O modo Dynasty é profundo no EA Sports College Football 27?",
+        "answer": "Sim. O Dynasty no EA Sports College Football 27 adiciona o Dynasty Blueprint, Expectativas do Diretor Atlético, recrutamento NIL, instalações, comissão técnica e Team Builder para 138 programas."
+      },
+      {
+        "question": "O EA Sports College Football 27 tem Ultimate Team?",
+        "answer": "Sim. O College Football Ultimate Team no EA Sports College Football 27 adiciona melhorias de Pontos de Habilidade, Objetivos em Itens, programas de lançamento e trilhas de recompensas oficiais de pré-venda."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para dominar o College Football 27?",
+    "description": "Reserve o EA Sports College Football 27 hoje, explore 9.013 classificações de jogadores e classificações de times, e prepare-se para o lançamento mundial no PS5, Xbox Series X|S e PC.",
+    "joinCommunity": "Hub Oficial",
+    "joinGame": "Reserve no EA App"
+  },
+  "footer": {
+    "title": "Wiki do College Football 27",
+    "description": "Seu hub completo de recursos para classificações de jogadores e times do EA Sports College Football 27, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder e guias de configuração para PC.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "linktree": "Hub Oficial",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "forums": "Fóruns da EA",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Wiki do College Football 27. Não afiliado à EA Sports, Electronic Arts, à NCAA ou aos desenvolvedores do College Football 27.",
+    "disclaimer": "Site de recursos não oficial feito por fãs. College Football 27 e todas as marcas relacionadas são marcas registradas da Electronic Arts Inc."
+  },
+  "pages": {
+    "release": {
+      "title": "Lançamento do EA Sports College Football 27",
+      "description": "Datas de lançamento do EA Sports College Football 27, janelas de Acesso Antecipado (2 de julho, 6 de julho, 9 de julho de 2026), plataformas e recompensas de lançamento.",
+      "metaTitle": "Data de Lançamento, Acesso Antecipado e Lançamento do EA Sports College Football 27",
+      "metaDescription": "EA Sports College Football 27 será lançado em 9 de julho de 2026 com 7 dias de Acesso Antecipado a partir de 2 de julho e 3 dias de Acesso Antecipado a partir de 6 de julho no PS5, Xbox Series X|S e PC.",
+      "categoryLabel": "INFORMAÇÕES DE LANÇAMENTO",
+      "whatIs": "O que é o Lançamento?",
+      "whatIsDescription": "Tudo sobre o lançamento do EA Sports College Football 27: a data de lançamento global, janelas de Acesso Antecipado para as edições Deluxe e MVP, horários de desbloqueio regional e quais plataformas ficam disponíveis primeiro.",
+      "why": "Por que isso é importante",
+      "whySteps": {
+        "step1Title": "Planeje seu Acesso Antecipado",
+        "step1Description": "O Acesso Antecipado de 7 dias começa em 2 de julho de 2026 para as edições Deluxe e MVP; o Acesso Antecipado de 3 dias começa em 6 de julho para edições selecionadas.",
+        "step2Title": "Escolha sua Plataforma",
+        "step2Description": "Lançamento no primeiro dia no PS5, Xbox Series X|S e PC via EA App, Steam e Epic.",
+        "step3Title": "Resgate Recompensas de Lançamento",
+        "step3Description": "As edições de pré-venda e Acesso Antecipado incluem pacotes de bônus, jogadores e recompensas do Ultimate Team."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Lançamento"
+    },
+    "platforms": {
+      "title": "Plataformas do EA Sports College Football 27",
+      "description": "Guia de plataformas do EA Sports College Football 27: PS5, Xbox Series X|S, PC (EA App, Steam, Epic), crossplay e requisitos de sistema para PC.",
+      "metaTitle": "Plataformas, Crossplay e Requisitos de PC do EA Sports College Football 27",
+      "metaDescription": "Plataformas do EA Sports College Football 27: PS5, Xbox Series X|S, PC via EA App, Steam e Epic, suporte a crossplay e requisitos de sistema para PC.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "Quais são as Plataformas?",
+      "whatIsDescription": "Um detalhamento de cada plataforma em que o EA Sports College Football 27 roda: PS5, Xbox Series X|S e PC, além de crossplay entre consoles e PC, lojas Steam e Epic, e requisitos de sistema para PC.",
+      "why": "Por que verificar as plataformas",
+      "whySteps": {
+        "step1Title": "Encontre sua Loja",
+        "step1Description": "Jogadores de PC podem comprar no EA App, Steam ou Epic; nos consoles, o jogo roda no PS5 e Xbox Series X|S.",
+        "step2Title": "Entenda o Crossplay",
+        "step2Description": "O jogo multiplataforma conecta PS5, Xbox Series X|S e PC em todos os modos suportados.",
+        "step3Title": "Verifique as Especificações de PC",
+        "step3Description": "Confira os requisitos de PC para taxa de quadros, resolução e configurações de HDR antes do lançamento."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Plataforma"
+    },
+    "buy": {
+      "title": "EA Sports College Football 27 Buy",
+      "description": "EA Sports College Football 27 editions, prices, MVP bundles, pre-order bonuses, and where to buy on EA app, Amazon, and GameStop.",
+      "metaTitle": "EA Sports College Football 27 Editions, Price, MVP Bundle & Pre-Order",
+      "metaDescription": "Compare as edições Standard, Deluxe e MVP de EA Sports College Football 27: preços, bônus de pré-venda, assinatura MVP e onde comprar.",
+      "categoryLabel": "BUY EDITIONS",
+      "whatIs": "O que comprar",
+      "whatIsDescription": "Uma comparação das edições de EA Sports College Football 27: Standard, Deluxe e MVP Bundle, cobrindo preço, recompensas incluídas, duração do Acesso Antecipado e benefícios da assinatura MVP.",
+      "why": "Por que comparar as edições",
+      "whySteps": {
+        "step1Title": "Choose Your Edition",
+        "step1Description": "As edições Standard, Deluxe e MVP Bundle oferecem, cada uma, pacotes de recompensas e períodos de Acesso Antecipado diferentes.",
+        "step2Title": "Stack Pre-Order Bonuses",
+        "step2Description": "Reserve qualquer edição na pré-venda para receber pacotes de jogadores bônus e recompensas do Ultimate Team.",
+        "step3Title": "Encontre o melhor preço",
+        "step3Description": "Compre no EA App, Steam, Epic, Amazon ou GameStop e compare as edições antes de finalizar a compra."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Buying Articles"
+    },
+    "guide": {
+      "title": "EA Sports College Football 27 Guide",
+      "description": "EA Sports College Football 27 beginner guide, tips, new features, gameplay changes, and everything to know before launch.",
+      "metaTitle": "EA Sports College Football 27 Guide - Beginner Tips & New Features",
+      "metaDescription": "EA Sports College Football 27 guides: beginner tips, new gameplay features, mode changes, and what to know before you play Dynasty, Road to Glory, and Ultimate Team.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "O que é o guia?",
+      "whatIsDescription": "Guias para iniciantes cobrindo o básico da jogabilidade de EA Sports College Football 27, novos recursos, mudanças de modo e dicas práticas para o Dynasty, Road to Glory e Ultimate Team.",
+      "why": "Por que ler os guias",
+      "whySteps": {
+        "step1Title": "Learn Core Mechanics",
+        "step1Description": "Entenda o jogo de passes, a defesa e os novos recursos de jogabilidade adicionados no College Football 27.",
+        "step2Title": "Avoid Beginner Mistakes",
+        "step2Description": "Escolha o modo, a dificuldade e as configurações corretas antes do seu primeiro jogo.",
+        "step3Title": "Fique por dentro das mudanças",
+        "step3Description": "Acompanhe novos recursos, mudanças de balanceamento e problemas conhecidos após o lançamento."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "dynasty": {
+      "title": "EA Sports College Football 27 Dynasty",
+      "description": "Modo Dynasty do EA Sports College Football 27: Dynasty Blueprint, recrutamento, NIL, comissão técnica, instalações, expectativas do AD e o Coach Carousel.",
+      "metaTitle": "EA Sports College Football 27 Dynasty Blueprint, Recrutamento e NIL",
+      "metaDescription": "Domine o modo Dynasty do EA Sports College Football 27: Dynasty Blueprint, prioridades de recrutamento, acordos de NIL, comissão técnica, instalações e o Coach Carousel.",
+      "categoryLabel": "MODO DYNASTY",
+      "whatIs": "O que é o Dynasty?",
+      "whatIsDescription": "O modo Dynasty do EA Sports College Football 27 permite que você gerencie um programa universitário: defina as expectativas do AD, siga o Dynasty Blueprint, recrute jogadores, gerencie o NIL, melhore a comissão técnica e as instalações, e participe do Coach Carousel.",
+      "why": "Por que jogar o Dynasty",
+      "whySteps": {
+        "step1Title": "Siga o Blueprint",
+        "step1Description": "Use o Dynasty Blueprint para definir as metas do programa e as expectativas do AD a cada temporada.",
+        "step2Title": "Vença no Recrutamento",
+        "step2Description": "Mire nos jogadores certos, gerencie as visitas e vença as batalhas de recrutamento contra os rivais.",
+        "step3Title": "Desenvolva a Comissão Técnica e as Instalações",
+        "step3Description": "Melhore os treinadores, as instalações e os acordos de NIL para fazer seu programa crescer ao longo de várias temporadas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Dynasty"
+    },
+    "ratings": {
+      "title": "Ratings do EA Sports College Football 27",
+      "description": "Ratings de jogadores, ratings de times, melhores jogadores, principais universidades e ratings de conferências do EA Sports College Football 27 entre 9.013 jogadores.",
+      "metaTitle": "EA Sports College Football 27: Ratings de Jogadores, Ratings de Times e Listas dos Melhores",
+      "metaDescription": "Ratings do EA Sports College Football 27: melhores times, principais jogadores, ratings por posição e classificações de conferências, com Oregon liderando com 91 OVR.",
+      "categoryLabel": "RATINGS",
+      "whatIs": "O que são os Ratings?",
+      "whatIsDescription": "Os ratings do EA Sports College Football 27 cobrem mais de 9.013 jogadores e todas as equipes: as principais universidades lideradas por Oregon com 91 OVR, os melhores jogadores por posição e os ratings das conferências ao longo da temporada.",
+      "why": "Por que conferir os ratings",
+      "whySteps": {
+        "step1Title": "Encontre os Melhores Times",
+        "step1Description": "Compare os ratings gerais dos times, com Oregon liderando o grupo com 91 OVR.",
+        "step2Title": "Observe os Melhores Jogadores",
+        "step2Description": "Filtre os melhores jogadores por posição, universidade e conferência para montar seu elenco.",
+        "step3Title": "Acompanhe a Classificação das Conferências",
+        "step3Description": "Acompanhe os ratings e as classificações das conferências para identificar programas em ascensão durante toda a temporada."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Ratings"
+    }
   }
 }
