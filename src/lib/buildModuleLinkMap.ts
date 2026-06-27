@@ -14,46 +14,30 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  cfb27ReleaseDateEarlyAccess: { field: 'items', nameKey: 'label' },
+  cfb27EditionsPreOrder: { field: 'rows', nameKey: 'edition' },
+  cfb27TeamRatings: { field: 'topTeams', nameKey: 'team' },
+  cfb27DynastyTeamBuilder: { field: 'steps', nameKey: 'title' },
+  cfb27RoadToGlory: { field: 'builds', nameKey: 'title' },
+  cfb27UltimateTeam: { field: 'rewards', nameKey: 'title' },
+  cfb27GameplayControls: { field: 'items', nameKey: 'title' },
+  cfb27OnlineModes: { field: 'cards', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  cfb27ReleaseDateEarlyAccess: ['release date', 'early access', 'launch', 'platforms', 'ps5', 'xbox series', 'ea app', 'steam', 'epic', 'deluxe edition', 'mvp'],
+  cfb27EditionsPreOrder: ['editions', 'deluxe edition', 'standard edition', 'mvp bundle', 'mvp membership', 'mvp plus', 'pre order', 'preorder', 'college football points', 'dynasty coach points', 'road to glory skill points'],
+  cfb27TeamRatings: ['team ratings', 'player ratings', 'ratings', 'ovr', 'best teams', 'elite teams', 'oregon', 'tiger stadium', 'dynasty', 'play now'],
+  cfb27DynastyTeamBuilder: ['dynasty', 'team builder', 'teambuilder', 'recruiting', 'nil', 'facilities', 'dynasty points', 'coach points', 'coach mode', 'program identity', 'stadium'],
+  cfb27RoadToGlory: ['road to glory', 'builds', 'positions', 'training', 'max potential', 'mental abilities', 'cap breakers', 'nil', 'heisman', 'draft stock', 'legacy score', 'quarterback'],
+  cfb27UltimateTeam: ['ultimate team', 'college football ultimate team', 'rewards', 'objectives', 'evos', 'programs', 'cornerstones', 'skill points', 'items', 'starter'],
+  cfb27GameplayControls: ['gameplay', 'controls', 'playbooks', 'coverage', 'tackle stick', 'wr db battles', 'formations', 'formation disguise', 'coach mode', 'snap', 'catching'],
+  cfb27OnlineModes: ['online modes', 'road to cfp', 'college football playoff', 'crossplay', 'cross play', 'head to head', 'competitive', 'playoff', 'cross platform'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['ea', 'sports', 'college', 'football', '27', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +61,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "College Football 27")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of game name "EA Sports College Football 27")
+  const strippedQuery = normalizedQuery.replace(/ea sports college football 27\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/ea sports college football 27\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
