@@ -292,7 +292,7 @@
     "cfb27RoadToGlory": {
       "eyebrow": "Road to Glory",
       "title": "EA Sports College Football 27 Road to Glory Builds and Positions",
-      "intro": "Road to Glory in EA Sports College Football 27 puts more weight on build planning, weekly training, and on-field proof. New positions, physique-driven caps, Max Potential, Mental Abilities, NIL deals, Heisman pursuit, Draft Stock, and Legacy Score all shape how far your player can go.",
+      "intro": "Road to Glory in EA Sports College Football 27 puts more weight on build planning, weekly training choices, and on-field proof. New positions, physique-driven caps, Max Potential, Mental Abilities, Cap Breakers, NIL deals, Heisman pursuit, Draft Stock, and Legacy Score all shape how far your player can go.",
       "builds": [
         {
           "icon": "Target",
@@ -300,31 +300,35 @@
           "badge": "Build Start",
           "summary": "Start with a fully custom player or use a Legend Template inspired by college football icons.",
           "keyDetails": [
-            "Custom builds set height, weight, body type, physique-driven caps, and Max Potential allocation.",
-            "Legend Templates inspired by Reggie Bush, Vince Young, and Tim Tebow are available.",
-            "Templates still allow portions of Max Potential to be adjusted before the career begins."
+            "Custom builds let you set height, weight, body type, physique-driven attribute caps, and Max Potential allocation.",
+            "Legend Templates provide preset height, weight, body type, archetype, playstyle description, physique caps, and Max Potential allocation.",
+            "Templates inspired by Reggie Bush, Vince Young, and Tim Tebow are available as named examples.",
+            "Legend Templates still allow portions of Max Potential to be adjusted before the career begins."
           ]
         },
         {
-          "icon": "Dumbbell",
+          "icon": "Users",
           "title": "New Playable Positions",
           "badge": "Positions",
-          "summary": "Tight End, Edge Rusher, and Free Safety are new playable Road to Glory positions.",
+          "summary": "Tight End, Edge Rusher, and Free Safety are new playable Road to Glory positions in College Football 27.",
           "keyDetails": [
             "Tight End can lean into vertical seams, receiving mismatches, or physical run blocking.",
-            "Edge Rusher attacks tackles, pressures the quarterback, and disrupts the offense.",
-            "Free Safety controls the back end, protects against explosive plays, and creates turnovers."
+            "Edge Rusher focuses on attacking tackles, pressuring the quarterback, and disrupting the offense.",
+            "Free Safety controls the back end of the defense, protects against explosive plays, and creates turnovers.",
+            "These positions join the returning Road to Glory position lineup."
           ]
         },
         {
           "icon": "Ruler",
           "title": "Physique and Max Potential",
           "badge": "Build Ceiling",
-          "summary": "Your body type sets what is physically possible, while Max Potential sets the ratings ceiling your player can reach.",
+          "summary": "Your body type sets what is physically possible, while Max Potential sets the ratings ceiling your player can realistically reach.",
           "keyDetails": [
-            "Position sets height ranges, height sets weight ranges, and weight sets body type options.",
-            "Physique changes caps for speed, acceleration, agility, strength, power, and physicality.",
-            "Archetype is not manually selected and updates dynamically as attributes change."
+            "Position determines the available height ranges, height then affects weight ranges, and weight affects body type options.",
+            "Physique changes attribute caps, creating tradeoffs between speed, acceleration, agility, strength, power, and physicality.",
+            "Custom players begin with each attribute at a base value of 25 before Max Potential points are allocated.",
+            "Upgrade costs rise based on the attribute, positional importance, and current rating value.",
+            "Archetype is not manually selected and updates dynamically as attribute allocation changes."
           ]
         },
         {
@@ -333,9 +337,10 @@
           "badge": "Off-Field Impact",
           "summary": "Every player chooses three starting Mental Abilities tied to Academics, Leadership, and Brand.",
           "keyDetails": [
-            "Each Mental Ability is tied to one Weekly Agenda meter and can deactivate if it drops too low.",
-            "Mental Abilities progress through Bronze, Silver, Gold, and Platinum.",
-            "Field General is an Academics-linked quarterback example that identifies blitzers and coverage shells."
+            "Each starting Mental Ability is tied to one Weekly Agenda meter: Academics, Leadership, or Brand.",
+            "Abilities can deactivate if the connected meter drops too low.",
+            "Mental Abilities begin at Bronze and progress through Silver, Gold, and Platinum.",
+            "Field General is an Academics-linked quarterback example that helps identify blitzers and coverage shells before the snap."
           ]
         },
         {
@@ -345,19 +350,50 @@
           "summary": "High school performance builds Tape Score, which drives school interest and scholarship opportunities.",
           "keyDetails": [
             "High school includes five games with four playable moments in each game.",
-            "Scholarship offers show bonuses across Academics, Leadership, Brand, Fitness, and Skill Points.",
-            "Up to 16 Team Builder teams can replace high school and college teams."
+            "Moments include objectives tied to position, archetype, and game situation.",
+            "Tape Score affects how schools evaluate the player and whether scholarship thresholds are met.",
+            "Team Builder integration allows up to 16 total high school and college teams to be replaced with custom teams.",
+            "Scholarship bonuses are paid annually and can change based on performance and off-field decisions."
           ]
         },
         {
-          "icon": "Award",
-          "title": "Draft Projection and Legacy Score",
-          "badge": "Endgame Build",
-          "summary": "Draft Projection tracks how the next level views your future, while Legacy Score proves you deserve a higher ceiling.",
+          "icon": "Dumbbell",
+          "title": "Practice, Fitness, and Skill Points",
+          "badge": "Progression",
+          "summary": "Practice and gameday performance feed XP and Skill Points, while fitness affects coach opinion and player readiness.",
           "keyDetails": [
+            "Training is no longer the direct weekly XP path; practice becomes the main non-gameday progression source.",
+            "College Football 27 includes over 50 new Road to Glory practice drills.",
+            "Practice medals affect XP, Coach Trust, and Coach Happiness for the week.",
+            "Fitness can improve Coach Happiness, progression speed, and temporary position-based rating boosts.",
+            "Low fitness can cause weight gain, rating hits, slower progression, and lower coach happiness."
+          ]
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Draft Projection and Career Tracking",
+          "badge": "Draft Stock",
+          "summary": "Draft Projection tracks how the next level views your future and changes as your career develops.",
+          "keyDetails": [
+            "Star rating coming out of high school helps set the initial Draft Projection.",
             "A 5-star recruit enters college with first-round expectations.",
-            "Higher Max Overall thresholds, including 90 and 95 overall, require enough Legacy Score.",
-            "Earn up to 25 Cap Breakers through the Heisman Trophy, All-American honors, and major milestones."
+            "Projection can rise or fall based on performance, development, body management, and student-athlete decisions.",
+            "The mode tracks a week-by-week Draft Projection graph across the college career.",
+            "Memorable Moments such as signing with a school, first career start, rivalry wins, and major awards appear on the career graph."
+          ]
+        },
+        {
+          "icon": "Trophy",
+          "title": "Legacy Score, Cap Breakers, and the Portal",
+          "badge": "Endgame Build",
+          "summary": "Legacy Score proves your player deserves a higher Max Overall, while Cap Breakers push attributes beyond the original ceiling.",
+          "keyDetails": [
+            "Legacy Score is built through performances, awards, championships, rivalries, records, and major career decisions.",
+            "Higher Overall Rating thresholds, including 90 and 95 overall, require enough Legacy Score.",
+            "Lower-rated recruits must prove more to unlock higher Max Overall thresholds, while 5-star players start with higher expectations.",
+            "Earn up to 25 total Cap Breakers through the Heisman Trophy, All-American honors, National Championship, records, and career milestones.",
+            "Up to five Cap Breakers can be applied to a single attribute.",
+            "At the end of each season, the coach evaluates performance, development, role, leadership, off-field decisions, and Transfer Portal fit."
           ]
         }
       ]
@@ -365,91 +401,131 @@
     "cfb27UltimateTeam": {
       "eyebrow": "Ultimate Team",
       "title": "EA Sports College Football 27 Ultimate Team Rewards and Starter Guide",
-      "intro": "College Football Ultimate Team in EA Sports College Football 27 adds a new item upgrade system, Objectives on Items, EVOS, launch programs, and official preorder reward paths. Claim eligible items, pick a Cornerstones foundation, complete objectives, and spend Skill Points where they create a real lineup role.",
+      "intro": "College Football Ultimate Team in EA Sports College Football 27 adds a new item upgrade system, Objectives on Items, EVOS, launch programs, and official preorder reward paths. The best starter plan is to claim eligible items, pick a Cornerstones foundation, complete objectives, and spend Skill Points where they create a real lineup role.",
       "rewards": [
         {
-          "icon": "Crown",
-          "title": "Standard Edition Rewards",
+          "icon": "Coins",
+          "title": "Standard Edition Preorder Rewards",
           "badge": "Standard",
           "rewardDetails": [
             "81 OVR BND Cover Athlete Ultimate Team Item (choice of 1 of 3)",
             "100 Dynasty Coach Points",
             "250 Road to Glory Skill Points"
           ],
-          "starterUse": "Anchor your early roster with the Cover Athlete item before spending resources."
+          "starterUse": "Use the Cover Athlete item as an early roster anchor, then avoid spending resources blindly before seeing your first upgrade paths."
         },
         {
-          "icon": "Layers",
-          "title": "Deluxe Edition Rewards",
+          "icon": "Crown",
+          "title": "Deluxe Edition Ultimate Team Rewards",
           "badge": "Deluxe",
           "rewardDetails": [
             "4600 College Football Points, available after launch",
             "3-Day Early Access starting July 6, 2026",
-            "83 OVR BND Cornerstones Player (choice of 1 of 4) for eligible preorders",
-            "Exclusive Early Access Solo Challenges"
+            "Exclusive Early Access Solo Challenges",
+            "81 OVR BND Cover Athlete Player Item (choice of 1 of 3)",
+            "100 Dynasty Coach Points",
+            "250 Road to Glory Skill Points",
+            "83 OVR BND Cornerstones Player (choice of 1 of 4) for eligible preorders placed by June 16, 2026"
           ],
-          "starterUse": "Begin with Solo Challenges, claim BND items, then spend points after checking early program value."
+          "starterUse": "Begin with Solo Challenges, claim the BND player items, and use College Football Points only after checking early program value."
         },
         {
           "icon": "Gift",
-          "title": "MVP Bundle Rewards",
+          "title": "MVP Bundle College Football Rewards",
           "badge": "MVP Bundle",
           "rewardDetails": [
             "EA Sports College Football 27 Deluxe Edition content",
             "4600 College Football Points",
             "1 Upgradable Ultimate Team Player Item",
-            "Season 1 Player Item and 3-Day Early Access"
+            "83 OVR BND Cornerstones Player (choice of 1 of 4)",
+            "3-Day Early Access",
+            "Exclusive Early Access Solo Challenges",
+            "81 OVR BND Cover Athlete Player Item (choice of 1 of 3)",
+            "100 Dynasty Coach Points and 250 Road to Glory Skill Points"
           ],
-          "starterUse": "Build around the upgradable item and early BND rewards, then grow players through objectives."
+          "starterUse": "Build around the upgradable item and early BND rewards first, then use objectives to grow players instead of replacing them immediately."
         },
         {
-          "icon": "Wrench",
+          "icon": "Award",
           "title": "MVP+ Membership Rewards",
           "badge": "MVP+",
           "rewardDetails": [
-            "7-Day Early Access in College Football 27 and Madden NFL 27",
+            "7-Day Early Access in both College Football 27 and Madden NFL 27",
+            "Beta Access in both games",
+            "Monthly Ultimate Team Pack, 24 total, delivered at the start of every month in each game",
             "All Mascots unlocked in Mascot Mashup",
-            "Monthly Ultimate Team Pack, 24 total, delivered at the start of every month",
-            "150 Dynasty Coach Points and 500 Road to Glory Skill Points"
+            "150 Dynasty Coach Points",
+            "500 Road to Glory Skill Points"
           ],
-          "starterUse": "Best suited for players who want the earliest access window and recurring pack delivery."
+          "starterUse": "Best suited for players who want the earliest access window and recurring Ultimate Team pack delivery."
         },
         {
-          "icon": "Coins",
-          "title": "New Skill Point Upgrade System",
+          "icon": "Wrench",
+          "title": "New Upgrade System",
           "badge": "Progression",
           "rewardDetails": [
-            "Skill Points are tied to individual player items, not a shared pool.",
-            "Skill Points improve Dynamic Upgrade Paths, Attribute Paths, Ability Slots, and Chemistry Slots.",
-            "Items can have a Max Skill Point cap, so check before investing."
+            "Skill Points are tied to individual player items rather than a shared pool.",
+            "Skill Points can improve Dynamic Upgrade Paths, Attribute Upgrade Paths, Ability Slots, and Chemistry Slots.",
+            "Skill Points can be earned through Objectives on Items, exchanging tokens or items, and purchasing with other currencies.",
+            "Items can have a Max Skill Point cap, so check the cap before investing.",
+            "Some upgradable items may use coins or training for Chemistry and Ability upgrades instead of Skill Points."
           ],
-          "starterUse": "Two similar OVR cards can develop into very different roles, so check each path first."
+          "starterUse": "Check each item's cap and path before investing, because two similar OVR cards can develop into very different roles."
         },
         {
-          "icon": "Sparkles",
+          "icon": "SlidersHorizontal",
+          "title": "Dynamic Paths and Attribute Paths",
+          "badge": "Build Choice",
+          "rewardDetails": [
+            "Dynamic Upgrade Paths are based on position archetypes and have their own OVR path.",
+            "An East/West Playmaker Halfback path can focus on acceleration, change of direction, ball carrier vision, and juke.",
+            "A Contact Seeker Halfback path can focus on trucking, break tackle, stiff-arm, and strength.",
+            "A Speedster Wide Receiver path can have a different Speed cap than a Route Artist path."
+          ],
+          "starterUse": "Use Dynamic Paths for broad archetype growth and Attribute Paths when you need a specific rating threshold."
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "Objectives on Items",
+          "badge": "Gameplay Rewards",
+          "rewardDetails": [
+            "Select player items can earn progression directly through gameplay objectives.",
+            "Objectives can be viewed from the lineup screen.",
+            "Up to 16 item objectives can be favorited: 8 for offense and 8 for defense.",
+            "Favorited objectives can be tracked in real time during Ultimate Team games.",
+            "Objectives can also be viewed during preplay."
+          ],
+          "starterUse": "Favorite objectives for players already in your lineup so normal games also move item progression forward."
+        },
+        {
+          "icon": "Rocket",
           "title": "Launch Programs and Reward Flow",
           "badge": "Launch",
           "rewardDetails": [
-            "Core Legends brings over 100 legendary college stars as player items from Early Access.",
-            "Countdown gives a free locker every day from July 2 to July 9.",
-            "Cornerstones lets you choose 1 of 6 free upgradable player items."
+            "Core Legends brings over 100 legendary college stars as player items from the first day of Early Access.",
+            "Countdown gives players a free countdown locker every day they log in from July 2 to July 9.",
+            "The Countdown Draft event contributes to the Countdown field pass for early-access exclusive rewards.",
+            "Cornerstones lets players choose 1 of 6 free upgradable player items to build their team around.",
+            "Friday content programs are planned to have dedicated field passes with unique objectives and rewards.",
+            "Campus Token Twitch rewards let players redeem tokens for rewards such as Twitch Packs."
           ],
-          "starterUse": "Claim free launch items, pick one clear Cornerstones direction, and push field pass objectives first."
+          "starterUse": "Claim free launch items, pick one clear Cornerstones direction, and push field pass objectives before spending heavily."
         }
       ]
     },
     "cfb27GameplayControls": {
       "eyebrow": "Gameplay",
       "title": "EA Sports College Football 27 Gameplay Controls and Playbooks",
-      "intro": "EA Sports College Football 27 gives players more control before and after the snap. Coverage tools, defensive identities, WR/DB battles, catching timing, the Tackle Stick, formation shifts, Coach Mode, and Custom Adjustments make the game more strategic while reducing menu steps before the snap.",
+      "intro": "EA Sports College Football 27 focuses on giving players more control before and after the snap. Coverage tools, defensive identities, WR/DB battles, catching timing, the Tackle Stick, formation disguise, Coach Mode, and custom pre-play packages make the game more strategic while reducing the number of menu steps needed before the snap.",
       "items": [
         {
           "title": "Smarter Coverage Controls",
-          "summary": "Coverage now gives direct answers for alignment, zones, scramble drills, and elite receivers.",
+          "summary": "Coverage now gives more direct answers for alignment, zones, scramble drills, and elite receivers.",
           "details": [
             "Defensive Alignment Control includes CB Depth, CB Width, Safety Depth, Safety Width, and Safety Midpoint.",
             "Smart Zones let zone defenders play Aggressive, Balanced, or Conservative based on route depth and spacing.",
-            "Roll Coverage can shade help toward the fastest player, field side, boundary, or a specific WR or TE.",
+            "Plaster rules can control when zone defenders attach to receivers after the play extends.",
+            "Roll Coverage can shade help toward the fastest player, field side, boundary, highest OVR player, pass strength, or a specific WR or TE.",
             "Double Team can bracket a selected receiver."
           ]
         },
@@ -459,63 +535,90 @@
           "details": [
             "The six Defensive Styles are Man, Man Pressure, Shell, Zone, Zone Pressure, and Multiple.",
             "All 138 teams are mapped to a defensive style.",
-            "16 new formations include 3-3-5 3 High Over, 4-2-5 3 High, 3-4 Grizzly, and new Tite and Under fronts.",
-            "Dollar personnel now uses 4 safeties and 2 cornerbacks."
+            "The game adds 16 new defensive formations, including 3-3-5 3 High Over, 4-2-5 3 High, 3-4 Grizzly, Nickel Double Mug looks, and new Tite and Under fronts.",
+            "Dollar personnel now uses 4 safeties and 2 cornerbacks.",
+            "CB1 alignment is standardized to better match WR1 alignment.",
+            "Defensive audibles now transition more naturally across fronts and personnel groupings."
           ]
         },
         {
           "title": "WR/DB Battles and Jostle",
           "summary": "Press interactions now care more about route intent, leverage, and coverage skill.",
           "details": [
-            "Outside-breaking routes try to win outside; inside-breaking routes like slants, digs, and posts try to win inside.",
-            "Defensive leverage matters because inside or outside alignment challenges the route's intended release.",
+            "Receivers running outside-breaking routes try to win outside; inside-breaking routes like slants, digs, and posts try to win inside.",
+            "Defensive leverage matters more because inside or outside alignment can challenge the route's intended release.",
             "Jostle interactions let defensive backs challenge receivers during routes.",
-            "If the defender wins the jostle, the receiver's speed and timing can be affected."
+            "If the defender wins the jostle, the receiver's speed and timing can be affected.",
+            "Ratings still matter, especially receiver quality, man coverage, and matchup skill."
           ]
         },
         {
-          "title": "Short Yardage and QB Sneak Meter",
+          "title": "Short Yardage, QB Sneak Meter, and Chip Blocks",
           "summary": "Short-yardage football now depends more on timing, ratings, leverage, and trench strength.",
           "details": [
             "The QB Sneak Meter evaluates offensive push strength against nearby defensive shed strength before the snap.",
-            "A perfect meter input improves the chance of a push but does not override a badly lost physical matchup.",
-            "Chip Block lets a tight end or halfback chip a defender before releasing into a route."
+            "Center, guards, quarterback strength and weight, defender block shedding, leverage, difficulty, crowd pressure, and box count can all affect the timing window.",
+            "A perfect meter input improves the chance of a push, but does not override a badly lost physical matchup.",
+            "Chip Block lets a tight end or halfback chip a defender before releasing into a route.",
+            "Any route can be assigned a chip if the defender is in the blocker's path."
           ]
         },
         {
           "title": "Timing Based Catching",
           "summary": "Catching can now add a timing layer on top of ratings-based outcomes.",
           "details": [
-            "After throwing the ball, press and hold the catch type, then release near the green window.",
-            "Result zones are Slightly Early, Perfect, and Late.",
-            "Coverage, catch difficulty, catch type, receiver ratings, and difficulty affect the green window."
+            "After throwing the ball, press and hold the catch type: aggressive, possession, or RAC.",
+            "Release the button as close to the green window as possible before the ball reaches the receiver's hands.",
+            "The result zones are Slightly Early, Perfect, and Late.",
+            "Coverage, catch difficulty, catch type, receiver ratings, difficulty, and game style can affect the green window.",
+            "The yellow Slightly Early window uses the traditional ratings-driven catch outcome."
           ]
         },
         {
           "title": "Tackle Stick",
           "summary": "Every right-stick direction now maps to a defensive tackle type.",
           "details": [
-            "Right stick Up triggers Hit Stick and Right stick Down triggers Cut Stick.",
-            "Right stick Left triggers Lunge Tackle and Right stick Right triggers Wrap Tackle.",
-            "Arm tackles, stiff arms, drive-through contact, and leg-wrap tackles all receive visual improvements."
+            "Right stick Up triggers Hit Stick.",
+            "Right stick Down triggers Cut Stick.",
+            "Right stick Left triggers Lunge Tackle.",
+            "Right stick Right triggers Wrap Tackle.",
+            "Arm tackles, stiff arms, drive-through contact, in-air catch tackles, and leg-wrap tackles all receive behavior or visual improvements."
           ]
         },
         {
-          "title": "Formation Shifts and Custom Adjustments",
+          "title": "Formation Shifts",
+          "summary": "Formation Shifts return through a more modern play-call implementation.",
+          "details": [
+            "At the play call screen, users can toggle Formation Shifts at the play level.",
+            "You can cycle through eligible formations that share the same personnel grouping.",
+            "The base personnel stays intact while the formation presentation changes.",
+            "Formation Shifts work with formation subs and substitution packages when the personnel grouping still matches.",
+            "The system helps disguise intent, sequence formations, and pressure defensive recognition."
+          ]
+        },
+        {
+          "title": "Total Pre-Play Control and Custom Adjustments",
           "summary": "Pre-play controls are reorganized around faster hubs and saved adjustment packages.",
           "details": [
-            "At the play call screen, toggle Formation Shifts to cycle eligible same-personnel formations.",
-            "Custom Adjustments can be built from fronts, leverage, coverage behavior, protection, and route concepts.",
-            "Create up to 20 Custom Adjustments on offense and 20 on defense, then bring 10 into a game."
+            "Up and Down on the D-pad toggle camera.",
+            "Left on the D-pad opens the Coach Vision HUD.",
+            "Right on the D-pad opens Dynamic Subs.",
+            "Offensive protection controls are unified under Left Trigger.",
+            "Custom Adjustments can be built from fronts, leverage, coverage behavior, protection, pressure looks, route concepts, hot routes, and per-player assignments.",
+            "Players can create up to 20 Custom Adjustments on offense and 20 on defense, then bring 10 active adjustments into a game.",
+            "In game, L1/LB serves as the Custom Adjustment button on offense and defense.",
+            "Preset macro adjustments include QB Scramble, Play Short Routes, No Deep Passes, Go Vertical, Slants, Mesh, and Smart Routes."
           ]
         },
         {
           "title": "Coach Mode",
-          "summary": "Coach Mode shifts focus from post-snap stick skill to pre-snap planning and sideline decisions.",
+          "summary": "Coach Mode shifts the focus from post-snap stick skill to pre-snap planning and sideline decisions.",
           "details": [
             "When Coach Mode is enabled, post-snap gameplay is handled by the CPU.",
-            "Settings include Auto Quarterback, Auto Snap, Coach Suggestions, and Pre-Play Cutoff.",
-            "At 15 seconds on the play clock, the communication window closes and audibles are locked out."
+            "Settings include Auto Quarterback, Auto Snap, Coach Suggestions, Pre-Play Cutoff, and Pre-Play Audio.",
+            "At 15 seconds left on the play clock, the communication window closes and further audibles or hot route adjustments are locked out.",
+            "Holding RT/R2 plus the receiver icon lets you tell the quarterback the primary read.",
+            "On RPOs, you can coach the quarterback toward handing off or throwing."
           ]
         }
       ]
@@ -523,49 +626,76 @@
     "cfb27OnlineModes": {
       "eyebrow": "Online Modes",
       "title": "EA Sports College Football 27 Online Modes, Road to CFP, and Crossplay",
-      "intro": "Road to the College Football Playoff is the competitive online head-to-head path in EA Sports College Football 27. The mode keeps the top-12 Playoff chase, adds objectives and rewards, supports all 138 teams, and works with cross-play across PlayStation 5, Xbox Series X|S, and PC.",
+      "intro": "Road to the College Football Playoff is the competitive online head-to-head path in EA Sports College Football 27. The mode keeps the top-12 Playoff chase, adds more objectives and rewards, supports all 138 teams, and works alongside cross-play features across PlayStation 5, Xbox Series X|S, and PC.",
       "cards": [
         {
           "icon": "Trophy",
           "title": "Road to the CFP Core Loop",
           "category": "Competitive H2H",
-          "description": "Choose a team, play online head-to-head, climb toward the top 12, and chase the National Championship.",
+          "description": "Choose a team, play online head-to-head, climb toward the top 12, enter the Playoff, and chase the National Championship.",
           "keyDetails": [
+            "Every regular season game affects the Playoff chase.",
             "Reaching the top 12 earns a Playoff spot.",
-            "Win two Playoff games before reaching the National Title game.",
+            "Players must win two Playoff games before reaching the National Title game.",
             "Winning the National Championship awards a Trophy Room item."
           ]
         },
         {
-          "icon": "BarChart3",
+          "icon": "ClipboardCheck",
           "title": "Objectives and Rewards",
           "category": "Progression",
-          "description": "Road to CFP adds objectives that reward more than the win-loss result.",
+          "description": "Road to the College Football Playoff adds objectives that reward more than the win-loss result.",
           "keyDetails": [
+            "Objectives unlock rewards while players continue chasing the Playoff.",
             "Rewards include playbooks and uniform sets.",
             "Rewards also include College Football Ultimate Team items such as packs and coins.",
             "EA describes thousands of goals across the updated online journey."
           ]
         },
         {
-          "icon": "ClipboardCheck",
+          "icon": "BarChart3",
           "title": "Stats Page and Recent Form",
           "category": "Tracking",
-          "description": "The new stats page tracks lifetime performance and your last five seasons.",
+          "description": "The new stats page tracks lifetime performance and the player's last five seasons.",
           "keyDetails": [
             "Lifetime numbers show the full Road to CFP record.",
-            "The last five seasons give a recent form breakdown to spot trends."
+            "The last five seasons give a recent form breakdown.",
+            "The page helps players spot trends after changing teams, divisions, or play styles."
+          ]
+        },
+        {
+          "icon": "Layers",
+          "title": "Mode-Specific Depth Charts",
+          "category": "Preparation",
+          "description": "Players can edit and save Road to CFP depth charts before entering a matchup.",
+          "keyDetails": [
+            "Saved depth charts reduce repeat setup before online games.",
+            "The feature supports preferred running back usage, slot choices, and defensive personnel packages.",
+            "It also helps when using different programs for team-specific objectives."
+          ]
+        },
+        {
+          "icon": "CalendarClock",
+          "title": "Reset Schedule",
+          "category": "Season Flow",
+          "description": "Reset Schedule lets players move forward when the season outcome is already clear.",
+          "keyDetails": [
+            "The option is designed for moments when promotion, survival, or demotion has already been decided.",
+            "Players can avoid extra games that no longer affect the season result.",
+            "The feature helps get back into meaningful competition faster."
           ]
         },
         {
           "icon": "Users",
-          "title": "Divisions, Teams, and Tiers",
+          "title": "Divisions, Teams, and Tiered Ranking Points",
           "category": "Ranked Structure",
           "description": "Road to CFP uses seasonal progression, seven divisions, all 138 teams, and five team tiers.",
           "keyDetails": [
             "The seven divisions range from Recruit to Heisman.",
+            "All 138 teams are available in Road to the College Football Playoff.",
             "Teams are grouped into Tier 1 through Tier 5.",
-            "Lower-tier teams can earn more ranking points for beating higher-tier opponents."
+            "Lower-tier teams can earn more ranking points for beating higher-tier opponents.",
+            "The system rewards both powerhouse execution and underdog wins."
           ]
         },
         {
@@ -575,7 +705,8 @@
           "description": "Road wins carry extra ranking value because hostile stadiums matter in the online structure.",
           "keyDetails": [
             "Winning on the road earns more ranking points.",
-            "Team tier and road-win value combine to create bigger point swings."
+            "Team tier and road-win value combine to create bigger point swings.",
+            "Beating a stronger team on the road can become a major ranking statement."
           ]
         },
         {
@@ -585,28 +716,46 @@
           "description": "The Playoff stage now moves through major postseason destinations before the title game.",
           "keyDetails": [
             "Playoff games take players through the Rose Bowl and Orange Bowl.",
-            "The National Championship destination is Las Vegas."
+            "The National Championship destination is Las Vegas.",
+            "The postseason path is built to feel bigger and more connected to college football pageantry."
           ]
         },
         {
-          "icon": "Network",
+          "icon": "Monitor",
           "title": "Cross-Play Supported Platforms",
           "category": "Cross-Play",
           "description": "Cross-play supports PlayStation 5, Xbox Series X|S, and PC through EA app, Steam, and Epic.",
           "keyDetails": [
-            "Cross-play is enabled by default on PS5 and Xbox Series X|S.",
-            "PS5 and PC cross-play settings are found in the in-game Cross-Play tab."
+            "Cross-play is enabled by default when first starting the game on PS5 or Xbox Series X|S.",
+            "Xbox Series X|S cross-play settings are controlled through system settings.",
+            "PS5 and PC cross-play settings are found in the in-game Cross-Play tab.",
+            "Cross-play requires a copy of the game, game updates, an EA account, internet connection, and the relevant platform account."
           ]
         },
         {
-          "icon": "Flag",
+          "icon": "Network",
           "title": "Cross-Play Modes and Limits",
           "category": "Cross-Play Modes",
           "description": "Cross-play works in several major online modes, with some limits around economy sharing.",
           "keyDetails": [
-            "Supported modes include Dynasty, Road to CFP, Ultimate Team, and Play a Friend.",
+            "Supported cross-play modes include Dynasty, Road to the College Football Playoff, College Football Ultimate Team, and Play a Friend modes.",
             "Online Dynasty supports up to 32 people across platforms.",
+            "Opted-in players see global leaderboards in modes that support cross-play.",
+            "Players who opt out only see leaderboards for their own platform.",
             "The College Football Ultimate Team Auction House is not shared across platforms."
+          ]
+        },
+        {
+          "icon": "Gamepad2",
+          "title": "Xbox Online Capabilities",
+          "category": "Platform Features",
+          "description": "The Xbox store lists online multiplayer and cross-platform features for Xbox Series X|S.",
+          "keyDetails": [
+            "Xbox local co-op supports 2 to 4 players.",
+            "Online co-op supports 2 to 3 players.",
+            "Online multiplayer supports 2 to 6 players.",
+            "Xbox cross-platform multiplayer and Xbox cross-platform co-op are listed capabilities.",
+            "The store also lists 4K Ultra HD, HDR10, Ray Tracing, 60 fps+, and Xbox cloud saves."
           ]
         }
       ]
