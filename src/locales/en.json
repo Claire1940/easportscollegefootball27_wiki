@@ -53,696 +53,561 @@
     }
   },
   "gameFeature": {
-    "title": "College Football 27 Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "EA Sports College Football 27 Gameplay",
+    "description": "Smarter coverage controls, expanded defensive playbooks, timing-based catching, the Tackle Stick, and Road to the College Football Playoff cross-play across PS5, Xbox Series X|S, and PC."
   },
   "tools": {
     "title": "College Football 27",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in College Football 27",
+    "subtitle": "Everything you need for EA Sports College Football 27 — release dates, editions, team ratings, Dynasty, Road to Glory, Ultimate Team, gameplay controls, and online modes.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "icon": "Clock",
+        "title": "College Football 27 Release Date",
+        "description": "Launch dates, early access windows, and platforms"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "College Football 27 Editions",
+        "description": "Standard, Deluxe, MVP Bundle, and MVP+ rewards"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "icon": "TrendingUp",
+        "title": "College Football 27 Team Ratings",
+        "description": "Top team ratings and hardest places to play"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "icon": "Hammer",
+        "title": "College Football 27 Dynasty Guide",
+        "description": "Blueprint, recruiting, NIL, facilities, and Team Builder"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "College Football 27 Road to Glory",
+        "description": "Builds, positions, Draft Stock, and Legacy Score"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "Package",
+        "title": "College Football 27 Ultimate Team",
+        "description": "Rewards, Skill Points, upgrade paths, and launch programs"
       },
       {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Keyboard",
+        "title": "College Football 27 Gameplay Controls",
+        "description": "Coverage tools, playbooks, and pre-play adjustments"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "College Football 27 Online Modes",
+        "description": "Road to CFP, cross-play, and online rewards"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "College Football 27 Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. College Football 27 rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. College Football 27 has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "College Football 27 Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "College Football 27 Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "College Football 27 mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "cfb27ReleaseDateEarlyAccess": {
+      "eyebrow": "Release & Platforms",
+      "title": "EA Sports College Football 27 Release Date, Early Access, and Platforms",
+      "intro": "Use this quick release hub to check when EA Sports College Football 27 unlocks, which editions include early access, and where the game is available. The game launches on PlayStation 5, Xbox Series X|S, and PC through the EA app, Steam, and Epic.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "icon": "Calendar",
+          "label": "Worldwide Launch",
+          "value": "July 9, 2026",
+          "detail": "The full worldwide launch date for EA Sports College Football 27 across PlayStation 5, Xbox Series X|S, and PC."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "icon": "CalendarClock",
+          "label": "3-Day Early Access",
+          "value": "July 6, 2026",
+          "detail": "Included with the Deluxe Edition and MVP Bundle, plus Early Access Solo Challenges in College Football Ultimate Team."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "icon": "Rocket",
+          "label": "7-Day Early Access",
+          "value": "July 2, 2026",
+          "detail": "Available for MVP+ Members, giving the earliest access window before Deluxe and MVP Bundle players."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "icon": "Gamepad2",
+          "label": "Console Platforms",
+          "value": "PS5 and Xbox Series X|S",
+          "detail": "EA Sports College Football 27 is built for current-generation console platforms."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "icon": "Monitor",
+          "label": "PC Platforms",
+          "value": "EA app, Steam, and Epic",
+          "detail": "The first PC release for the EA Sports College Football series, available through three storefronts."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "icon": "SlidersHorizontal",
+          "label": "PC Gameplay Access",
+          "value": "Full experience at launch",
+          "detail": "Visual presets, frame rate controls, HDR, ultrawide support, ray-traced lighting, and separate gameplay and cutscene settings."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "College Football 27 Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in College Football 27, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "cfb27EditionsPreOrder": {
+      "eyebrow": "Editions & Bonuses",
+      "title": "EA Sports College Football 27 Editions and Pre-Order Bonuses",
+      "intro": "Compare Standard Edition, Deluxe Edition, MVP Bundle, and MVP+ Membership before launch. This comparison focuses on what players search for most: early access, Ultimate Team items, Dynasty Coach Points, Road to Glory Skill Points, and College Football Points.",
+      "tableHeaders": ["Edition", "Price", "Access", "Key Rewards"],
+      "rows": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "edition": "Standard Edition",
+          "price": "$69.99",
+          "access": "July 9 worldwide launch",
+          "highlights": "81 OVR BND Cover Athlete Item (1 of 3), 100 Dynasty Coach Points, 250 Road to Glory Skill Points"
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "edition": "Deluxe Edition",
+          "price": "$99.99",
+          "access": "3-Day Early Access from July 6",
+          "highlights": "4600 College Football Points, 83 OVR BND Cornerstones Player (1 of 4), Exclusive Early Access Solo Challenges"
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "edition": "MVP Bundle",
+          "price": "$149.99",
+          "access": "3-Day Early Access (CFB 27 + Madden 27)",
+          "highlights": "Deluxe content for both games, 1 upgradable Ultimate Team Player Item, Season 1 Player Item"
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "College Football 27 Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in College Football 27. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "College Football 27 supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "edition": "MVP+ Membership",
+          "price": "Membership package",
+          "access": "7-Day Early Access",
+          "highlights": "All Mascots unlocked in Mascot Mashup, monthly Ultimate Team Pack, Rainmaker Dynasty skill tree, beta access"
         }
       ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
+      "bestForNote": "Choose Standard for the base game, Deluxe for the strongest College Football-only rewards, MVP Bundle for both football games, and MVP+ for the earliest access window and recurring packs."
     },
-    "lucidBlocksWorldRegions": {
-      "title": "College Football 27 World Regions",
-      "displayType": "regionCards",
-      "intro": "College Football 27 uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "College Football 27 Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "College Football 27 mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "College Football 27 Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in College Football 27. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
+    "cfb27TeamRatings": {
+      "eyebrow": "Team Ratings",
+      "title": "EA Sports College Football 27 Team Ratings and Best Teams",
+      "intro": "Use the ratings table to compare elite teams for Play Now, Dynasty, and online matchups in EA Sports College Football 27. Oregon leads the official overall ratings at 91 OVR, while Tiger Stadium ranks No. 1 on the Hardest Places to Play list.",
+      "ratingHeaders": ["Team", "Off", "Def", "OVR"],
+      "topTeams": [
+        { "team": "Oregon", "off": 91, "def": 91, "ovr": 91 },
+        { "team": "Ohio State", "off": 92, "def": 88, "ovr": 90 },
+        { "team": "Indiana", "off": 90, "def": 90, "ovr": 90 },
+        { "team": "Notre Dame", "off": 88, "def": 90, "ovr": 89 },
+        { "team": "Texas", "off": 90, "def": 88, "ovr": 89 },
+        { "team": "LSU", "off": 89, "def": 87, "ovr": 88 },
+        { "team": "Georgia", "off": 85, "def": 89, "ovr": 87 },
+        { "team": "Alabama", "off": 82, "def": 89, "ovr": 86 },
+        { "team": "Penn State", "off": 86, "def": 81, "ovr": 83 },
+        { "team": "Clemson", "off": 80, "def": 86, "ovr": 83 }
       ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "College Football 27 Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in College Football 27. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
+      "stadiumHeaders": ["Rank", "Stadium", "Team"],
+      "hardestStadiums": [
+        { "rank": 1, "stadium": "Tiger Stadium", "team": "LSU" },
+        { "rank": 2, "stadium": "Ohio Stadium", "team": "Ohio State" },
+        { "rank": 3, "stadium": "Beaver Stadium", "team": "Penn State" },
+        { "rank": 4, "stadium": "Sanford Stadium", "team": "Georgia" },
+        { "rank": 5, "stadium": "Bryant-Denny Stadium", "team": "Alabama" },
+        { "rank": 6, "stadium": "Autzen Stadium", "team": "Oregon" },
+        { "rank": 7, "stadium": "Neyland Stadium", "team": "Tennessee" },
+        { "rank": 8, "stadium": "Kyle Field", "team": "Texas A&M" }
       ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
+      "stadiumNote": "Home-field atmosphere matters in Dynasty schedules and rivalry games, so check the ranking when stadium advantage is a priority in EA Sports College Football 27."
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "College Football 27 Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In College Football 27, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "College Football 27 Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "College Football 27 currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "College Football 27 Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying College Football 27.",
-      "faqs": [
-        {
-          "question": "Is College Football 27 singleplayer?",
-          "answer": "Yes. College Football 27 is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play College Football 27?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does College Football 27 cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does College Football 27 support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does College Football 27 work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does College Football 27 work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does College Football 27 have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will College Football 27 keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "College Football 27 Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "College Football 27 can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does College Football 27 work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does College Football 27 support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "College Football 27 Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "College Football 27 already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "College Football 27 Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "College Football 27 is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "College Football 27 Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "cfb27DynastyTeamBuilder": {
+      "eyebrow": "Dynasty Guide",
+      "title": "EA Sports College Football 27 Dynasty and Team Builder Guide",
+      "intro": "Dynasty in EA Sports College Football 27 is built around program identity, yearly Dynasty Points, staff choices, facilities, NIL, and recruiting strategy. Team Builder adds deeper control over stadiums, crowds, sound, school history, and Dynasty integration.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Choose a program by its expectations",
+          "focus": "Athletic Director Expectations",
+          "description": "Every Dynasty job has school-specific expectations shaped by program priorities, fan base, patience, and identity.",
+          "keyPoints": [
+            "Athletic Director Expectations define how your performance is evaluated over time.",
+            "North Dakota State and Sacramento State join Dynasty Mode, bringing the total to 138 programs."
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "College Football 27 requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Set your Dynasty Blueprint",
+          "focus": "Dynasty Points",
+          "description": "Every year your program earns Dynasty Points as its annual budget, spent across coaching staff, facilities, and NIL.",
+          "keyPoints": [
+            "Blueprint Strategy suggests an allocation for staff, facilities, Recruiting NIL, and Roster NIL.",
+            "Blueprint Strategy gives direction but does not automatically spend your Dynasty Points."
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Build your staff before the season locks in",
+          "focus": "Coaching Staff",
+          "description": "Invest Dynasty Points into coordinators and support staff. Coordinators affect on-field and recruiting direction, while support staff run the program behind the scenes.",
+          "keyPoints": [
+            "Support staff can only be hired and fired during the preseason.",
+            "Programs can have up to five support staff slots tied to Team Prestige."
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Scout first, then spend on recruiting NIL",
+          "focus": "Recruiting and NIL",
+          "description": "The preseason focuses on scouting, while scholarship offers begin in Week 0 and now include NIL.",
+          "keyPoints": [
+            "Offers can go up to two times a prospect's expected NIL for the largest weekly influence bonus.",
+            "Transfers place stronger emphasis on NIL because their recruiting window is shorter."
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Plan roster NIL before players leave",
+          "focus": "Roster Retention",
+          "description": "Use Roster NIL to retain players already in your program. During End of Season Recap, adjust NIL to manage transfer or draft risk.",
+          "keyPoints": [
+            "Increasing a player's NIL can reduce their risk of leaving.",
+            "Roster NIL decisions affect transfers, retention, facilities, and the rest of your Blueprint budget."
+          ]
+        },
+        {
+          "title": "Invest in facilities for long-term development",
+          "focus": "Facilities",
+          "description": "Facilities affect the Athletic Facilities grade, which boosts player progression and strengthens your recruiting profile.",
+          "keyPoints": [
+            "Facility tiers range from Basic Facility at F to National Powerhouse at A- to A+.",
+            "Equipment slots grow from 1 at Basic Facility to 5 at National Powerhouse."
+          ]
+        },
+        {
+          "title": "Use auto settings to reduce management work",
+          "focus": "Blueprint Strategy and Auto Settings",
+          "description": "Auto Settings let you streamline parts of Blueprint management while still guiding the program's overall direction.",
+          "keyPoints": [
+            "Full Blueprint Management lets the CPU handle all spending and allocation.",
+            "Auto Recruiting can follow the selected Blueprint Strategy when determining NIL offers."
+          ]
+        },
+        {
+          "title": "Build a custom identity with Team Builder",
+          "focus": "Team Builder and Stadium Builder",
+          "description": "Team Builder expands custom programs with Stadium Builder, crowd customization, sound tools, school history, and Dynasty reimport support.",
+          "keyPoints": [
+            "Stadium Builder lets you choose Existing or Custom stadiums built from four bases.",
+            "Soundscape tools include 150+ commentary nicknames, 100+ sound effects, 66 band rousers, and 11 licensed PA tracks."
+          ]
+        }
+      ]
+    },
+    "cfb27RoadToGlory": {
+      "eyebrow": "Road to Glory",
+      "title": "EA Sports College Football 27 Road to Glory Builds and Positions",
+      "intro": "Road to Glory in EA Sports College Football 27 puts more weight on build planning, weekly training, and on-field proof. New positions, physique-driven caps, Max Potential, Mental Abilities, NIL deals, Heisman pursuit, Draft Stock, and Legacy Score all shape how far your player can go.",
+      "builds": [
+        {
+          "icon": "Target",
+          "title": "Choose Your Creation Path",
+          "badge": "Build Start",
+          "summary": "Start with a fully custom player or use a Legend Template inspired by college football icons.",
+          "keyDetails": [
+            "Custom builds set height, weight, body type, physique-driven caps, and Max Potential allocation.",
+            "Legend Templates inspired by Reggie Bush, Vince Young, and Tim Tebow are available.",
+            "Templates still allow portions of Max Potential to be adjusted before the career begins."
+          ]
+        },
+        {
+          "icon": "Dumbbell",
+          "title": "New Playable Positions",
+          "badge": "Positions",
+          "summary": "Tight End, Edge Rusher, and Free Safety are new playable Road to Glory positions.",
+          "keyDetails": [
+            "Tight End can lean into vertical seams, receiving mismatches, or physical run blocking.",
+            "Edge Rusher attacks tackles, pressures the quarterback, and disrupts the offense.",
+            "Free Safety controls the back end, protects against explosive plays, and creates turnovers."
+          ]
+        },
+        {
+          "icon": "Ruler",
+          "title": "Physique and Max Potential",
+          "badge": "Build Ceiling",
+          "summary": "Your body type sets what is physically possible, while Max Potential sets the ratings ceiling your player can reach.",
+          "keyDetails": [
+            "Position sets height ranges, height sets weight ranges, and weight sets body type options.",
+            "Physique changes caps for speed, acceleration, agility, strength, power, and physicality.",
+            "Archetype is not manually selected and updates dynamically as attributes change."
+          ]
+        },
+        {
+          "icon": "Brain",
+          "title": "Mental Abilities and Weekly Agenda",
+          "badge": "Off-Field Impact",
+          "summary": "Every player chooses three starting Mental Abilities tied to Academics, Leadership, and Brand.",
+          "keyDetails": [
+            "Each Mental Ability is tied to one Weekly Agenda meter and can deactivate if it drops too low.",
+            "Mental Abilities progress through Bronze, Silver, Gold, and Platinum.",
+            "Field General is an Academics-linked quarterback example that identifies blitzers and coverage shells."
+          ]
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "High School Tape and Recruiting",
+          "badge": "Scholarships",
+          "summary": "High school performance builds Tape Score, which drives school interest and scholarship opportunities.",
+          "keyDetails": [
+            "High school includes five games with four playable moments in each game.",
+            "Scholarship offers show bonuses across Academics, Leadership, Brand, Fitness, and Skill Points.",
+            "Up to 16 Team Builder teams can replace high school and college teams."
+          ]
+        },
+        {
+          "icon": "Award",
+          "title": "Draft Projection and Legacy Score",
+          "badge": "Endgame Build",
+          "summary": "Draft Projection tracks how the next level views your future, while Legacy Score proves you deserve a higher ceiling.",
+          "keyDetails": [
+            "A 5-star recruit enters college with first-round expectations.",
+            "Higher Max Overall thresholds, including 90 and 95 overall, require enough Legacy Score.",
+            "Earn up to 25 Cap Breakers through the Heisman Trophy, All-American honors, and major milestones."
+          ]
+        }
+      ]
+    },
+    "cfb27UltimateTeam": {
+      "eyebrow": "Ultimate Team",
+      "title": "EA Sports College Football 27 Ultimate Team Rewards and Starter Guide",
+      "intro": "College Football Ultimate Team in EA Sports College Football 27 adds a new item upgrade system, Objectives on Items, EVOS, launch programs, and official preorder reward paths. Claim eligible items, pick a Cornerstones foundation, complete objectives, and spend Skill Points where they create a real lineup role.",
+      "rewards": [
+        {
+          "icon": "Crown",
+          "title": "Standard Edition Rewards",
+          "badge": "Standard",
+          "rewardDetails": [
+            "81 OVR BND Cover Athlete Ultimate Team Item (choice of 1 of 3)",
+            "100 Dynasty Coach Points",
+            "250 Road to Glory Skill Points"
+          ],
+          "starterUse": "Anchor your early roster with the Cover Athlete item before spending resources."
+        },
+        {
+          "icon": "Layers",
+          "title": "Deluxe Edition Rewards",
+          "badge": "Deluxe",
+          "rewardDetails": [
+            "4600 College Football Points, available after launch",
+            "3-Day Early Access starting July 6, 2026",
+            "83 OVR BND Cornerstones Player (choice of 1 of 4) for eligible preorders",
+            "Exclusive Early Access Solo Challenges"
+          ],
+          "starterUse": "Begin with Solo Challenges, claim BND items, then spend points after checking early program value."
+        },
+        {
+          "icon": "Gift",
+          "title": "MVP Bundle Rewards",
+          "badge": "MVP Bundle",
+          "rewardDetails": [
+            "EA Sports College Football 27 Deluxe Edition content",
+            "4600 College Football Points",
+            "1 Upgradable Ultimate Team Player Item",
+            "Season 1 Player Item and 3-Day Early Access"
+          ],
+          "starterUse": "Build around the upgradable item and early BND rewards, then grow players through objectives."
+        },
+        {
+          "icon": "Wrench",
+          "title": "MVP+ Membership Rewards",
+          "badge": "MVP+",
+          "rewardDetails": [
+            "7-Day Early Access in College Football 27 and Madden NFL 27",
+            "All Mascots unlocked in Mascot Mashup",
+            "Monthly Ultimate Team Pack, 24 total, delivered at the start of every month",
+            "150 Dynasty Coach Points and 500 Road to Glory Skill Points"
+          ],
+          "starterUse": "Best suited for players who want the earliest access window and recurring pack delivery."
+        },
+        {
+          "icon": "Coins",
+          "title": "New Skill Point Upgrade System",
+          "badge": "Progression",
+          "rewardDetails": [
+            "Skill Points are tied to individual player items, not a shared pool.",
+            "Skill Points improve Dynamic Upgrade Paths, Attribute Paths, Ability Slots, and Chemistry Slots.",
+            "Items can have a Max Skill Point cap, so check before investing."
+          ],
+          "starterUse": "Two similar OVR cards can develop into very different roles, so check each path first."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Launch Programs and Reward Flow",
+          "badge": "Launch",
+          "rewardDetails": [
+            "Core Legends brings over 100 legendary college stars as player items from Early Access.",
+            "Countdown gives a free locker every day from July 2 to July 9.",
+            "Cornerstones lets you choose 1 of 6 free upgradable player items."
+          ],
+          "starterUse": "Claim free launch items, pick one clear Cornerstones direction, and push field pass objectives first."
+        }
+      ]
+    },
+    "cfb27GameplayControls": {
+      "eyebrow": "Gameplay",
+      "title": "EA Sports College Football 27 Gameplay Controls and Playbooks",
+      "intro": "EA Sports College Football 27 gives players more control before and after the snap. Coverage tools, defensive identities, WR/DB battles, catching timing, the Tackle Stick, formation shifts, Coach Mode, and Custom Adjustments make the game more strategic while reducing menu steps before the snap.",
+      "items": [
+        {
+          "title": "Smarter Coverage Controls",
+          "summary": "Coverage now gives direct answers for alignment, zones, scramble drills, and elite receivers.",
+          "details": [
+            "Defensive Alignment Control includes CB Depth, CB Width, Safety Depth, Safety Width, and Safety Midpoint.",
+            "Smart Zones let zone defenders play Aggressive, Balanced, or Conservative based on route depth and spacing.",
+            "Roll Coverage can shade help toward the fastest player, field side, boundary, or a specific WR or TE.",
+            "Double Team can bracket a selected receiver."
+          ]
+        },
+        {
+          "title": "Defensive Playbooks and Team Identity",
+          "summary": "College Football 27 expands defensive playbooks from 9 to 31 and adds 22 new playbooks.",
+          "details": [
+            "The six Defensive Styles are Man, Man Pressure, Shell, Zone, Zone Pressure, and Multiple.",
+            "All 138 teams are mapped to a defensive style.",
+            "16 new formations include 3-3-5 3 High Over, 4-2-5 3 High, 3-4 Grizzly, and new Tite and Under fronts.",
+            "Dollar personnel now uses 4 safeties and 2 cornerbacks."
+          ]
+        },
+        {
+          "title": "WR/DB Battles and Jostle",
+          "summary": "Press interactions now care more about route intent, leverage, and coverage skill.",
+          "details": [
+            "Outside-breaking routes try to win outside; inside-breaking routes like slants, digs, and posts try to win inside.",
+            "Defensive leverage matters because inside or outside alignment challenges the route's intended release.",
+            "Jostle interactions let defensive backs challenge receivers during routes.",
+            "If the defender wins the jostle, the receiver's speed and timing can be affected."
+          ]
+        },
+        {
+          "title": "Short Yardage and QB Sneak Meter",
+          "summary": "Short-yardage football now depends more on timing, ratings, leverage, and trench strength.",
+          "details": [
+            "The QB Sneak Meter evaluates offensive push strength against nearby defensive shed strength before the snap.",
+            "A perfect meter input improves the chance of a push but does not override a badly lost physical matchup.",
+            "Chip Block lets a tight end or halfback chip a defender before releasing into a route."
+          ]
+        },
+        {
+          "title": "Timing Based Catching",
+          "summary": "Catching can now add a timing layer on top of ratings-based outcomes.",
+          "details": [
+            "After throwing the ball, press and hold the catch type, then release near the green window.",
+            "Result zones are Slightly Early, Perfect, and Late.",
+            "Coverage, catch difficulty, catch type, receiver ratings, and difficulty affect the green window."
+          ]
+        },
+        {
+          "title": "Tackle Stick",
+          "summary": "Every right-stick direction now maps to a defensive tackle type.",
+          "details": [
+            "Right stick Up triggers Hit Stick and Right stick Down triggers Cut Stick.",
+            "Right stick Left triggers Lunge Tackle and Right stick Right triggers Wrap Tackle.",
+            "Arm tackles, stiff arms, drive-through contact, and leg-wrap tackles all receive visual improvements."
+          ]
+        },
+        {
+          "title": "Formation Shifts and Custom Adjustments",
+          "summary": "Pre-play controls are reorganized around faster hubs and saved adjustment packages.",
+          "details": [
+            "At the play call screen, toggle Formation Shifts to cycle eligible same-personnel formations.",
+            "Custom Adjustments can be built from fronts, leverage, coverage behavior, protection, and route concepts.",
+            "Create up to 20 Custom Adjustments on offense and 20 on defense, then bring 10 into a game."
+          ]
+        },
+        {
+          "title": "Coach Mode",
+          "summary": "Coach Mode shifts focus from post-snap stick skill to pre-snap planning and sideline decisions.",
+          "details": [
+            "When Coach Mode is enabled, post-snap gameplay is handled by the CPU.",
+            "Settings include Auto Quarterback, Auto Snap, Coach Suggestions, and Pre-Play Cutoff.",
+            "At 15 seconds on the play clock, the communication window closes and audibles are locked out."
+          ]
+        }
+      ]
+    },
+    "cfb27OnlineModes": {
+      "eyebrow": "Online Modes",
+      "title": "EA Sports College Football 27 Online Modes, Road to CFP, and Crossplay",
+      "intro": "Road to the College Football Playoff is the competitive online head-to-head path in EA Sports College Football 27. The mode keeps the top-12 Playoff chase, adds objectives and rewards, supports all 138 teams, and works with cross-play across PlayStation 5, Xbox Series X|S, and PC.",
+      "cards": [
+        {
+          "icon": "Trophy",
+          "title": "Road to the CFP Core Loop",
+          "category": "Competitive H2H",
+          "description": "Choose a team, play online head-to-head, climb toward the top 12, and chase the National Championship.",
+          "keyDetails": [
+            "Reaching the top 12 earns a Playoff spot.",
+            "Win two Playoff games before reaching the National Title game.",
+            "Winning the National Championship awards a Trophy Room item."
+          ]
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Objectives and Rewards",
+          "category": "Progression",
+          "description": "Road to CFP adds objectives that reward more than the win-loss result.",
+          "keyDetails": [
+            "Rewards include playbooks and uniform sets.",
+            "Rewards also include College Football Ultimate Team items such as packs and coins.",
+            "EA describes thousands of goals across the updated online journey."
+          ]
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "Stats Page and Recent Form",
+          "category": "Tracking",
+          "description": "The new stats page tracks lifetime performance and your last five seasons.",
+          "keyDetails": [
+            "Lifetime numbers show the full Road to CFP record.",
+            "The last five seasons give a recent form breakdown to spot trends."
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Divisions, Teams, and Tiers",
+          "category": "Ranked Structure",
+          "description": "Road to CFP uses seasonal progression, seven divisions, all 138 teams, and five team tiers.",
+          "keyDetails": [
+            "The seven divisions range from Recruit to Heisman.",
+            "Teams are grouped into Tier 1 through Tier 5.",
+            "Lower-tier teams can earn more ranking points for beating higher-tier opponents."
+          ]
+        },
+        {
+          "icon": "Home",
+          "title": "Homefield Advantage and Road Wins",
+          "category": "Ranking Points",
+          "description": "Road wins carry extra ranking value because hostile stadiums matter in the online structure.",
+          "keyDetails": [
+            "Winning on the road earns more ranking points.",
+            "Team tier and road-win value combine to create bigger point swings."
+          ]
+        },
+        {
+          "icon": "MapPin",
+          "title": "Playoff Venues",
+          "category": "Postseason",
+          "description": "The Playoff stage now moves through major postseason destinations before the title game.",
+          "keyDetails": [
+            "Playoff games take players through the Rose Bowl and Orange Bowl.",
+            "The National Championship destination is Las Vegas."
+          ]
+        },
+        {
+          "icon": "Network",
+          "title": "Cross-Play Supported Platforms",
+          "category": "Cross-Play",
+          "description": "Cross-play supports PlayStation 5, Xbox Series X|S, and PC through EA app, Steam, and Epic.",
+          "keyDetails": [
+            "Cross-play is enabled by default on PS5 and Xbox Series X|S.",
+            "PS5 and PC cross-play settings are found in the in-game Cross-Play tab."
+          ]
+        },
+        {
+          "icon": "Flag",
+          "title": "Cross-Play Modes and Limits",
+          "category": "Cross-Play Modes",
+          "description": "Cross-play works in several major online modes, with some limits around economy sharing.",
+          "keyDetails": [
+            "Supported modes include Dynasty, Road to CFP, Ultimate Team, and Play a Friend.",
+            "Online Dynasty supports up to 32 people across platforms.",
+            "The College Football Ultimate Team Auction House is not shared across platforms."
+          ]
         }
       ]
     }
@@ -750,31 +615,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about College Football 27",
+    "subtitle": "Everything you need to know about EA Sports College Football 27",
     "questions": [
       {
-        "question": "Is College Football 27 a singleplayer game?",
-        "answer": "Yes. College Football 27 is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When does EA Sports College Football 27 release?",
+        "answer": "EA Sports College Football 27 launches worldwide on July 9, 2026, with 3-Day Early Access on July 6 for Deluxe Edition and MVP Bundle players, and 7-Day Early Access on July 2 for MVP+ Members."
       },
       {
-        "question": "What is the Apotheosis system in College Football 27?",
-        "answer": "Apotheosis is College Football 27' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What platforms is EA Sports College Football 27 on?",
+        "answer": "EA Sports College Football 27 is available on PlayStation 5, Xbox Series X|S, and PC through the EA app, Steam, and Epic. It is the first PC release for the EA Sports College Football series."
       },
       {
-        "question": "Where can I play College Football 27?",
-        "answer": "College Football 27 is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What are the EA Sports College Football 27 editions?",
+        "answer": "EA Sports College Football 27 offers Standard Edition, Deluxe Edition, MVP Bundle, and MVP+ Membership, each with different early access windows and Ultimate Team rewards."
       },
       {
-        "question": "How much does College Football 27 cost?",
-        "answer": "College Football 27 costs $9.99 on Steam."
+        "question": "Does EA Sports College Football 27 support cross-play?",
+        "answer": "Yes. EA Sports College Football 27 supports cross-play across PS5, Xbox Series X|S, and PC in modes like Road to the College Football Playoff, Dynasty, Ultimate Team, and Play a Friend."
       },
       {
-        "question": "Does College Football 27 support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is Dynasty deep in EA Sports College Football 27?",
+        "answer": "Yes. Dynasty in EA Sports College Football 27 adds Dynasty Blueprint, Athletic Director Expectations, recruiting NIL, facilities, coaching staff, and Team Builder for 138 programs."
       },
       {
-        "question": "Will College Football 27 receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does EA Sports College Football 27 have Ultimate Team?",
+        "answer": "Yes. College Football Ultimate Team in EA Sports College Football 27 adds Skill Point upgrades, Objectives on Items, launch programs, and official preorder reward paths."
       }
     ]
   },
