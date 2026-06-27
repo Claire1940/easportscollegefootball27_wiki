@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-shadcn",
+  "name": "easportscollegefootball27-wiki",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/validate-icons.js && next dev -H 0.0.0.0",
+    "dev": "node scripts/validate-icons.js && next dev -H 0.0.0.0 -p 6347",
     "build": "node scripts/validate-icons.js && next build",
     "start": "next start",
     "test": "npm run lint && npm run typecheck",

@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "College Football 27 Wiki - Ratings, Dynasty & RTG",
+  "short_name": "CFB 27 Wiki",
+  "description": "College Football 27 Wiki covers player ratings, team ratings, Dynasty, Road to Glory, Mascot Mashup, Team Builder, release dates, platforms, and PC setup guides.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#d9411f",
+  "background_color": "#0e0f14",
+  "categories": ["games", "sports", "entertainment"],
+  "lang": "en",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

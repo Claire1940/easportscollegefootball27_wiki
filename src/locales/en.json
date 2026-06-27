@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "College Football 27 Wiki - Crafting, Biomes & Achievements",
+      "description": "College Football 27 Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+      "keywords": "College Football 27, College Football 27 wiki, crafting, biomes, achievements, survival, Steam",
+      "ogTitle": "College Football 27 Wiki - Crafting, Biomes & Achievements",
+      "ogDescription": "College Football 27 Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+      "twitterTitle": "College Football 27 Wiki - Crafting, Biomes & Achievements",
+      "twitterDescription": "College Football 27 Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
     }
   },
   "nav": {
@@ -35,7 +35,7 @@
   },
   "hero": {
     "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
+    "title": "College Football 27 Wiki",
     "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
     "getFreeCodesCTA": "Explore Crafting Guide",
     "playOnSteamCTA": "Play on Steam",
@@ -59,13 +59,13 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
+    "title": "College Football 27 Gameplay",
     "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "College Football 27",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to explore, craft, and survive in College Football 27",
     "cards": [
       {
         "icon": "BookOpen",
@@ -151,9 +151,9 @@
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+      "title": "College Football 27 Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Start by learning how exploration, fusion, and progression connect. College Football 27 rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
       "steps": [
         {
           "title": "Explore Before You Commit",
@@ -169,7 +169,7 @@
         },
         {
           "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "description": "Keep track of successful combinations in your journal. College Football 27 has many possible fusion paths, so writing down useful results saves a lot of time."
         }
       ],
       "quickTips": [
@@ -180,7 +180,7 @@
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+      "title": "College Football 27 Apotheosis Crafting",
       "displayType": "cards",
       "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
       "cards": [
@@ -208,9 +208,9 @@
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+      "title": "College Football 27 Tools and Weapons",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "College Football 27 mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
       "items": [
         {
           "name": "Frost Pick",
@@ -255,9 +255,9 @@
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+      "title": "College Football 27 Storage and Inventory",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Inventory pressure starts early in College Football 27, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
       "solutions": [
         {
           "name": "Cache Cube",
@@ -288,9 +288,9 @@
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "College Football 27 Qualia and Base Building",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Qualia is one of the most important progression milestones in College Football 27. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
       "cards": [
         {
           "name": "Personal Qualia",
@@ -302,7 +302,7 @@
         },
         {
           "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "description": "College Football 27 supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
         },
         {
           "name": "Progression Hub",
@@ -317,9 +317,9 @@
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "College Football 27 World Regions",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "College Football 27 uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
       "regions": [
         {
           "name": "Fog Meadow",
@@ -344,9 +344,9 @@
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "College Football 27 Creatures and Enemies",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "College Football 27 mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
       "creatures": [
         {
           "name": "Manikins",
@@ -386,9 +386,9 @@
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "College Football 27 Mobility Gear",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in College Football 27. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
       "items": [
         {
           "name": "Hookshot",
@@ -429,9 +429,9 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "College Football 27 Farming and Growth",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Growth is part of real progression in College Football 27. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
       "sections": [
         {
           "name": "Seed Progression",
@@ -458,9 +458,9 @@
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "College Football 27 Best Early Unlocks",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In College Football 27, a few practical upgrades can make the entire rest of the game much smoother.",
       "priorities": [
         {
           "name": "Personal Qualia",
@@ -495,9 +495,9 @@
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "College Football 27 Achievement Tracker",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "College Football 27 currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
       "groups": [
         {
           "name": "Exploration",
@@ -603,36 +603,36 @@
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "College Football 27 Singleplayer and Platform FAQ",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "These are the core platform and access questions players keep asking before buying College Football 27.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "Is College Football 27 singleplayer?",
+          "answer": "Yes. College Football 27 is a singleplayer game."
         },
         {
           "question": "Is multiplayer or co-op planned?",
           "answer": "No. Multiplayer is not planned for release or future updates."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
+          "question": "Where can I play College Football 27?",
           "answer": "It is currently available on Steam for Windows."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
+          "question": "How much does College Football 27 cost?",
           "answer": "$9.99 on Steam."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does College Football 27 support controllers?",
           "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does College Football 27 work on Steam Deck?",
           "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
+          "question": "Does College Football 27 work on Linux?",
           "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
         },
         {
@@ -640,22 +640,22 @@
           "answer": "They may be supported in the future, but they are not current launch platforms."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
+          "question": "Does College Football 27 have translations?",
           "answer": "No. There are currently no translations planned."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
+          "question": "Will College Football 27 keep getting updates?",
           "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "College Football 27 Steam Deck and Controller",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "College Football 27 can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does College Football 27 work on Steam Deck?",
           "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
         },
         {
@@ -663,7 +663,7 @@
           "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does College Football 27 support controllers?",
           "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
         },
         {
@@ -677,9 +677,9 @@
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "College Football 27 Settings and Accessibility",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "College Football 27 already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
       "settings": [
         {
           "name": "Display Settings",
@@ -704,9 +704,9 @@
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "College Football 27 Updates and Patch Notes",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "College Football 27 is already receiving quick post-launch fixes and small usability updates.",
       "entries": [
         {
           "title": "Update 2.8.2",
@@ -726,7 +726,7 @@
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "College Football 27 Crash Fix and Troubleshooting",
       "displayType": "steps",
       "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
       "steps": [
@@ -736,7 +736,7 @@
         },
         {
           "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "description": "College Football 27 requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
         },
         {
           "title": "Use Proton 9.0.4 on Steam Deck",
@@ -756,43 +756,43 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about College Football 27",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is College Football 27 a singleplayer game?",
+        "answer": "Yes. College Football 27 is a singleplayer-only game with no multiplayer or co-op planned."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the Apotheosis system in College Football 27?",
+        "answer": "Apotheosis is College Football 27' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play College Football 27?",
+        "answer": "College Football 27 is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How much does College Football 27 cost?",
+        "answer": "College Football 27 costs $9.99 on Steam."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
+        "question": "Does College Football 27 support controllers?",
         "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
+        "question": "Will College Football 27 receive updates?",
         "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Explore College Football 27?",
+    "description": "Join the College Football 27 community on Discord for guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "College Football 27 Wiki",
+    "description": "Your complete resource hub for College Football 27 crafting, biomes, creatures, achievements, and survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,15 +804,15 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 College Football 27 Wiki. Not affiliated with the developers of College Football 27.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
+      "title": "College Football 27 Guides",
       "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaTitle": "College Football 27 Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete College Football 27 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
       "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
@@ -829,10 +829,10 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
+      "title": "College Football 27 Crafting",
       "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "metaTitle": "College Football 27 Crafting - Apotheosis System & Recipes",
+      "metaDescription": "Master College Football 27 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
       "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
@@ -849,10 +849,10 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "College Football 27 Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "College Football 27 Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for College Football 27 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
@@ -869,10 +869,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "College Football 27 Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "College Football 27 Biomes - World Regions & Exploration",
+      "metaDescription": "Explore College Football 27 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -889,10 +889,10 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
+      "title": "College Football 27 Building",
       "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "metaTitle": "College Football 27 Building - Qualia & Base Construction",
+      "metaDescription": "Master College Football 27 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
       "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
@@ -909,10 +909,10 @@
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "College Football 27 Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "College Football 27 Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for College Football 27 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
