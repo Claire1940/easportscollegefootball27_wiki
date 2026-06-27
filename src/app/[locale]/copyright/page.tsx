@@ -35,9 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Copyright and intellectual property information for College Football 27 Wiki.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
           alt: 'College Football 27 Wiki',
         },
       ],
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Copyright Notice - College Football 27 Wiki',
       description: 'Copyright and intellectual property information.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: June 27, 2026
           </p>
         </div>
       </section>
@@ -91,8 +91,8 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>College Football 27 Developers</strong> - Creators of the College Football 27 game</li>
+              <li><strong>Electronic Arts Inc. (EA Sports)</strong> - Publisher and developer of EA Sports College Football 27</li>
+              <li><strong>NCAA and Member Institutions</strong> - Collegiate teams, conferences, and trademarks</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -152,8 +152,8 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>College Football 27</strong> - Trademark of the game developers</li>
+              <li><strong>EA Sports College Football 27</strong> - Trademark of Electronic Arts Inc.</li>
+              <li><strong>NCAA</strong> - Trademarks of the National Collegiate Athletic Association and member institutions</li>
               <li><strong>College Football 27 Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
@@ -202,7 +202,7 @@ export default function Copyright() {
             <p>
               <strong>DMCA Agent</strong><br />
               College Football 27 Wiki<br />
-              Email: <a href="mailto:dmca@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@easportscollege.wiki</a>
+              Email: <a href="mailto:dmca@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@easportscollegefootball27.wiki</a>
             </p>
             <p>
               <strong>Note:</strong> Please allow up to 7 business days for a response. Misrepresentation in a
@@ -278,8 +278,8 @@ export default function Copyright() {
               For copyright questions, licensing inquiries, or to report copyright infringement:
             </p>
             <p>
-              <strong>General Inquiries:</strong> <a href="mailto:copyright@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@easportscollege.wiki</a><br />
-              <strong>DMCA Notices:</strong> <a href="mailto:dmca@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@easportscollege.wiki</a>
+              <strong>General Inquiries:</strong> <a href="mailto:copyright@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@easportscollegefootball27.wiki</a><br />
+              <strong>DMCA Notices:</strong> <a href="mailto:dmca@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@easportscollegefootball27.wiki</a>
             </p>
             <p>
               We aim to respond to all legitimate inquiries within 7 business days.

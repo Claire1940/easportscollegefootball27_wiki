@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "College Football 27 - Surreal Voxel Sandbox",
+          alt: "EA Sports College Football 27 - Modern College Football Simulator",
         },
       ],
     },

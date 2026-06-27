@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'Privacy Policy - College Football 27 Wiki',
-    description: 'College Football 27 Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Steam game resource platform. Your privacy matters to us.',
+    description: 'College Football 27 Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our game resource platform. Your privacy matters to us.',
     robots: {
       index: false,
       follow: true,
@@ -35,9 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Learn how we protect your privacy and handle your data.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
           alt: 'College Football 27 Wiki',
         },
       ],
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Privacy Policy - College Football 27 Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
             How we collect, use, and protect your information
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: June 27, 2026
           </p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
 
             <h2>4. Third-Party Services</h2>
             <p>
-              Our website may contain links to external websites, including Steam, Discord, and social media platforms.
+              Our website may contain links to external websites, including EA Forums, Reddit, YouTube, and social media platforms.
               We are not responsible for the privacy practices or content of these third-party sites. We encourage
               you to review their privacy policies before providing any personal information.
             </p>
@@ -151,7 +151,7 @@ export default function PrivacyPolicy() {
             <ul>
               <li><strong>Google Analytics:</strong> Web analytics service</li>
               <li><strong>Microsoft Clarity:</strong> Behavioral analytics service</li>
-              <li><strong>Netlify:</strong> Hosting and CDN provider</li>
+              <li><strong>Cloudflare:</strong> Hosting and CDN provider</li>
             </ul>
 
             <h2>5. Children's Privacy</h2>
@@ -213,7 +213,7 @@ export default function PrivacyPolicy() {
             <h2>11. Disclaimer</h2>
             <p>
               College Football 27 Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
-              with Valve Corporation (Steam) or the developers of College Football 27. All game content, trademarks, and assets are
+              with Electronic Arts Inc. (EA Sports) or the developers of College Football 27. All game content, trademarks, and assets are
               the property of their respective owners.
             </p>
 
@@ -223,7 +223,7 @@ export default function PrivacyPolicy() {
               please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:privacy@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@easportscollege.wiki</a>
+              <strong>Email:</strong> <a href="mailto:privacy@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@easportscollegefootball27.wiki</a>
             </p>
             <p>
               We will respond to all legitimate requests within 30 days.

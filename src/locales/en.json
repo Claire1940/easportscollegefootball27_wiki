@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "College Football 27 Wiki - Crafting, Biomes & Achievements",
-      "description": "College Football 27 Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "College Football 27, College Football 27 wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "College Football 27 Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "College Football 27 Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "College Football 27 Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "College Football 27 Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "College Football 27 Wiki - Ratings, Dynasty & RTG",
+      "description": "EA Sports College Football 27 wiki with player ratings, team ratings, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder, release dates, platforms, and PC setup guides.",
+      "keywords": "College Football 27, EA Sports College Football 27, EA Sports, ratings, Dynasty, Road to Glory, Mascot Mashup, Ultimate Team, PC",
+      "ogTitle": "College Football 27 Wiki - Ratings, Dynasty & RTG",
+      "ogDescription": "EA Sports College Football 27 wiki with player ratings, team ratings, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder, release dates, platforms, and PC setup guides.",
+      "twitterTitle": "College Football 27 Wiki - Ratings, Dynasty & RTG",
+      "twitterDescription": "EA Sports College Football 27 wiki with player ratings, team ratings, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder, and PC setup guides."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
+    "badge": "Modern College Football Simulator",
     "title": "College Football 27 Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "description": "Build your program with Dynasty Blueprint, chase stardom in Road to Glory, compare 9,013 player ratings, unlock mascots in Mascot Mashup, and prepare for worldwide launch on PS5, Xbox Series X|S, and PC.",
+    "keywords": "College Football 27, EA Sports, PS5, Xbox Series X|S, PC, ratings, Dynasty, Road to Glory, Mascot Mashup, Ultimate Team",
+    "getFreeCodesCTA": "View Ratings",
+    "playOnSteamCTA": "Pre-order on EA App",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "July 9, 2026",
+        "label": "Worldwide Launch"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "9,013",
+        "label": "Player Ratings"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "91 OVR",
+        "label": "Top Team Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "PS5, Xbox, PC",
+        "label": "Platforms"
       }
     }
   },
@@ -785,27 +786,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore College Football 27?",
-    "description": "Join the College Football 27 community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Master College Football 27?",
+    "description": "Pre-order EA Sports College Football 27 today, explore 9,013 player ratings and team ratings, and prepare for worldwide launch on PS5, Xbox Series X|S, and PC.",
+    "joinCommunity": "Official Hub",
+    "joinGame": "Pre-order on EA App"
   },
   "footer": {
     "title": "College Football 27 Wiki",
-    "description": "Your complete resource hub for College Football 27 crafting, biomes, creatures, achievements, and survival guides.",
+    "description": "Your complete resource hub for EA Sports College Football 27 player ratings, team ratings, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, Team Builder, and PC setup guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "linktree": "Official Hub",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "forums": "EA Forums",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 College Football 27 Wiki. Not affiliated with the developers of College Football 27.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 College Football 27 Wiki. Not affiliated with EA Sports, Electronic Arts, the NCAA, or the developers of College Football 27.",
+    "disclaimer": "Unofficial fan-made resource website. College Football 27 and all related marks are trademarks of Electronic Arts Inc."
   },
   "pages": {
     "guides": {

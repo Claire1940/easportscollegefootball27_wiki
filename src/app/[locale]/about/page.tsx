@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = '/about'
 
   return {
-    title: 'About College Football 27 Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about College Football 27 Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the College Football 27 Steam game.',
+    title: 'About College Football 27 Wiki - EA Sports College Football 27 Resource',
+    description: 'Learn about College Football 27 Wiki, a community-driven resource hub providing player ratings, team ratings, Dynasty, Road to Glory, Ultimate Team, Mascot Mashup, and PC guides for EA Sports College Football 27.',
     robots: {
       index: false,
       follow: true,
@@ -35,9 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Learn about our mission to provide the best College Football 27 game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
           alt: 'College Football 27 Wiki',
         },
       ],
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'About College Football 27 Wiki',
       description: 'Learn about our mission to provide the best College Football 27 game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -74,11 +74,11 @@ export default function About() {
             <h2>Welcome to College Football 27 Wiki</h2>
             <p>
               College Football 27 Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "College Football 27". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              master EA Sports College Football 27. We are a community-driven platform that provides comprehensive guides,
+              player ratings, team ratings, Dynasty and Road to Glory strategies, Ultimate Team tips, Mascot Mashup coverage, and PC setup insights to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
+              Whether you're a new player learning Dynasty Blueprint and recruiting or a seasoned veteran optimizing your Road to Glory build,
               College Football 27 Wiki is here to support you every step of the way.
             </p>
           </div>
@@ -96,7 +96,7 @@ export default function About() {
             </p>
             <ul>
               <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Build useful tools:</strong> Develop ratings trackers, Dynasty planners, and Road to Glory guides that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
@@ -105,7 +105,7 @@ export default function About() {
             <p>
               We envision College Football 27 Wiki as the <strong>go-to destination</strong> for every College Football 27 player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              player ratings, want to master Dynasty and recruiting, or are chasing Road to Glory stardom.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">⭐</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Player & Team Ratings</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Complete coverage of all 9,013 player ratings and team overalls.
+                Track the top programs, compare rosters, and find hidden gems on the depth chart.
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">🏟️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Dynasty Blueprint</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Recruiting pipelines, program-building strategies, and coaching guides.
+                Build a national title contender season after season.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">🏈</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Road to Glory</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Career-mode walkthroughs from high school recruit to college football legend.
+                Master your position, win the Heisman, and chase the NFL Draft.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">🏆</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Ultimate Team & Mascot Mashup</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Squad-building tips, card strategy, and mascot battle tactics.
+                Dominate Ultimate Team and unlock every mascot in Mascot Mashup.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">💻</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Platforms & PC Setup</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Launch details for PS5, Xbox Series X|S, and PC (EA app, Steam, Epic).
+                Get ready for the July 9, 2026 worldwide release.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Spanish, Portuguese,
+                and German to serve the worldwide college football community.
               </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've spotted a ratings update, found a Dynasty strategy,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -221,9 +221,6 @@ export default function About() {
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
-            <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
-            </p>
           </div>
         </div>
       </section>
@@ -259,26 +256,26 @@ export default function About() {
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@easportscollege.wiki
+                <a href="mailto:contact@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contact@easportscollegefootball27.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@easportscollege.wiki
+                <a href="mailto:support@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  support@easportscollegefootball27.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@easportscollege.wiki
+                <a href="mailto:contribute@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contribute@easportscollegefootball27.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@easportscollege.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@easportscollege.wiki
+                <a href="mailto:partnerships@easportscollegefootball27.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  partnerships@easportscollegefootball27.wiki
                 </a>
               </div>
             </div>
@@ -290,7 +287,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 px-4 bg-gradient-to-r from-purple-900/30 to-blue-900/30 border-y border-border">
+      <section className="py-12 px-4 bg-slate-900/30 border-y border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
