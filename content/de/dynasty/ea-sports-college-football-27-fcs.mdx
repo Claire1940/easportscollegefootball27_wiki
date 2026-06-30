@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "EA SPORTS College Football 27 FCS: Dynasty-Setup-Leitfaden",
+  description: "Erfahren Sie, wie Sie FCS-Teams in EA Sports College Football 27 mit dem neuen Team Builder und PC-Modding-Tools erstellen, spielen und integrieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=FCS+Dynasty+Guide",
+  date: "2026-06-30",
+  author: "EA SPORTS College Football 27 Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **EA SPORTS College Football 27 FCS**: Erstellen Sie Ihre Lieblings-FCS-Programme neu und integrieren Sie sie nahtlos in benutzerdefinierte Dynasty-Modi.
+- **Neue FBS-Zugänge**: North Dakota State und Sacramento State sind nach ihrem Wechsel zur FBS vollständig spielbar.
+- **Team Builder-Upgrades**: Erstellen Sie benutzerdefinierte FCS-Schulen mit dem neuen Stadion-Editor, der Zuschauer-Anpassung und Soundscapes.
+- **PC-Modding-Potenzial**: Nutzen Sie die neue PC-Version, um Konsolenlimits zu umgehen und ganze FCS-Subdivisions zu importieren.
+- **Dynasty-Strategie**: Ersetzen Sie zweitklassige FBS-Teams durch benutzerdefinierte FCS-Programme, um einen echten Neuaufbau von Grund auf zu erleben.
+</Callout>
+
+<Section icon={Trophy} title="Integration von EA Sports College Football 27 FCS-Programmen">
+
+Die Landschaft des College-Gamings hat sich mit der Veröffentlichung der Integrationsoptionen für **EA SPORTS College Football 27 FCS** drastisch verändert. Obwohl das Basisspiel zum Start nicht alle 128 Schulen der Football Championship Subdivision (FCS) enthält, haben Spieler mehrere Möglichkeiten, diese historischen Programme zum Leben zu erwecken. Zum ersten Mal haben prominente ehemalige FCS-Schwergewichte den offiziellen Sprung in die Football Bowl Subdivision (FBS) geschafft und sind mit offiziellen Kadern, Vereinshymnen und Stadien vollständig spielbar. Für andere FCS-Schulen müssen sich Spieler auf die neu verbesserte Team Builder-Plattform oder von der Community erstellte Kader verlassen.
+
+Um zu verstehen, wie die FCS-Repräsentation in der aktuellen Version funktioniert, ist es wichtig, zwischen offiziell lizenzierten, aufsteigenden Programmen und den generischen Füllteams zu unterscheiden, die zur Vervollständigung der FBS-Spielpläne verwendet werden.
+
+### Aufsteigende FCS-Schwergewichte
+
+Mehrere Elite-FCS-Programme sind im echten Leben offiziell in die FBS aufgestiegen, wodurch sie im Spiel vollständig lizenziert sind. Diese Teams bieten einen fantastischen Ausgangspunkt für Spieler, die ein aufstrebendes Programm zu nationalem Ruhm führen möchten, ohne eine eigene Schule erstellen zu müssen.
+
+| Schulname | Konferenz | Standard-Bewertung | Schlüsselspieler im Fokus |
+| :--- | :--- | :--- | :--- |
+| **North Dakota State** | Mountain West | **78 OVR** | Trent Fraley (OL, 75 OVR) |
+| **Sacramento State** | Pac-12 | **74 OVR** | Jared Williams (QB, 72 OVR) |
+
+### Generische FCS-Gegner
+
+Für den Rest der FCS verwendet das Spiel generische, regionale Füllteams. Obwohl diese Teams in Standardmodi nicht direkt gesteuert werden können, dienen sie als wichtige Spielplanfüller für FBS-Schwergewichte, die ein Aufwärmspiel zu Beginn der Saison suchen.
+
+| Generisches Team | Regionale Vertretung | Standard-Playbook | Schwierigkeitsgrad |
+| :--- | :--- | :--- | :--- |
+| **FCS East** | Nordosten / Mittelatlantik | Spread Option | Sehr niedrig |
+| **FCS West** | Westküste / Rocky Mountains | Pro Style | Sehr niedrig |
+| **FCS Midwest** | Great Plains / Mittlerer Westen | Power Run | Sehr niedrig |
+| **FCS Southeast** | Tiefer Süden / Golfküste | Air Raid | Sehr niedrig |
+
+<CardGrid cols={3}>
+  <Card title="Der Weg des Schwergewichts">
+    Wählen Sie neu aufgestiegene Schulen wie North Dakota State, um einen authentischen FBS-Aufstieg mit echten Kadern und offiziellen Stadionatmosphären zu erleben.
+  </Card>
+  <Card title="Der Team Builder-Weg">
+    Entwerfen Sie ein benutzerdefiniertes FCS-Programm von Grund auf mit der webbasierten Erstellungssuite und passen Sie alles von den Trikots bis zur Stadionarchitektur an.
+  </Card>
+  <Card title="Der PC-Modding-Weg">
+    Nutzen Sie von der Community erstellte Modifikationen in der PC-Version, um ganze FCS-Konferenzen zu importieren und standardmäßige Konsolenbeschränkungen zu umgehen.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Einschränkungen bei der Spielplanerstellung">
+Denken Sie bei der Anpassung Ihrer Dynasty-Konferenzen daran, dass generische FCS-Gegner während der laufenden Saison nicht manuell durch Team Builder-Teams ersetzt werden können. Alle Ersetzungen durch benutzerdefinierte Schulen müssen im Pre-Dynasty-Setup-Menü abgeschlossen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FCS-Schulen über den verbesserten Team Builder nachbauen">
+
+Für Fans, die mit echten FCS-Kadern, Logos und Traditionen spielen möchten, bietet das verbesserte Team Builder-Tool die ultimative kreative Suite. Die Entwickler haben diese Funktion komplett überarbeitet und tiefgehende Anpassungsoptionen eingeführt, die es Erstellern ermöglichen, die einzigartige Atmosphäre des unterklassigen College-Footballs einzufangen.
+
+Die wichtigste Neuerung ist der **Stadion-Editor**, der Ihnen die Flexibilität gibt, eine Heimspielstätte zu entwerfen, die der Statur Ihres Programms entspricht. Anstatt in riesigen, generischen FBS-Stadien spielen zu müssen, können Sie jetzt kleinere, hochwertige Arenen bauen, die die intime Atmosphäre realer FCS-Campus widerspiegeln.
+
+### Team Builder Anpassungsmodule
+
+Die Erstellungssuite ist in mehrere Schlüsselmodule unterteilt, von denen jedes eine beispiellose Kontrolle über die visuelle und akustische Identität Ihres benutzerdefinierten Programms bietet.
+
+| Anpassungsmodul | Hauptmerkmale | Maximale Slots / Optionen |
+| :--- | :--- | :--- |
+| **Stadion-Editor** | Wählen Sie Highschool- oder mittelgroße Basen, passen Sie Endzonen, Jumbotrons und Torstangen an. | **4 Stadion-Basisvorlagen** |
+| **Zuschauer-Anpassung** | Bearbeiten Sie die T-Shirt-Farben der Fans, Stadion-Themenabende (z. B. Whiteouts) und die Zuschauerdichte. | **Unbegrenzte Farbspezifikationen** |
+| **Soundscape-Creator** | Importieren Sie benutzerdefinierte Kampfgesänge, Ansagen des Stadionsprechers und Fangesänge beim Third Down. | **10 benutzerdefinierte Audio-Slots** |
+| **Trikot-Designer** | Entwerfen Sie Helmoberflächen, Trikotstrukturen, benutzerdefinierte Schulterpatches und Hosenstreifen. | **5 Trikot-Slots (Heim/Auswärts/Alternativ)** |
+
+Bei der Erstellung einer FCS-Schule wird die Verwendung der Highschool-Stadionbasis dringend empfohlen. Diese Basis fängt die intime Atmosphäre ein, komplett mit Leichtathletikbahnen, lokalen Nachbarschaftskulissen und kleineren Tribünen, was die Spiele zu Beginn der Saison unglaublich realistisch wirken lässt.
+
+<Callout type="tip" title="Atmosphärischer Realismus">
+Um Ihr benutzerdefiniertes FCS-Programm authentisch wirken zu lassen, nutzen Sie die Hintergrund-Einstellung im Stadion-Editor, um lokale Wahrzeichen wie Bergketten oder Skylines hinzuzufügen, die dem realen geografischen Standort Ihrer Schule entsprechen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung: Benutzerdefinierte FCS-Teams in die Dynasty importieren">
+
+Sobald Sie Ihre gewünschten FCS-Programme im Community-Sharing-Hub erstellt oder heruntergeladen haben, besteht der nächste Schritt darin, sie in Ihren Dynasty-Modus zu integrieren. Da das Spiel seine Ligen um die aktiven FBS-Programme herum strukturiert, müssen Sie vorhandene FBS-Teams ersetzen, um Platz für Ihre benutzerdefinierten Kreationen zu machen.
+
+Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre benutzerdefinierte FCS-Dynasty einzurichten, ohne die Balance des Spiels zu stören.
+
+<Steps>
+  <Step num="1" title="Community-Kreationen herunterladen">
+    Navigieren Sie vom Hauptmenü zum Team Builder-Hub. Suchen Sie nach Ihrer gewünschten FCS- oder Ivy League-Schule mit Begriffen wie „NDSU“, „South Dakota State“ oder „Montana“. Laden Sie das Programm auf Ihren lokalen Speicher herunter.
+  </Step>
+  <Step num="2" title="Einen neuen Dynasty-Modus starten">
+    Wählen Sie „Neue Dynasty“ und entscheiden Sie sich für „Cloud Dynasty“ oder „Offline Dynasty“. Cloud-Dynasty wird empfohlen, wenn Sie mehrere Team Builder-Teams verwenden möchten, da dies ein flüssigeres Laden der Assets ermöglicht.
+  </Step>
+  <Step num="3" title="Das Team-Tausch-Menü aufrufen">
+    Suchen Sie auf dem Setup-Bildschirm vor dem Start der Dynasty nach der Option „Team Builder importieren“. Wählen Sie die heruntergeladenen FCS-Teams aus Ihrer Bibliothek aus und bestimmen Sie, welche FBS-Programme sie ersetzen sollen.
+  </Step>
+  <Step num="4" title="Konferenzen und Regeln anpassen">
+    Rufen Sie das Menü „Benutzerdefinierte Konferenzen“ auf. Verschieben Sie Ihre importierten FCS-Teams in passende regionale Konferenzen (wie die Mountain West oder MAC), um den geografischen Realismus zu wahren und natürliche Rivalitäten zu erhalten.
+  </Step>
+  <Step num="5" title="Erwartungen des Athletic Directors finalisieren">
+    Überprüfen Sie die Erwartungen des Athletic Directors an Ihr neues Programm. Da benutzerdefinierte Schulen standardmäßig niedrigere Prestige-Bewertungen haben, konzentrieren sich Ihre anfänglichen Ziele auf den Wiederaufbau und die schrittweise Kaderentwicklung.
+  </Step>
+</Steps>
+
+### Dynasty-Möglichkeiten auf Konsole vs. PC
+
+Obwohl der Integrationsprozess unkompliziert ist, bestimmt die Plattform, auf der Sie spielen, die Tiefe Ihres FCS-Erlebnisses. Die neu veröffentlichte PC-Version bietet aufgrund des erweiterten Dateizugriffs erhebliche Vorteile gegenüber den Konsolen-Pendants.
+
+| Feature / Limit | PlayStation 5 / Xbox Series X | PC-Version |
+| :--- | :--- | :--- |
+| **Maximale benutzerdefinierte Teams** | Begrenzt auf **16 Slots** pro Dynasty | **Unbegrenzte Slots** über lokale Mods |
+| **Kader-Anpassung** | Standardmäßige Einschränkungen des In-Game-Editors | Vollständige externe Datenbankbearbeitung |
+| **Benutzerdefinierte Grafiken & Logos** | Nur Uploads über die Team Builder-Website | Direkte Texturinjektion |
+| **Konferenzerweiterung** | Standardmäßige Grenzen für Konferenz-Realignments | Vollständig modifizierbare Ligastrukturen |
+
+<Callout type="success" title="Fortschritt beim Wiederaufbau">
+Mit einem benutzerdefinierten FCS-Team mit einer Gesamtbewertung von 60 zu starten und die verdienten Dynasty-Punkte zur Verbesserung der Einrichtungen und NIL-Budgets zu nutzen, bietet eine der lohnendsten Wiederaufbau-Reisen in der Geschichte der Sportspiele.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PC-Modding und die Zukunft der FCS-Subdivisions">
+
+Die lang erwartete Veröffentlichung der Franchise auf dem PC hat die Schleusen für von der Community erstellte Inhalte geöffnet. Modding-Gruppen haben bereits mit der Arbeit an umfassenden Konvertierungs-Mods begonnen, um die gesamte FCS-Subdivision mit präzisen Kadern, Stadionmodellen und Konferenzstrukturen zum Leben zu erwecken.
+
+Durch die Nutzung der Möglichkeiten des PC-Moddings können Spieler die Standardbeschränkungen der Konsolenversionen umgehen. Anstatt bestehende FBS-Schwergewichte zu ersetzen, entwickeln Modder benutzerdefinierte Datenbankstrukturen, die es FBS und FCS ermöglichen, in einem riesigen, mehrstufigen College-Ökosystem nebeneinander zu existieren.
+
+### Wichtige Setup-Checkliste für PC-Spieler
+
+Um Ihr Spiel auf benutzerdefinierte FCS-Mods vorzubereiten, stellen Sie sicher, dass Sie die folgenden vorbereitenden Schritte abgeschlossen haben:
+
+<Checklist
+  id="pc-modding-prep"
+  title="PC-Modding-Anforderungen:"
+  items={[
+    "Installieren Sie das Basisspiel über Steam oder die EA-App",
+    "Erstellen Sie ein Backup Ihres lokalen Speicherverzeichnisses, bevor Sie externe Dateien anwenden",
+    "Laden Sie das von der Community anerkannte Mod-Manager-Tool herunter",
+    "Treten Sie dem dedizierten College Football Modding Discord für Kader-Updates in Echtzeit bei",
+    "Konfigurieren Sie Ihre Grafikeinstellungen, um benutzerdefinierte, hochauflösende Texturen zu verarbeiten"
+  ]}
+/>
+
+Diese Unterstützung durch die Community stellt sicher, dass leidenschaftliche Fans den Geist des FCS-Footballs am Leben erhalten und vollständig spielbar machen, selbst wenn die offizielle Lizenzierung exklusiv für die FBS bleibt.
+
+<Callout type="info" title="Sicherheit bei externen Mods">
+Laden Sie Mods immer von verifizierten Community-Plattformen wie Operation Sports oder vertrauenswürdigem Modding-Discord-Servern herunter, um beschädigte Speicherdateien oder Probleme mit der Spielstabilität zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+Sich in den Feinheiten der Integration benutzerdefinierter Teams zurechtzufinden, kann eine Herausforderung sein. Unten finden Sie die Antworten auf die häufigsten Fragen zur Integration von Teams aus niedrigeren Divisionen.
+
+<FAQ items={[
+  {
+    question: "Gibt es offizielle EA Sports College Football 27 FCS-Teams im Basisspiel?",
+    answer: "Nein, es gibt keine vollständig lizenzierten FCS-Konferenzen im Basisspiel. Ehemalige FCS-Schwergewichte wie North Dakota State und Sacramento State sind jedoch vollständig spielbar, da sie in die FBS aufgestiegen sind. Andere FCS-Teams werden durch generische, regionale Füllteams dargestellt."
+  },
+  {
+    question: "Kann ich die generischen Teams FCS East/West im Dynasty-Modus ersetzen?",
+    answer: "Sie können die generischen FCS-Gegner auf Ihrem Spielplan während einer laufenden Saison nicht direkt durch benutzerdefinierte Team Builder-Teams ersetzen. Sie müssen vorhandene FBS-Programme im Pre-Dynasty-Setup-Menü durch Ihre benutzerdefinierten FCS-Kreationen ersetzen."
+  },
+  {
+    question: "Wie viele benutzerdefinierte Team Builder-Teams kann ich in eine einzelne Dynasty importieren?",
+    answer: "Auf der PlayStation 5 und Xbox Series X sind Sie darauf beschränkt, maximal 16 Team Builder-Teams pro Dynasty zu importieren. Auf der PC-Version kann dieses Limit mithilfe von der Community erstellten Mods umgangen werden."
+  },
+  {
+    question: "Kann ich benutzerdefinierte FCS-Teams in Online-Dynasty-Modi verwenden?",
+    answer: "Ja, Sie können benutzerdefinierte Team Builder-Programme in Online-Dynasties verwenden, vorausgesetzt, der Commissioner hat den Import benutzerdefinierter Teams aktiviert und alle Spieler haben die erforderlichen Assets heruntergeladen."
+  }
+]} />
+
+<Callout type="tip" title="Community-Sharing">
+Wenn Sie das Community-Portal durchsuchen, sortieren Sie nach „Am häufigsten heruntergeladen“ oder „Am besten bewertet“, um die genauesten FCS-Nachbildungen zu finden, die oft akribisch detaillierte Kader und individuell gestaltete Heimstadien bieten.
+</Callout>
+
+</Section>
